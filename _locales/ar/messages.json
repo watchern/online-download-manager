@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "قم بإدارة عمليات التنزيل الخاصة بك وتسريعها حتى 5 مرات!"
+   },
+   "app_name": {
+      "message": "مدير التنزيل عبر الإنترنت"
+   },
+   "context_download": {
+      "message": "تحميل مع مسرع"
+   },
+   "notification_complete": {
+      "message": "اكتمل التنزيل."
+   },
+   "notification_invalid": {
+      "message": "URL غير صالح! الرجاء إضافة عنوان URL صحيح والمحاولة مرة أخرى."
+   },
+   "popup_confirm1_head": {
+      "message": "حذف"
+   },
+   "popup_confirm1_msg": {
+      "message": "هل أنت متأكد من أنك تريد حذف هذا العنصر من القرص؟"
+   },
+   "popup_label1": {
+      "message": "المنقضي:"
+   },
+   "popup_label2": {
+      "message": "اليسار:"
+   },
+   "popup_label3": {
+      "message": "سرعة:"
+   },
+   "popup_label4": {
+      "message": "تم الاستلام:"
+   },
+   "popup_label_rate": {
+      "message": "ارجوك قم بتقييمنا!"
+   },
+   "popup_text1": {
+      "message": "فقط أدخل عدد سلاسل الرسائل المرغوبة في مربع النص ، وعنوان url للإدخال ، ثم أضف مهمة تنزيل جديدة. يمكنك إضافة تنزيل جديد من خلال واجهة المستخدم هذه أو ببساطة انقر بزر الماوس الأيمن على رابط التنزيل المطلوب ثم انقر فوق العنصر - تنزيل باستخدام Accelerator - في قائمة السياق."
+   },
+   "popup_text2": {
+      "message": "الحد الأقصى لعدد العناصر لإظهارها"
+   },
+   "popup_text3": {
+      "message": "ترتيب العناصر المدرجة من قبل"
+   },
+   "popup_text4": {
+      "message": "نحن ندعم ملف التنزيل المباشر مباشرة على Google Drive أو جهاز الكمبيوتر الخاص بك على موقعنا."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "إضافة رابط لتحميل قائمة الانتظار"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "إلغاء"
+   },
+   "popup_ui_btn_clear": {
+      "message": "مسح واجهة المستخدم"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "واضح من القائمة"
+   },
+   "popup_ui_btn_delete": {
+      "message": "حذف من القرص"
+   },
+   "popup_ui_btn_open": {
+      "message": "افتح مجلد التنزيل"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "فتح المرجع"
+   },
+   "popup_ui_btn_pause": {
+      "message": "وقفة"
+   },
+   "popup_ui_btn_reload": {
+      "message": "إعادة تحميل واجهة المستخدم"
+   },
+   "popup_ui_btn_resume": {
+      "message": "يستأنف"
+   },
+   "popup_ui_btn_show": {
+      "message": "أظهر ذلك في الملف"
+   },
+   "popup_ui_btn_support": {
+      "message": "افتح صفحة الدعم"
+   },
+   "popup_ui_info_start": {
+      "message": "وقت البدء"
+   },
+   "popup_ui_info_total": {
+      "message": "الحجم الإجمالي"
+   },
+   "popup_ui_option1": {
+      "message": "موقع المعلومات العالمي"
+   },
+   "popup_ui_option2": {
+      "message": "اكتب"
+   },
+   "popup_ui_option3": {
+      "message": "حالة"
+   },
+   "popup_ui_option4": {
+      "message": "وقت النهاية"
+   },
+   "popup_ui_option6": {
+      "message": "إجمالي البايت"
+   },
+   "popup_ui_option7": {
+      "message": "بايت وردت"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "أضف عنوان url & set # من المواضيع (بحد أقصى 5) ، ثم انقر فوق الزر (+)"
+   }
+}

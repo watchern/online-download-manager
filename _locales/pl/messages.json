@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Łatwe zarządzanie i przyspiesz pobieranie nawet 5 razy!"
+   },
+   "app_name": {
+      "message": "Menedżer pobierania online"
+   },
+   "context_download": {
+      "message": "Pobierz za pomocą akceleratora"
+   },
+   "notification_complete": {
+      "message": "Pobieranie jest zakończone."
+   },
+   "notification_invalid": {
+      "message": "Nieprawidłowy URL! Dodaj poprawny adres URL i spróbuj ponownie."
+   },
+   "popup_confirm1_head": {
+      "message": "Kasować"
+   },
+   "popup_confirm1_msg": {
+      "message": "Czy na pewno chcesz usunąć ten element z dysku?"
+   },
+   "popup_label1": {
+      "message": "Upłynęło:"
+   },
+   "popup_label2": {
+      "message": "Lewo:"
+   },
+   "popup_label3": {
+      "message": "Prędkość:"
+   },
+   "popup_label4": {
+      "message": "Odebrane:"
+   },
+   "popup_label_rate": {
+      "message": "Oceń nas!"
+   },
+   "popup_text1": {
+      "message": "Wystarczy wpisać żądaną liczbę wątków w polu tekstowym, wprowadzić adres URL, a następnie dodać nowe zadanie pobierania. Możesz dodać nowy plik do pobrania za pomocą tego interfejsu użytkownika lub po prostu kliknij prawym przyciskiem myszy żądany link do pobrania, a następnie kliknij pozycję - Pobierz za pomocą Acceleratora - w menu kontekstowym."
+   },
+   "popup_text2": {
+      "message": "Maksymalna liczba elementów do pokazania"
+   },
+   "popup_text3": {
+      "message": "Zamów wymienione przedmioty według"
+   },
+   "popup_text4": {
+      "message": "Obsługujemy bezpośrednie pobieranie plików bezpośrednio na Dysk Google lub komputer w naszej witrynie."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Dodaj adres URL do kolejki pobierania"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Anuluj"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Wyczyść interfejs użytkownika"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Usuń z listy"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Usuń z dysku"
+   },
+   "popup_ui_btn_open": {
+      "message": "Otwórz folder pobierania"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Otwórz stronę polecającą"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Pauza"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Załaduj ponownie interfejs użytkownika"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Wznawia"
+   },
+   "popup_ui_btn_show": {
+      "message": "Pokaż w folderze"
+   },
+   "popup_ui_btn_support": {
+      "message": "Otwórz stronę pomocy technicznej"
+   },
+   "popup_ui_info_start": {
+      "message": "Czas rozpoczęcia"
+   },
+   "popup_ui_info_total": {
+      "message": "Całkowity rozmiar"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Rodzaj"
+   },
+   "popup_ui_option3": {
+      "message": "Stan"
+   },
+   "popup_ui_option4": {
+      "message": "Koniec czasu"
+   },
+   "popup_ui_option6": {
+      "message": "Suma bajtów"
+   },
+   "popup_ui_option7": {
+      "message": "Otrzymane bajty"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Dodaj adres URL i ustaw liczbę wątków (maks. 5), a następnie kliknij przycisk (+)"
+   }
+}

@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "¡Administre y acelere fácilmente sus descargas hasta 5 veces!"
+   },
+   "app_name": {
+      "message": "Administrador de descargas en línea"
+   },
+   "context_download": {
+      "message": "Descargar con acelerador"
+   },
+   "notification_complete": {
+      "message": "La descarga está completa."
+   },
+   "notification_invalid": {
+      "message": "¡URL invalida! Agregue una URL correcta e intente nuevamente."
+   },
+   "popup_confirm1_head": {
+      "message": "Borrar"
+   },
+   "popup_confirm1_msg": {
+      "message": "¿Seguro que quieres eliminar este elemento del disco?"
+   },
+   "popup_label1": {
+      "message": "Transcurrido:"
+   },
+   "popup_label2": {
+      "message": "Izquierda:"
+   },
+   "popup_label3": {
+      "message": "Velocidad:"
+   },
+   "popup_label4": {
+      "message": "Recibido:"
+   },
+   "popup_label_rate": {
+      "message": "¡Por favor califícanos!"
+   },
+   "popup_text1": {
+      "message": "Simplemente ingrese un conteo de hilos deseado en el cuadro de texto, ingrese la URL y luego agregue una nueva tarea de descarga. Puede agregar una nueva descarga a través de esta interfaz de usuario o simplemente haga clic derecho en el enlace de descarga deseado y luego haga clic en el elemento - Descargar con acelerador - en el menú contextual."
+   },
+   "popup_text2": {
+      "message": "Número máximo de elementos para mostrar"
+   },
+   "popup_text3": {
+      "message": "Ordenar artículos listados por"
+   },
+   "popup_text4": {
+      "message": "Admitimos el archivo de descarga directa directamente a su Google Drive o su PC en nuestro sitio web."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Agregar url para descargar la cola"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Cancelar"
+   },
+   "popup_ui_btn_clear": {
+      "message": "IU clara"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Borrar de la lista"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Eliminar del disco"
+   },
+   "popup_ui_btn_open": {
+      "message": "Abrir carpeta de descarga"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Referencia abierta"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Pausa"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Actualizar UI"
+   },
+   "popup_ui_btn_resume": {
+      "message": "CVs"
+   },
+   "popup_ui_btn_show": {
+      "message": "Mostrar en la carpeta"
+   },
+   "popup_ui_btn_support": {
+      "message": "Abrir página de soporte"
+   },
+   "popup_ui_info_start": {
+      "message": "Hora de inicio"
+   },
+   "popup_ui_info_total": {
+      "message": "Tamaño total"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Tipo"
+   },
+   "popup_ui_option3": {
+      "message": "Estado"
+   },
+   "popup_ui_option4": {
+      "message": "Hora de finalización"
+   },
+   "popup_ui_option6": {
+      "message": "Bytes totales"
+   },
+   "popup_ui_option7": {
+      "message": "Bytes recibidos"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Agregue una url y establezca el número de hilos (máximo 5), luego haga clic en el botón (+)"
+   }
+}

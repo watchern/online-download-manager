@@ -1,0 +1,37 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "icons/16.png",
+         "32": "icons/32.png",
+         "48": "icons/48.png",
+         "64": "icons/64.png"
+      },
+      "default_title": "__MSG_app_name__"
+   },
+   "background": {
+      "service_worker": "scripts/background.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_app_description__",
+   "homepage_url": "https://downloader.dllplayer.com/",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxEHKeNDECLOQGNCJ4WLCcztVCPwj+0PaI06aRR7C48A/G0BBn5gN7JFwqlpGnH5e3heqjnBFkaFIvLGuMgnljyblZhhUOMuh39dt7J+3qiEB9cHrBKIAHb2+ipEgF51v2K6cab/Ian1aEBBLklkaNKC0xs22JzMemnIfS81LPaAcpqLMOmsDkgCdjk9HSa93T6OkbiMLe8N/5Ujw++YFRIgkgk4ASytYmrH3NdWzbQU/u+vhUHe6tmXAgFB0xdPs62oI7oAeKDoVAJiSwVm8amA5PGyNIInqytqonvjFQanseqSsB8mJlfr3VWZEWts1l3afaw1cRZ301jbwU0u0vwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "116",
+   "name": "__MSG_app_name__",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "ui/options.html"
+   },
+   "permissions": [ "storage", "downloads", "downloads.open", "offscreen", "contextMenus", "notifications" ],
+   "short_name": "online-download-manager",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1.0"
+}

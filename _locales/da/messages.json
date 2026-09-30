@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Håndter let og accelerer dine downloads op til 5 gange!"
+   },
+   "app_name": {
+      "message": "Online download manager"
+   },
+   "context_download": {
+      "message": "Download med accelerator"
+   },
+   "notification_complete": {
+      "message": "Download er afsluttet."
+   },
+   "notification_invalid": {
+      "message": "Ugyldig URL! Tilføj en korrekt URL, og prøv igen."
+   },
+   "popup_confirm1_head": {
+      "message": "Slet"
+   },
+   "popup_confirm1_msg": {
+      "message": "Er du sikker på, at du vil slette dette emne fra disken?"
+   },
+   "popup_label1": {
+      "message": "forløbet:"
+   },
+   "popup_label2": {
+      "message": "Venstre:"
+   },
+   "popup_label3": {
+      "message": "Hastighed:"
+   },
+   "popup_label4": {
+      "message": "Modtaget:"
+   },
+   "popup_label_rate": {
+      "message": "Bedøm os!"
+   },
+   "popup_text1": {
+      "message": "Bare indtast det ønskede trådantal i tekstboksen, indtast url og tilføj derefter en ny downloadopgave. Du kan tilføje en ny download gennem dette brugergrænseflade eller blot højreklikke på det ønskede downloadlink og derefter klikke på - Download med accelerator - elementet i en kontekstmenu."
+   },
+   "popup_text2": {
+      "message": "Maksimalt antal elementer, der skal vises"
+   },
+   "popup_text3": {
+      "message": "Bestil listede varer efter"
+   },
+   "popup_text4": {
+      "message": "Vi understøtter direkte download-fil direkte til din Google Drive eller din pc på vores websted."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Tilføj url for at downloade køen"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Afbestille"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Ryd brugergrænseflade"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Ryd fra listen"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Slet fra disken"
+   },
+   "popup_ui_btn_open": {
+      "message": "Åbn downloadmappe"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Åbn henviseren"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Pause"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Genindlæs brugergrænseflade"
+   },
+   "popup_ui_btn_resume": {
+      "message": "genoptager"
+   },
+   "popup_ui_btn_show": {
+      "message": "Vis i mappe"
+   },
+   "popup_ui_btn_support": {
+      "message": "Åbn support side"
+   },
+   "popup_ui_info_start": {
+      "message": "Starttidspunkt"
+   },
+   "popup_ui_info_total": {
+      "message": "Samlet størrelse"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Type"
+   },
+   "popup_ui_option3": {
+      "message": "Stat"
+   },
+   "popup_ui_option4": {
+      "message": "Sluttid"
+   },
+   "popup_ui_option6": {
+      "message": "Samlede byte"
+   },
+   "popup_ui_option7": {
+      "message": "Bytes modtaget"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Tilføj en url & sæt antal tråde (maks. 5), og klik derefter på knappen (+)"
+   }
+}

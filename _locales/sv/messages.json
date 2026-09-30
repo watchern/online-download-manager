@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Hantera och påskynda dina nedladdningar enkelt upp till 5 gånger!"
+   },
+   "app_name": {
+      "message": "Online Download Manager"
+   },
+   "context_download": {
+      "message": "Ladda ner med accelerator"
+   },
+   "notification_complete": {
+      "message": "Nedladdningen är klar."
+   },
+   "notification_invalid": {
+      "message": "Ogiltig URL! Lägg till en korrekt URL och försök igen."
+   },
+   "popup_confirm1_head": {
+      "message": "Radera"
+   },
+   "popup_confirm1_msg": {
+      "message": "Är du säker på att du vill ta bort det här objektet från disken?"
+   },
+   "popup_label1": {
+      "message": "förfluten:"
+   },
+   "popup_label2": {
+      "message": "Vänster:"
+   },
+   "popup_label3": {
+      "message": "Fart:"
+   },
+   "popup_label4": {
+      "message": "Mottagen:"
+   },
+   "popup_label_rate": {
+      "message": "Vänligen betygsätt oss!"
+   },
+   "popup_text1": {
+      "message": "Ange bara önskat trådantal i textrutan, mata in url och lägg sedan till en ny nedladdningsuppgift. Du kan lägga till en ny nedladdning genom det här gränssnittet eller helt enkelt högerklicka på önskad nedladdningslänk och sedan klicka på - Hämta med accelerator - objektet i snabbmenyn."
+   },
+   "popup_text2": {
+      "message": "Maximalt antal objekt som ska visas"
+   },
+   "popup_text3": {
+      "message": "Beställ listade objekt efter"
+   },
+   "popup_text4": {
+      "message": "Vi stöder direktnedladdningsfil direkt till din Google Drive eller din PC på vår webbplats."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Lägg till url för att ladda ner kö"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Annullera"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Rensa användargränssnittet"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Rensa från listan"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Ta bort från disken"
+   },
+   "popup_ui_btn_open": {
+      "message": "Öppna nedladdningsmappen"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Öppna referens"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Paus"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Ladda om användargränssnittet"
+   },
+   "popup_ui_btn_resume": {
+      "message": "CV"
+   },
+   "popup_ui_btn_show": {
+      "message": "Visa i mapp"
+   },
+   "popup_ui_btn_support": {
+      "message": "Öppna supportsidan"
+   },
+   "popup_ui_info_start": {
+      "message": "Starttid"
+   },
+   "popup_ui_info_total": {
+      "message": "Total storlek"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Typ"
+   },
+   "popup_ui_option3": {
+      "message": "stat"
+   },
+   "popup_ui_option4": {
+      "message": "Sluttid"
+   },
+   "popup_ui_option6": {
+      "message": "Totala byte"
+   },
+   "popup_ui_option7": {
+      "message": "Bytes mottagna"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Lägg till en url & uppsättning antal trådar (max 5) och klicka sedan på (+) -knappen"
+   }
+}

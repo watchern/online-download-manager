@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "נהל והאיץ את ההורדות שלך בקלות עד 5 פעמים!"
+   },
+   "app_name": {
+      "message": "מנהל הורדות מקוון"
+   },
+   "context_download": {
+      "message": "הורד עם מאיץ"
+   },
+   "notification_complete": {
+      "message": "ההורדה הושלמה."
+   },
+   "notification_invalid": {
+      "message": "כתובת אתר לא חוקית! הוסף כתובת URL נכונה ונסה שוב."
+   },
+   "popup_confirm1_head": {
+      "message": "מחק"
+   },
+   "popup_confirm1_msg": {
+      "message": "האם אתה בטוח שברצונך למחוק פריט זה מהדיסק?"
+   },
+   "popup_label1": {
+      "message": "בוטל:"
+   },
+   "popup_label2": {
+      "message": "שמאלה:"
+   },
+   "popup_label3": {
+      "message": "מהירות:"
+   },
+   "popup_label4": {
+      "message": "קיבלו:"
+   },
+   "popup_label_rate": {
+      "message": "אנא דרג אותנו!"
+   },
+   "popup_text1": {
+      "message": "פשוט הזן ספירת פתיל רצויה בתיבת הטקסט, כתובת אתר הקלט, ואז הוסף משימת הורדה חדשה. אתה יכול להוסיף הורדה חדשה דרך ממשק משתמש זה או פשוט לחץ באמצעות לחצן העכבר הימני על קישור ההורדה הרצוי ואז לחץ על הפריט - הורד עם מאיץ - בתפריט ההקשר."
+   },
+   "popup_text2": {
+      "message": "המספר המרבי של הפריטים שיש להציג"
+   },
+   "popup_text3": {
+      "message": "הזמן פריטים רשומים לפי"
+   },
+   "popup_text4": {
+      "message": "אנו תומכים בקובץ הורדה ישיר ישירות לכונן Google או למחשב האישי באתר שלנו."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "הוסף כתובת אתר להורדת תור"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "לְבַטֵל"
+   },
+   "popup_ui_btn_clear": {
+      "message": "נקה ממשק המשתמש"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "ברור מהרשימה"
+   },
+   "popup_ui_btn_delete": {
+      "message": "מחק מהדיסק"
+   },
+   "popup_ui_btn_open": {
+      "message": "פתח את תיקיית ההורדה"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "פתח מפנה"
+   },
+   "popup_ui_btn_pause": {
+      "message": "הפסקה"
+   },
+   "popup_ui_btn_reload": {
+      "message": "טען מחדש את ממשק המשתמש"
+   },
+   "popup_ui_btn_resume": {
+      "message": "קורות חיים"
+   },
+   "popup_ui_btn_show": {
+      "message": "הצג בתיקייה"
+   },
+   "popup_ui_btn_support": {
+      "message": "פתח דף תמיכה"
+   },
+   "popup_ui_info_start": {
+      "message": "שעת התחלה"
+   },
+   "popup_ui_info_total": {
+      "message": "גודל כולל"
+   },
+   "popup_ui_option1": {
+      "message": "כתובת אתר"
+   },
+   "popup_ui_option2": {
+      "message": "סוג"
+   },
+   "popup_ui_option3": {
+      "message": "מדינה"
+   },
+   "popup_ui_option4": {
+      "message": "זמן סיום"
+   },
+   "popup_ui_option6": {
+      "message": "סה\"כ בתים"
+   },
+   "popup_ui_option7": {
+      "message": "ביטים קיבלו"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "הוסף כתובת אתר וקבוצת מספר האשכולות (מקסימום 5) ולחץ על כפתור (+)"
+   }
+}

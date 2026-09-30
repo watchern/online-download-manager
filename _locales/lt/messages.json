@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Lengvai tvarkykite ir spartinkite atsisiuntimus iki 5 kartų!"
+   },
+   "app_name": {
+      "message": "Atsisiuntimų tvarkyklė internete"
+   },
+   "context_download": {
+      "message": "Atsisiųskite naudodami greitintuvą"
+   },
+   "notification_complete": {
+      "message": "Atsisiuntimas baigtas."
+   },
+   "notification_invalid": {
+      "message": "Neteisingas URL! Pridėkite teisingą URL ir bandykite dar kartą."
+   },
+   "popup_confirm1_head": {
+      "message": "Ištrinti"
+   },
+   "popup_confirm1_msg": {
+      "message": "Ar tikrai norite ištrinti šį elementą iš disko?"
+   },
+   "popup_label1": {
+      "message": "Praėjo:"
+   },
+   "popup_label2": {
+      "message": "Kairė:"
+   },
+   "popup_label3": {
+      "message": "Greitis:"
+   },
+   "popup_label4": {
+      "message": "Gauta:"
+   },
+   "popup_label_rate": {
+      "message": "Prašau Įvertink mus!"
+   },
+   "popup_text1": {
+      "message": "Tiesiog įveskite norimą gijų skaičių teksto laukelyje, įveskite URL ir pridėkite naują atsisiuntimo užduotį. Per šią vartotojo sąsają galite pridėti naują atsisiuntimą arba tiesiog dešiniuoju pelės mygtuku spustelėkite norimą atsisiuntimo nuorodą ir tada kontekstinio meniu spustelėkite elementą - Atsisiųsti naudodami spartintuvą."
+   },
+   "popup_text2": {
+      "message": "Maksimalus rodomų elementų skaičius"
+   },
+   "popup_text3": {
+      "message": "Užsakykite išvardytus elementus iki"
+   },
+   "popup_text4": {
+      "message": "Mes palaikome tiesioginį atsisiuntimo failą tiesiai į „Google“ diską arba kompiuterį mūsų svetainėje."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Pridėti URL, jei norite atsisiųsti eilę"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "atšaukti"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Išvalyti vartotojo sąsają"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Išvalyti iš sąrašo"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Ištrinti iš disko"
+   },
+   "popup_ui_btn_open": {
+      "message": "Atidaryti atsisiuntimo aplanką"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Atidaryti referentą"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Pauzė"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Iš naujo įkelti vartotojo sąsają"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Atnaujina"
+   },
+   "popup_ui_btn_show": {
+      "message": "Rodyti aplanke"
+   },
+   "popup_ui_btn_support": {
+      "message": "Atidarykite palaikymo puslapį"
+   },
+   "popup_ui_info_start": {
+      "message": "Pradžios laikas"
+   },
+   "popup_ui_info_total": {
+      "message": "Visas dydis"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Tipas"
+   },
+   "popup_ui_option3": {
+      "message": "Valstybė"
+   },
+   "popup_ui_option4": {
+      "message": "Pabaigos laikas"
+   },
+   "popup_ui_option6": {
+      "message": "Iš viso baitų"
+   },
+   "popup_ui_option7": {
+      "message": "Gauta baitų"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Pridėkite URL ir nustatykite gijų skaičių (daugiausia 5), tada spustelėkite mygtuką (+)"
+   }
+}

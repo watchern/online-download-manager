@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "ダウンロードを最大5倍まで簡単に管理および加速できます！"
+   },
+   "app_name": {
+      "message": "オンラインダウンロードマネージャー"
+   },
+   "context_download": {
+      "message": "アクセラレータでダウンロード"
+   },
+   "notification_complete": {
+      "message": "ダウンロードが完了しました。"
+   },
+   "notification_invalid": {
+      "message": "無効なURL！正しいURLを追加して、もう一度お試しください。"
+   },
+   "popup_confirm1_head": {
+      "message": "削除"
+   },
+   "popup_confirm1_msg": {
+      "message": "このアイテムをディスクから削除してもよろしいですか？"
+   },
+   "popup_label1": {
+      "message": "経過："
+   },
+   "popup_label2": {
+      "message": "左："
+   },
+   "popup_label3": {
+      "message": "速度："
+   },
+   "popup_label4": {
+      "message": "受け取った："
+   },
+   "popup_label_rate": {
+      "message": "評価してください！"
+   },
+   "popup_text1": {
+      "message": "テキストボックスに目的のスレッド数を入力し、URLを入力して、新しいダウンロードタスクを追加します。このUIから新しいダウンロードを追加するか、目的のダウンロードリンクを右クリックして、コンテキストメニューの[アクセラレータでダウンロード]をクリックします。"
+   },
+   "popup_text2": {
+      "message": "表示するアイテムの最大数"
+   },
+   "popup_text3": {
+      "message": "リストされたアイテムを注文する"
+   },
+   "popup_text4": {
+      "message": "GoogleドライブまたはPCへの直接ダウンロードファイルをWebサイトで直接サポートしています。"
+   },
+   "popup_ui_btn_add_url": {
+      "message": "ダウンロードキューにURLを追加"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "キャンセル"
+   },
+   "popup_ui_btn_clear": {
+      "message": "UIをクリア"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "リストから消去"
+   },
+   "popup_ui_btn_delete": {
+      "message": "ディスクから削除"
+   },
+   "popup_ui_btn_open": {
+      "message": "ダウンロードフォルダを開く"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "リファラーを開く"
+   },
+   "popup_ui_btn_pause": {
+      "message": "一時停止"
+   },
+   "popup_ui_btn_reload": {
+      "message": "UIを再読み込み"
+   },
+   "popup_ui_btn_resume": {
+      "message": "履歴書"
+   },
+   "popup_ui_btn_show": {
+      "message": "フォルダで見て"
+   },
+   "popup_ui_btn_support": {
+      "message": "サポートページを開く"
+   },
+   "popup_ui_info_start": {
+      "message": "始まる時間"
+   },
+   "popup_ui_info_total": {
+      "message": "全体の大きさ"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "タイプ"
+   },
+   "popup_ui_option3": {
+      "message": "状態"
+   },
+   "popup_ui_option4": {
+      "message": "終了時間"
+   },
+   "popup_ui_option6": {
+      "message": "総バイト数"
+   },
+   "popup_ui_option7": {
+      "message": "受信したバイト"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "URLを追加してスレッドの数（最大5）を設定し、（+）ボタンをクリックします"
+   }
+}

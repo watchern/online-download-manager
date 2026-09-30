@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Лесно управлявайте и ускорявайте изтеглянията си до 5 пъти!"
+   },
+   "app_name": {
+      "message": "Онлайн мениджър за изтегляне"
+   },
+   "context_download": {
+      "message": "Изтеглете с ускорител"
+   },
+   "notification_complete": {
+      "message": "Изтеглянето е завършено."
+   },
+   "notification_invalid": {
+      "message": "Невалиден адрес! Моля, добавете правилен URL адрес и опитайте отново."
+   },
+   "popup_confirm1_head": {
+      "message": "Изтрий"
+   },
+   "popup_confirm1_msg": {
+      "message": "Сигурни ли сте, че искате да изтриете този елемент от диска?"
+   },
+   "popup_label1": {
+      "message": "Изминало:"
+   },
+   "popup_label2": {
+      "message": "Наляво:"
+   },
+   "popup_label3": {
+      "message": "скорост:"
+   },
+   "popup_label4": {
+      "message": "Получени:"
+   },
+   "popup_label_rate": {
+      "message": "Моля, оценете ни!"
+   },
+   "popup_text1": {
+      "message": "Просто въведете желания брой нишки в текстовата кутия, въведете URL адреса и след това добавете нова задача за изтегляне. Можете да добавите ново изтегляне чрез този потребителски интерфейс или просто с десния бутон на мишката върху желаната връзка за изтегляне и след това щракнете върху елемента - Изтегляне с акселератор - в контекстното меню."
+   },
+   "popup_text2": {
+      "message": "Максимален брой обекти за показване"
+   },
+   "popup_text3": {
+      "message": "Поръчайте изброените артикули от"
+   },
+   "popup_text4": {
+      "message": "Ние поддържаме директно изтегляне на файл директно до вашия Диск или вашия компютър на нашия уебсайт."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Добавете URL адрес за изтегляне на опашката"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Отказ"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Изчистване на потребителския интерфейс"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Изчисти от списъка"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Изтриване от диска"
+   },
+   "popup_ui_btn_open": {
+      "message": "Отворете папката за изтегляне"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Отворете реферала"
+   },
+   "popup_ui_btn_pause": {
+      "message": "пауза"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Презаредете потребителския интерфейс"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Автобиографии"
+   },
+   "popup_ui_btn_show": {
+      "message": "Покажи в папка"
+   },
+   "popup_ui_btn_support": {
+      "message": "Отворете страницата за поддръжка"
+   },
+   "popup_ui_info_start": {
+      "message": "Начален час"
+   },
+   "popup_ui_info_total": {
+      "message": "Общият размер"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Тип"
+   },
+   "popup_ui_option3": {
+      "message": "състояние"
+   },
+   "popup_ui_option4": {
+      "message": "Крайно време"
+   },
+   "popup_ui_option6": {
+      "message": "Общо байтове"
+   },
+   "popup_ui_option7": {
+      "message": "Байтове получени"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Добавете url & set # от нишки (макс. 5), след което щракнете върху бутона (+)"
+   }
+}

@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "به راحتی بارگیری های خود را تا 5 بار مدیریت و شتاب دهید!"
+   },
+   "app_name": {
+      "message": "مدیر بارگیری آنلاین"
+   },
+   "context_download": {
+      "message": "با شتاب دهنده بارگیری کنید"
+   },
+   "notification_complete": {
+      "message": "بارگیری کامل شد"
+   },
+   "notification_invalid": {
+      "message": "URL نامعتبر است! لطفاً یک URL درست اضافه کنید و دوباره امتحان کنید."
+   },
+   "popup_confirm1_head": {
+      "message": "حذف"
+   },
+   "popup_confirm1_msg": {
+      "message": "آیا مطمئن هستید که می خواهید این مورد را از دیسک حذف کنید؟"
+   },
+   "popup_label1": {
+      "message": "سپری شده:"
+   },
+   "popup_label2": {
+      "message": "ترک کرد:"
+   },
+   "popup_label3": {
+      "message": "سرعت:"
+   },
+   "popup_label4": {
+      "message": "اخذ شده:"
+   },
+   "popup_label_rate": {
+      "message": "لطفا به ما امتیاز دهید"
+   },
+   "popup_text1": {
+      "message": "کافیست تعداد متن مورد نظر را در جعبه متن ، آدرس ورودی وارد کنید و سپس یک کار جدید بارگیری اضافه کنید. می توانید بارگیری جدیدی را از طریق این رابط کاربر اضافه کنید یا به سادگی بر روی لینک دانلود دلخواه کلیک کنید و سپس در منوی زمینه بر روی گزینه - بارگیری با شتاب دهنده کلیک کنید."
+   },
+   "popup_text2": {
+      "message": "حداکثر تعداد موارد برای نشان دادن"
+   },
+   "popup_text3": {
+      "message": "موارد ذکر شده را توسط سفارش دهید"
+   },
+   "popup_text4": {
+      "message": "ما فایل بارگیری مستقیم را مستقیماً در Google Drive یا رایانه شخصی خود در وب سایت ما پشتیبانی می کنیم."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "برای بارگیری صف ، آدرس اینترنتی را اضافه کنید"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "لغو کردن"
+   },
+   "popup_ui_btn_clear": {
+      "message": "UI را پاک کنید"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "پاک کردن از لیست"
+   },
+   "popup_ui_btn_delete": {
+      "message": "حذف از دیسک"
+   },
+   "popup_ui_btn_open": {
+      "message": "پوشه بارگیری را باز کنید"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "ارجاع باز"
+   },
+   "popup_ui_btn_pause": {
+      "message": "مکث کنید"
+   },
+   "popup_ui_btn_reload": {
+      "message": "بارگیری مجدد رابط کاربر"
+   },
+   "popup_ui_btn_resume": {
+      "message": "سوابق کاری و تحصیلی"
+   },
+   "popup_ui_btn_show": {
+      "message": "نمایش در پوشه"
+   },
+   "popup_ui_btn_support": {
+      "message": "صفحه پشتیبانی را باز کنید"
+   },
+   "popup_ui_info_start": {
+      "message": "زمان شروع"
+   },
+   "popup_ui_info_total": {
+      "message": "اندازه کل"
+   },
+   "popup_ui_option1": {
+      "message": "آدرس اینترنتی"
+   },
+   "popup_ui_option2": {
+      "message": "تایپ کنید"
+   },
+   "popup_ui_option3": {
+      "message": "دولت"
+   },
+   "popup_ui_option4": {
+      "message": "زمان پایان"
+   },
+   "popup_ui_option6": {
+      "message": "کل بایت"
+   },
+   "popup_ui_option7": {
+      "message": "بایت دریافت کرد"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "url & set # رشته (حداکثر 5) را اضافه کنید ، سپس بر روی دکمه (+) کلیک کنید"
+   }
+}

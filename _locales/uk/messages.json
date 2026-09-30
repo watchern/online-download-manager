@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Легко керуйте та прискорюйте завантаження до 5 разів!"
+   },
+   "app_name": {
+      "message": "Інтернет-менеджер завантажень"
+   },
+   "context_download": {
+      "message": "Завантажити за допомогою прискорювача"
+   },
+   "notification_complete": {
+      "message": "Завантаження завершено."
+   },
+   "notification_invalid": {
+      "message": "Недійсна URL-адреса! Додайте правильну URL-адресу та повторіть спробу."
+   },
+   "popup_confirm1_head": {
+      "message": "Видалити"
+   },
+   "popup_confirm1_msg": {
+      "message": "Ви впевнені, що хочете видалити цей елемент з диска?"
+   },
+   "popup_label1": {
+      "message": "Пропущено:"
+   },
+   "popup_label2": {
+      "message": "Зліва:"
+   },
+   "popup_label3": {
+      "message": "Швидкість:"
+   },
+   "popup_label4": {
+      "message": "Отримано:"
+   },
+   "popup_label_rate": {
+      "message": "Будь ласка, оцініть нас!"
+   },
+   "popup_text1": {
+      "message": "Просто введіть потрібну кількість потоків у текстове поле, введіть URL-адресу та додайте нове завдання для завантаження. Ви можете додати нове завантаження через цей інтерфейс або просто натиснути правою кнопкою миші на потрібне посилання для завантаження, а потім натиснути на пункт - Завантажити за допомогою акселератора - у контекстному меню."
+   },
+   "popup_text2": {
+      "message": "Максимальна кількість предметів для показу"
+   },
+   "popup_text3": {
+      "message": "Замовляйте перелічені товари за"
+   },
+   "popup_text4": {
+      "message": "Ми підтримуємо файл прямого завантаження прямо на Ваш Диск Google або на ПК на нашому веб-сайті."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Додати URL-адресу для завантаження черги"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "скасувати"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Очистити інтерфейс користувача"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Очистити зі списку"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Видалити з диска"
+   },
+   "popup_ui_btn_open": {
+      "message": "Відкрийте папку для завантаження"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Відкрити референс"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Пауза"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Перезавантажте інтерфейс користувача"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Резюме"
+   },
+   "popup_ui_btn_show": {
+      "message": "Показати у папці"
+   },
+   "popup_ui_btn_support": {
+      "message": "Відкрити сторінку підтримки"
+   },
+   "popup_ui_info_start": {
+      "message": "Час початку"
+   },
+   "popup_ui_info_total": {
+      "message": "Загальний розмір"
+   },
+   "popup_ui_option1": {
+      "message": "URL-адреса"
+   },
+   "popup_ui_option2": {
+      "message": "Тип"
+   },
+   "popup_ui_option3": {
+      "message": "Держава"
+   },
+   "popup_ui_option4": {
+      "message": "Час закінчення"
+   },
+   "popup_ui_option6": {
+      "message": "Всього байтів"
+   },
+   "popup_ui_option7": {
+      "message": "Отримано байтів"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Додайте URL-адресу та встановіть # ниток (максимум 5), а потім натисніть кнопку (+)"
+   }
+}

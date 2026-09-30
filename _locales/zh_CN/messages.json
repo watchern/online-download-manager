@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "轻松管理和加速下载最多5次！"
+   },
+   "app_name": {
+      "message": "在线下载管理器"
+   },
+   "context_download": {
+      "message": "用加速器下载"
+   },
+   "notification_complete": {
+      "message": "下载完成。"
+   },
+   "notification_invalid": {
+      "message": "无效的网址！请添加正确的网址，然后重试。"
+   },
+   "popup_confirm1_head": {
+      "message": "删除"
+   },
+   "popup_confirm1_msg": {
+      "message": "您确定要从磁盘中删除此项吗？"
+   },
+   "popup_label1": {
+      "message": "过去："
+   },
+   "popup_label2": {
+      "message": "剩下："
+   },
+   "popup_label3": {
+      "message": "速度："
+   },
+   "popup_label4": {
+      "message": "收稿日期："
+   },
+   "popup_label_rate": {
+      "message": "请给我们评分！"
+   },
+   "popup_text1": {
+      "message": "只需在文本框中输入所需的线程数，输入URL，然后添加新的下载任务。您可以通过此UI添加新下载，或者只需右键单击所需的下载链接，然后单击上下文菜单中的 - 使用加速器下载 - 项目。"
+   },
+   "popup_text2": {
+      "message": "要显示的最大项目数"
+   },
+   "popup_text3": {
+      "message": "订购列出的项目"
+   },
+   "popup_text4": {
+      "message": "我们支持将直接下载文件直接发送到您的Google云端硬盘或我们网站上的PC。"
+   },
+   "popup_ui_btn_add_url": {
+      "message": "添加url到下载队列"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "取消"
+   },
+   "popup_ui_btn_clear": {
+      "message": "清晰的UI"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "从列表中清除"
+   },
+   "popup_ui_btn_delete": {
+      "message": "从磁盘删除"
+   },
+   "popup_ui_btn_open": {
+      "message": "打开下载文件夹"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "打开推荐人"
+   },
+   "popup_ui_btn_pause": {
+      "message": "暂停"
+   },
+   "popup_ui_btn_reload": {
+      "message": "重新加载UI"
+   },
+   "popup_ui_btn_resume": {
+      "message": "简历"
+   },
+   "popup_ui_btn_show": {
+      "message": "展现在文件夹中"
+   },
+   "popup_ui_btn_support": {
+      "message": "打开支持页面"
+   },
+   "popup_ui_info_start": {
+      "message": "开始时间"
+   },
+   "popup_ui_info_total": {
+      "message": "总大小"
+   },
+   "popup_ui_option1": {
+      "message": "网址"
+   },
+   "popup_ui_option2": {
+      "message": "类型"
+   },
+   "popup_ui_option3": {
+      "message": "州"
+   },
+   "popup_ui_option4": {
+      "message": "时间结束"
+   },
+   "popup_ui_option6": {
+      "message": "总字节数"
+   },
+   "popup_ui_option7": {
+      "message": "收到的字节数"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "添加网址和设置线程数（最多5个），然后单击（+）按钮"
+   }
+}

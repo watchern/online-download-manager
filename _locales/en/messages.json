@@ -1,0 +1,191 @@
+{
+   "app_description": {
+      "message": "Easily manage and accelerate your downloads up to 5 times!"
+   },
+   "app_name": {
+      "message": "Online Download Manager"
+   },
+   "context_download": {
+      "message": "Download with accelerator"
+   },
+   "notification_complete": {
+      "message": "Download is complete.\n"
+   },
+   "notification_failed": {
+      "message": "A download failed."
+   },
+   "notification_invalid": {
+      "message": "Invalid URL!\nPlease add a correct URL and try again."
+   },
+   "notification_unverified": {
+      "message": "Downloaded normally; integrity could not be verified."
+   },
+   "notification_verified": {
+      "message": "Checksum verified."
+   },
+   "options_autocapture": {
+      "message": "Auto-accelerate browser downloads"
+   },
+   "options_autocapture_desc": {
+      "message": "Intercept downloads started in the browser and route them through the accelerator. Servers that can't be accelerated fall back to a normal download automatically."
+   },
+   "options_bandwidth": {
+      "message": "Bandwidth limit (KB/s)"
+   },
+   "options_bandwidth_desc": {
+      "message": "Maximum combined download speed in kilobytes per second, shared across all active downloads. 0 means unlimited."
+   },
+   "options_concurrent": {
+      "message": "Maximum concurrent downloads"
+   },
+   "options_concurrent_desc": {
+      "message": "How many downloads run at once. Extra downloads wait in a queue and start automatically as slots free up."
+   },
+   "options_credentials": {
+      "message": "Send cookies with downloads"
+   },
+   "options_credentials_desc": {
+      "message": "Include your session cookies so files behind a login can be fetched. Turn off for stricter privacy."
+   },
+   "options_maxitems": {
+      "message": "Items shown in the manager"
+   },
+   "options_maxitems_desc": {
+      "message": "Maximum number of downloads listed at once."
+   },
+   "options_notifications": {
+      "message": "Completion notifications"
+   },
+   "options_notifications_desc": {
+      "message": "Show a desktop notification when a download finishes."
+   },
+   "options_orderby": {
+      "message": "Order downloads by"
+   },
+   "options_saved": {
+      "message": "Saved"
+   },
+   "options_subtitle": {
+      "message": "Defaults for the accelerator and the download manager."
+   },
+   "options_threads": {
+      "message": "Default thread count"
+   },
+   "options_threads_desc": {
+      "message": "How many parallel segments to split each download into (1-5). 1 disables acceleration."
+   },
+   "options_title": {
+      "message": "Settings"
+   },
+   "popup_confirm1_head": {
+      "message": "Delete"
+   },
+   "popup_confirm1_msg": {
+      "message": "Are you sure you want to delete this item from disk?"
+   },
+   "popup_label1": {
+      "message": "Elapsed:"
+   },
+   "popup_label2": {
+      "message": "Left:"
+   },
+   "popup_label3": {
+      "message": "Speed:"
+   },
+   "popup_label4": {
+      "message": "Received:"
+   },
+   "popup_label_rate": {
+      "message": "Please Rate Us!"
+   },
+   "popup_text1": {
+      "message": "Just enter a desired thread count in textbox, input url, and then add a new download task. You can add a new download through this UI or simply right click on a desired download link and then click on the - Download with Accelerator - item in context-menu."
+   },
+   "popup_text2": {
+      "message": "Maximum number of items to show"
+   },
+   "popup_text3": {
+      "message": "Order listed items by"
+   },
+   "popup_text4": {
+      "message": "We support direct download file right to your Google Drive or your PC on our website."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Add url to download queue"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Cancel"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Clear UI"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Clear from list"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Delete from disk"
+   },
+   "popup_ui_btn_open": {
+      "message": "Open download folder"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Open referrer"
+   },
+   "popup_ui_btn_options": {
+      "message": "Settings"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Pause"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Reload UI"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Resumes"
+   },
+   "popup_ui_btn_show": {
+      "message": "Show in folder"
+   },
+   "popup_ui_btn_support": {
+      "message": "Open support page"
+   },
+   "popup_ui_info_start": {
+      "message": "Start time"
+   },
+   "popup_ui_info_total": {
+      "message": "Total size"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Type"
+   },
+   "popup_ui_option3": {
+      "message": "State"
+   },
+   "popup_ui_option4": {
+      "message": "End time"
+   },
+   "popup_ui_option5": {
+      "message": "Start time"
+   },
+   "popup_ui_option6": {
+      "message": "Total bytes"
+   },
+   "popup_ui_option7": {
+      "message": "Bytes received"
+   },
+   "popup_ui_search": {
+      "message": "Search downloads"
+   },
+   "popup_ui_sha256": {
+      "message": "Optional SHA-256 to verify the next download (leave blank to skip)"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Add a url & set # of threads (max 5), then click on the (+) button"
+   },
+   "status_queued": {
+      "message": "Queued"
+   }
+}

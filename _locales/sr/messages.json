@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Једноставно управљајте и убрзајте преузимања до 5 пута!"
+   },
+   "app_name": {
+      "message": "Онлине Довнлоад Манагер"
+   },
+   "context_download": {
+      "message": "Преузмите акцелератором"
+   },
+   "notification_complete": {
+      "message": "Преузимање је завршено."
+   },
+   "notification_invalid": {
+      "message": "Неважећи УРЛ! Додајте тачан УРЛ и покушајте поново."
+   },
+   "popup_confirm1_head": {
+      "message": "Избриши"
+   },
+   "popup_confirm1_msg": {
+      "message": "Јесте ли сигурни да желите да избришете овај предмет са диска?"
+   },
+   "popup_label1": {
+      "message": "Истекло:"
+   },
+   "popup_label2": {
+      "message": "Лево:"
+   },
+   "popup_label3": {
+      "message": "Брзина:"
+   },
+   "popup_label4": {
+      "message": "Примљен:"
+   },
+   "popup_label_rate": {
+      "message": "Молимо оцените нас!"
+   },
+   "popup_text1": {
+      "message": "Само унесите жељени број нити у тектбок, унесите УРЛ адресу, а затим додајте нови задатак за преузимање. Можете додати ново преузимање преко овог корисничког сучеља или једноставно десним тастером миша кликните жељену везу за преузимање, а затим кликните на - Довнлоад витх Аццелератор - ставку у контекстном менију."
+   },
+   "popup_text2": {
+      "message": "Максималан број ставки за приказивање"
+   },
+   "popup_text3": {
+      "message": "Наручите набројане артикле по"
+   },
+   "popup_text4": {
+      "message": "На нашој веб локацији подржавамо директно преузимање датотеке на Гоогле Дриве или рачунар."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Додајте УРЛ за преузимање реда"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Отказати"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Цлеар УИ"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Очисти са листе"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Избриши са диска"
+   },
+   "popup_ui_btn_open": {
+      "message": "Отворите директоријум за преузимање"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Отворени референт"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Паузирај"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Учитај корисничко сучеље"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Настави"
+   },
+   "popup_ui_btn_show": {
+      "message": "Прикажи у мапи"
+   },
+   "popup_ui_btn_support": {
+      "message": "Отворите страницу подршке"
+   },
+   "popup_ui_info_start": {
+      "message": "Почетно време"
+   },
+   "popup_ui_info_total": {
+      "message": "Укупна површина"
+   },
+   "popup_ui_option1": {
+      "message": "УРЛ адреса"
+   },
+   "popup_ui_option2": {
+      "message": "Тип"
+   },
+   "popup_ui_option3": {
+      "message": "Држава"
+   },
+   "popup_ui_option4": {
+      "message": "Време завршетка"
+   },
+   "popup_ui_option6": {
+      "message": "Укупно бајтова"
+   },
+   "popup_ui_option7": {
+      "message": "Примљени бајтови"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Додајте урл и поставите # нити (макс. 5), а затим кликните на (+) дугме"
+   }
+}

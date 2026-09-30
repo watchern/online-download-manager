@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Hallake ja kiirendage allalaadimisi hõlpsalt kuni 5 korda!"
+   },
+   "app_name": {
+      "message": "Online-allalaadimishaldur"
+   },
+   "context_download": {
+      "message": "Laadige alla kiirendiga"
+   },
+   "notification_complete": {
+      "message": "Allalaadimine on lõpule viidud."
+   },
+   "notification_invalid": {
+      "message": "Vigane URL! Lisage õige URL ja proovige uuesti."
+   },
+   "popup_confirm1_head": {
+      "message": "Kustuta"
+   },
+   "popup_confirm1_msg": {
+      "message": "Kas soovite kindlasti selle üksuse kettalt kustutada?"
+   },
+   "popup_label1": {
+      "message": "Aegunud:"
+   },
+   "popup_label2": {
+      "message": "Vasakul:"
+   },
+   "popup_label3": {
+      "message": "Kiirus:"
+   },
+   "popup_label4": {
+      "message": "Vastu võetud:"
+   },
+   "popup_label_rate": {
+      "message": "Palun hinnake meid!"
+   },
+   "popup_text1": {
+      "message": "Sisestage lihtsalt soovitud lõimede arv tekstikasti, sisestage URL ja lisage seejärel uus allalaadimisülesanne. Selle kasutajaliidese kaudu saate lisada uue allalaaditava faili või klõpsata lihtsalt paremklõpsuga soovitud allalaadimislingil ja seejärel klõpsake kontekstimenüü üksusel - Kiirendi abil allalaadimine."
+   },
+   "popup_text2": {
+      "message": "Maksimaalne kuvatavate üksuste arv"
+   },
+   "popup_text3": {
+      "message": "Tellige loetletud üksused"
+   },
+   "popup_text4": {
+      "message": "Toetame otse allalaaditavat faili otse teie Google Drive'i või meie veebisaidil olevasse arvutisse."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Järjekorra allalaadimiseks lisage URL"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "tühistama"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Kustuta kasutajaliides"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Kustuta nimekirjast"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Kustuta kettalt"
+   },
+   "popup_ui_btn_open": {
+      "message": "Avage allalaadimiskaust"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Avage viitaja"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Paus"
+   },
+   "popup_ui_btn_reload": {
+      "message": "UI uuesti laadimine"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Jätkub"
+   },
+   "popup_ui_btn_show": {
+      "message": "Näita kaustas"
+   },
+   "popup_ui_btn_support": {
+      "message": "Avage tugileht"
+   },
+   "popup_ui_info_start": {
+      "message": "Algusaeg"
+   },
+   "popup_ui_info_total": {
+      "message": "Kogu suurus"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Tüüp"
+   },
+   "popup_ui_option3": {
+      "message": "Osariik"
+   },
+   "popup_ui_option4": {
+      "message": "Lõpuaeg"
+   },
+   "popup_ui_option6": {
+      "message": "Baidid kokku"
+   },
+   "popup_ui_option7": {
+      "message": "Baidid vastu võetud"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Lisage URL ja määrake lõimede arv (max 5), seejärel klõpsake nuppu (+)"
+   }
+}

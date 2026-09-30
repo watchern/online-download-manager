@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Preprosto upravljate in pospešite prenose do 5-krat!"
+   },
+   "app_name": {
+      "message": "Spletni upravitelj prenosov"
+   },
+   "context_download": {
+      "message": "Prenos s pospeševalnikom"
+   },
+   "notification_complete": {
+      "message": "Prenos je končan."
+   },
+   "notification_invalid": {
+      "message": "Neveljaven URL! Dodajte pravilen URL in poskusite znova."
+   },
+   "popup_confirm1_head": {
+      "message": "Izbriši"
+   },
+   "popup_confirm1_msg": {
+      "message": "Ali ste prepričani, da želite izbrisati ta element z diska?"
+   },
+   "popup_label1": {
+      "message": "Izteklo:"
+   },
+   "popup_label2": {
+      "message": "Levo:"
+   },
+   "popup_label3": {
+      "message": "Hitrost:"
+   },
+   "popup_label4": {
+      "message": "Prejeto:"
+   },
+   "popup_label_rate": {
+      "message": "Prosimo ocenite nas!"
+   },
+   "popup_text1": {
+      "message": "Samo vnesite želeno število niti v besedilno polje, vnesite URL in dodajte novo opravilo za prenos. S pomočjo tega uporabniškega vmesnika lahko dodate nov prenos ali preprosto z desno miškino tipko kliknite želeno povezavo za prenos in v kontekstnem meniju kliknete element - Prenos s pospeševalnikom."
+   },
+   "popup_text2": {
+      "message": "Največje število predmetov za prikaz"
+   },
+   "popup_text3": {
+      "message": "Naročite izdelke, ki so na seznamu"
+   },
+   "popup_text4": {
+      "message": "Na našem spletnem mestu podpiramo neposredno prenos datotek v Google Drive ali računalnik."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Dodajte URL za prenos čakalne vrste"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Preklic"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Počisti uporabniški vmesnik"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Počisti s seznama"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Izbriši z diska"
+   },
+   "popup_ui_btn_open": {
+      "message": "Odprite mapo za prenos"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Odprti napotilec"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Pavza"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Ponovno naloži uporabniški vmesnik"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Življenjepis"
+   },
+   "popup_ui_btn_show": {
+      "message": "Prikaži v mapi"
+   },
+   "popup_ui_btn_support": {
+      "message": "Odprite stran za podporo"
+   },
+   "popup_ui_info_start": {
+      "message": "Začetni čas"
+   },
+   "popup_ui_info_total": {
+      "message": "Skupna velikost"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Vtipkajte"
+   },
+   "popup_ui_option3": {
+      "message": "Država"
+   },
+   "popup_ui_option4": {
+      "message": "Končni čas"
+   },
+   "popup_ui_option6": {
+      "message": "Skupaj bajtov"
+   },
+   "popup_ui_option7": {
+      "message": "Prejeti bajti"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Dodajte URL in nastavite # niti (največ 5), nato kliknite gumb (+)"
+   }
+}

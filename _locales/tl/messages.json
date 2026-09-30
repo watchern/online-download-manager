@@ -1,0 +1,113 @@
+{
+  "app_description": {
+    "message": "Madaling pamahalaan at mapabilis ang iyong mga pag-download ng hanggang sa 5 beses!"
+  },
+  "popup_text1": {
+    "message": "Ipasok lamang ang isang nais na bilang ng thread sa textbox, input url, at pagkatapos ay magdagdag ng isang bagong gawain sa pag-download. Maaari kang magdagdag ng isang bagong pag-download sa pamamagitan ng UI o simpleng pag-click sa isang nais na pag-download na link at pagkatapos ay mag-click sa - I-download gamit ang Accelerator - item sa konteksto-menu."
+  },
+  "popup_ui_txt_add_url": {
+    "message": "Magdagdag ng isang url & set # ng mga thread (max 5), pagkatapos ay mag-click sa (+) button"
+  },
+  "popup_ui_btn_add_url": {
+    "message": "Magdagdag ng url upang mag-download ng pila"
+  },
+  "popup_ui_btn_clear": {
+    "message": "I-clear ang UI"
+  },
+  "popup_ui_btn_open": {
+    "message": "Buksan ang folder ng pag-download"
+  },
+  "popup_ui_btn_reload": {
+    "message": "Reload UI"
+  },
+  "popup_ui_btn_support": {
+    "message": "Buksan ang pahina ng suporta"
+  },
+  "popup_ui_btn_resume": {
+    "message": "Magpapatuloy"
+  },
+  "popup_ui_btn_pause": {
+    "message": "I-pause"
+  },
+  "popup_ui_btn_cancel": {
+    "message": "kanselahin"
+  },
+  "popup_ui_btn_show": {
+    "message": "Ipakita sa Folder"
+  },
+  "popup_ui_btn_cler_list": {
+    "message": "I-clear mula sa listahan"
+  },
+  "popup_ui_btn_open_ref": {
+    "message": "Buksan ang referrer"
+  },
+  "popup_ui_btn_delete": {
+    "message": "Tanggalin mula sa disk"
+  },
+  "popup_ui_info_start": {
+    "message": "Oras ng simula"
+  },
+  "popup_ui_info_total": {
+    "message": "Kabuuang sukat"
+  },
+  "popup_text2": {
+    "message": "Pinakamataas na bilang ng mga item na maipakita"
+  },
+  "popup_text3": {
+    "message": "Order nakalista ang mga item sa pamamagitan ng"
+  },
+  "popup_ui_option1": {
+    "message": "URL"
+  },
+  "popup_ui_option2": {
+    "message": "Uri"
+  },
+  "popup_ui_option3": {
+    "message": "Estado"
+  },
+  "popup_ui_option4": {
+    "message": "Tapusin ang oras"
+  },
+  "popup_ui_option6": {
+    "message": "Mga kabuuang byte"
+  },
+  "popup_ui_option7": {
+    "message": "Natanggap ang mga byte"
+  },
+  "popup_text4": {
+    "message": "Sinusuportahan namin ang direktang pag-download ng file mismo sa iyong Google Drive o ang iyong PC sa aming website."
+  },
+  "popup_label1": {
+    "message": "Lumipas:"
+  },
+  "popup_label2": {
+    "message": "Kaliwa:"
+  },
+  "popup_label3": {
+    "message": "Bilis:"
+  },
+  "popup_label4": {
+    "message": "Natanggap:"
+  },
+  "popup_confirm1_head": {
+    "message": "Tanggalin"
+  },
+  "popup_confirm1_msg": {
+    "message": "Sigurado ka bang gusto mong tanggalin ang item na ito mula sa disk?"
+  },
+  "context_download": {
+    "message": "I-download gamit ang accelerator"
+  },
+  "notification_complete": {
+    "message": "Kumpleto ang pag-download."
+  },
+  "notification_invalid": {
+    "message": "Hindi wastong URL! Mangyaring magdagdag ng isang tamang URL at subukang muli."
+  },
+  "popup_label_rate": {
+    "message": "Paki-rate sa Amin!"
+  },
+  "app_name": {
+    "message": "Online Download Manager"
+  }
+}

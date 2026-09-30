@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "اپنے ڈاؤن لوڈ کو 5 مرتبہ آسانی سے منظم اور تیز کریں!"
+   },
+   "app_name": {
+      "message": "آن لائن ڈاؤن لوڈ مینیجر"
+   },
+   "context_download": {
+      "message": "ایکسلریٹر کے ساتھ ڈاؤن لوڈ کریں۔"
+   },
+   "notification_complete": {
+      "message": "ڈاؤن لوڈ مکمل ہے۔"
+   },
+   "notification_invalid": {
+      "message": "غلط URL! براہ کرم صحیح URL شامل کریں اور دوبارہ کوشش کریں۔"
+   },
+   "popup_confirm1_head": {
+      "message": "حذف کریں۔"
+   },
+   "popup_confirm1_msg": {
+      "message": "کیا آپ واقعی اس شے کو ڈسک سے حذف کرنا چاہتے ہیں؟"
+   },
+   "popup_label1": {
+      "message": "گزر گیا:"
+   },
+   "popup_label2": {
+      "message": "بائیں:"
+   },
+   "popup_label3": {
+      "message": "رفتار:"
+   },
+   "popup_label4": {
+      "message": "موصول:"
+   },
+   "popup_label_rate": {
+      "message": "براہ کرم ہمیں شرح دیں!"
+   },
+   "popup_text1": {
+      "message": "صرف ٹیکسٹ باکس ، ان پٹ یو آر ایل میں مطلوبہ تھریڈ کاؤنٹ درج کریں ، اور پھر ڈاؤن لوڈ کا نیا ٹاسک شامل کریں۔ آپ اس UI کے ذریعے ایک نیا ڈاؤن لوڈ شامل کرسکتے ہیں یا مطلوبہ ڈاؤن لوڈ کے لنک پر سیدھے دائیں کلیک پر کلک کرسکتے ہیں اور پھر سیاق و سباق کے مینو میں موجود - ایکسلریٹر کے ساتھ ڈاؤن لوڈ کریں - آئٹم پر کلک کرسکتے ہیں۔"
+   },
+   "popup_text2": {
+      "message": "ظاہر کرنے کے لئے آئٹمز کی زیادہ سے زیادہ تعداد۔"
+   },
+   "popup_text3": {
+      "message": "درج کردہ اشیاء کو ترتیب دیں۔"
+   },
+   "popup_text4": {
+      "message": "ہم اپنی ویب سائٹ پر آپ کے Google Drive یا آپ کے کمپیوٹر پر سیدھے ڈاؤن لوڈ فائل کی حمایت کرتے ہیں۔"
+   },
+   "popup_ui_btn_add_url": {
+      "message": "قطار کو ڈاؤن لوڈ کرنے کے لئے یو آر ایل شامل کریں۔"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "منسوخ کریں"
+   },
+   "popup_ui_btn_clear": {
+      "message": "UI صاف کریں۔"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "فہرست سے صاف کریں۔"
+   },
+   "popup_ui_btn_delete": {
+      "message": "ڈسک سے حذف کریں۔"
+   },
+   "popup_ui_btn_open": {
+      "message": "ڈاؤن لوڈ فولڈر کھولیں۔"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "اوپن ریفرر۔"
+   },
+   "popup_ui_btn_pause": {
+      "message": "توقف"
+   },
+   "popup_ui_btn_reload": {
+      "message": "UI دوبارہ لوڈ کریں۔"
+   },
+   "popup_ui_btn_resume": {
+      "message": "دوبارہ شروع"
+   },
+   "popup_ui_btn_show": {
+      "message": "فولڈر میں دکھائیں"
+   },
+   "popup_ui_btn_support": {
+      "message": "سپورٹ پیج کھولیں۔"
+   },
+   "popup_ui_info_start": {
+      "message": "وقت آغاز"
+   },
+   "popup_ui_info_total": {
+      "message": "کل سائز"
+   },
+   "popup_ui_option1": {
+      "message": "یو آر ایل"
+   },
+   "popup_ui_option2": {
+      "message": "ٹائپ کریں۔"
+   },
+   "popup_ui_option3": {
+      "message": "حالت"
+   },
+   "popup_ui_option4": {
+      "message": "آخر وقت"
+   },
+   "popup_ui_option6": {
+      "message": "کل بائٹس"
+   },
+   "popup_ui_option7": {
+      "message": "بائٹس موصول ہوئے۔"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "یو آر ایل اور سیٹ # تھریڈ (زیادہ سے زیادہ 5) میں شامل کریں ، پھر (+) بٹن پر کلک کریں۔"
+   }
+}

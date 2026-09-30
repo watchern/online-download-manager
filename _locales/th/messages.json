@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "จัดการและเร่งความเร็วการดาวน์โหลดของคุณสูงสุด 5 ครั้ง!"
+   },
+   "app_name": {
+      "message": "ตัวจัดการดาวน์โหลดออนไลน์"
+   },
+   "context_download": {
+      "message": "ดาวน์โหลดด้วยตัวเร่งความเร็ว"
+   },
+   "notification_complete": {
+      "message": "การดาวน์โหลดเสร็จสมบูรณ์"
+   },
+   "notification_invalid": {
+      "message": "URL ไม่ถูกต้อง! โปรดเพิ่ม URL ที่ถูกต้องและลองอีกครั้ง"
+   },
+   "popup_confirm1_head": {
+      "message": "ลบ"
+   },
+   "popup_confirm1_msg": {
+      "message": "คุณแน่ใจหรือว่าต้องการลบรายการนี้จากดิสก์?"
+   },
+   "popup_label1": {
+      "message": "ที่ผ่านไป:"
+   },
+   "popup_label2": {
+      "message": "ซ้าย:"
+   },
+   "popup_label3": {
+      "message": "ความเร็ว:"
+   },
+   "popup_label4": {
+      "message": "ที่ได้รับ:"
+   },
+   "popup_label_rate": {
+      "message": "กรุณาให้คะแนนเรา!"
+   },
+   "popup_text1": {
+      "message": "เพียงป้อนจำนวนเธรดที่ต้องการในกล่องข้อความใส่ URL แล้วเพิ่มงานดาวน์โหลดใหม่ คุณสามารถเพิ่มการดาวน์โหลดใหม่ผ่าน UI นี้หรือเพียงคลิกขวาที่ลิงค์ดาวน์โหลดที่ต้องการจากนั้นคลิกที่ - ดาวน์โหลดด้วยตัวเร่งความเร็ว - รายการในเมนูบริบท"
+   },
+   "popup_text2": {
+      "message": "จำนวนรายการสูงสุดที่จะแสดง"
+   },
+   "popup_text3": {
+      "message": "สั่งซื้อรายการที่ระบุไว้โดย"
+   },
+   "popup_text4": {
+      "message": "เราสนับสนุนไฟล์ดาวน์โหลดโดยตรงไปยัง Google Drive หรือพีซีของคุณบนเว็บไซต์ของเรา"
+   },
+   "popup_ui_btn_add_url": {
+      "message": "เพิ่ม url เพื่อดาวน์โหลดคิว"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "ยกเลิก"
+   },
+   "popup_ui_btn_clear": {
+      "message": "ล้าง UI"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "เคลียร์จากรายการ"
+   },
+   "popup_ui_btn_delete": {
+      "message": "ลบออกจากดิสก์"
+   },
+   "popup_ui_btn_open": {
+      "message": "เปิดโฟลเดอร์ดาวน์โหลด"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "เปิดผู้อ้างอิง"
+   },
+   "popup_ui_btn_pause": {
+      "message": "หยุด"
+   },
+   "popup_ui_btn_reload": {
+      "message": "โหลด UI ซ้ำ"
+   },
+   "popup_ui_btn_resume": {
+      "message": "เรซูเม่"
+   },
+   "popup_ui_btn_show": {
+      "message": "แสดงในโฟลเดอร์"
+   },
+   "popup_ui_btn_support": {
+      "message": "เปิดหน้าสนับสนุน"
+   },
+   "popup_ui_info_start": {
+      "message": "เวลาเริ่มต้น"
+   },
+   "popup_ui_info_total": {
+      "message": "ขนาดทั้งหมด"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "ชนิด"
+   },
+   "popup_ui_option3": {
+      "message": "สถานะ"
+   },
+   "popup_ui_option4": {
+      "message": "เวลาสิ้นสุด"
+   },
+   "popup_ui_option6": {
+      "message": "จำนวนไบต์ทั้งหมด"
+   },
+   "popup_ui_option7": {
+      "message": "ได้รับไบต์"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "เพิ่ม URL & set # ของกระทู้ (สูงสุด 5) จากนั้นคลิกที่ปุ่ม (+)"
+   }
+}

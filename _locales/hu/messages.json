@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Könnyedén kezelheti és gyorsíthatja le a letöltéseket akár ötször!"
+   },
+   "app_name": {
+      "message": "Online letöltéskezelő"
+   },
+   "context_download": {
+      "message": "Töltse le gyorsítóval"
+   },
+   "notification_complete": {
+      "message": "A letöltés befejeződött."
+   },
+   "notification_invalid": {
+      "message": "Érvénytelen URL! Adjon meg egy helyes URL-t, és próbálja újra."
+   },
+   "popup_confirm1_head": {
+      "message": "Töröl"
+   },
+   "popup_confirm1_msg": {
+      "message": "Biztosan törli ezt az elemet a lemezről?"
+   },
+   "popup_label1": {
+      "message": "eltelt:"
+   },
+   "popup_label2": {
+      "message": "Bal:"
+   },
+   "popup_label3": {
+      "message": "Sebesség:"
+   },
+   "popup_label4": {
+      "message": "kapott:"
+   },
+   "popup_label_rate": {
+      "message": "Kérjük, értékelje minket!"
+   },
+   "popup_text1": {
+      "message": "Csak írja be a kívánt szálszámot a szövegmezőbe, írja be az URL-t, majd adjon hozzá egy új letöltési feladatot. Felvehet egy új letöltést ezen a felhasználói felületen, vagy egyszerűen kattintson a jobb egérgombbal a kívánt letöltési linkre, majd kattintson a helyi menüben a - Letöltés gyorsítóval elemre."
+   },
+   "popup_text2": {
+      "message": "A megjeleníthető elemek maximális száma"
+   },
+   "popup_text3": {
+      "message": "Rendelje meg a felsorolt elemeket"
+   },
+   "popup_text4": {
+      "message": "Támogatjuk a közvetlen letöltési fájlt közvetlenül a Google Drive-ra vagy a számítógépére a weboldalunkon."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Adja hozzá az URL-t a sor letöltéséhez"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Megszünteti"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Tiszta felhasználói felület"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Törölje a listáról"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Törlés a lemezről"
+   },
+   "popup_ui_btn_open": {
+      "message": "Nyissa meg a letöltési mappát"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Nyissa meg az utalót"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Szünet"
+   },
+   "popup_ui_btn_reload": {
+      "message": "UI újratöltése"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Önéletrajzok"
+   },
+   "popup_ui_btn_show": {
+      "message": "Mutassa mappában"
+   },
+   "popup_ui_btn_support": {
+      "message": "Nyissa meg a támogatási oldalt"
+   },
+   "popup_ui_info_start": {
+      "message": "Kezdési idő"
+   },
+   "popup_ui_info_total": {
+      "message": "Teljes méret"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "típus"
+   },
+   "popup_ui_option3": {
+      "message": "Állapot"
+   },
+   "popup_ui_option4": {
+      "message": "Idő vége"
+   },
+   "popup_ui_option6": {
+      "message": "Összes bájt"
+   },
+   "popup_ui_option7": {
+      "message": "Bájtok érkeztek"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Adjon hozzá egy URL-t és a szálak számát (max. 5), majd kattintson a (+) gombra"
+   }
+}

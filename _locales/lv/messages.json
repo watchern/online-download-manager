@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Vienkārši pārvaldiet un paātriniet lejupielādes pat 5 reizes!"
+   },
+   "app_name": {
+      "message": "Tiešsaistes lejupielādes pārvaldnieks"
+   },
+   "context_download": {
+      "message": "Lejupielādējiet ar paātrinātāju"
+   },
+   "notification_complete": {
+      "message": "Lejupielāde ir pabeigta."
+   },
+   "notification_invalid": {
+      "message": "Nederīgs URL! Lūdzu, pievienojiet pareizu URL un mēģiniet vēlreiz."
+   },
+   "popup_confirm1_head": {
+      "message": "Dzēst"
+   },
+   "popup_confirm1_msg": {
+      "message": "Vai tiešām vēlaties izdzēst šo vienumu no diska?"
+   },
+   "popup_label1": {
+      "message": "Pagājis:"
+   },
+   "popup_label2": {
+      "message": "Pa kreisi:"
+   },
+   "popup_label3": {
+      "message": "Ātrums:"
+   },
+   "popup_label4": {
+      "message": "Saņemts:"
+   },
+   "popup_label_rate": {
+      "message": "Lūdzu, novērtējiet mūs!"
+   },
+   "popup_text1": {
+      "message": "Vienkārši ievadiet vēlamo pavedienu skaitu tekstlodziņā, ievadiet URL un pēc tam pievienojiet jaunu lejupielādes uzdevumu. Izmantojot šo saskarni, varat pievienot jaunu lejupielādi vai vienkārši ar peles labo pogu noklikšķiniet uz vajadzīgās lejupielādes saites un pēc tam konteksta izvēlnē noklikšķiniet uz vienuma - Lejupielādēt ar paātrinātāju."
+   },
+   "popup_text2": {
+      "message": "Maksimālais rādāmo vienību skaits"
+   },
+   "popup_text3": {
+      "message": "Pasūtiet uzskaitītās preces līdz"
+   },
+   "popup_text4": {
+      "message": "Mēs atbalstām tiešas lejupielādes failu tieši uz jūsu Google disku vai datoru mūsu vietnē."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Pievienojiet URL, lai lejupielādētu rindu"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "atcelt"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Notīrīt lietotāja saskarni"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Notīrīt no saraksta"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Dzēst no diska"
+   },
+   "popup_ui_btn_open": {
+      "message": "Atvērt lejupielādes mapi"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Atvērt atsauci"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Pauze"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Atkārtoti ielādēt lietotāja saskarni"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Atsāk"
+   },
+   "popup_ui_btn_show": {
+      "message": "Parādīt mapē"
+   },
+   "popup_ui_btn_support": {
+      "message": "Atveriet atbalsta lapu"
+   },
+   "popup_ui_info_start": {
+      "message": "Sākuma laiks"
+   },
+   "popup_ui_info_total": {
+      "message": "Kopējais lielums"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Veids"
+   },
+   "popup_ui_option3": {
+      "message": "Valsts"
+   },
+   "popup_ui_option4": {
+      "message": "Beigu laiks"
+   },
+   "popup_ui_option6": {
+      "message": "Kopējais baitu skaits"
+   },
+   "popup_ui_option7": {
+      "message": "Baiti saņemti"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Pievienojiet vietrādi URL un iestatiet pavedienu skaitu (ne vairāk kā 5), pēc tam noklikšķiniet uz pogas (+)"
+   }
+}

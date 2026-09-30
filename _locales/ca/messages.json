@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Gestionar i accelerar fàcilment les descàrregues fins a cinc vegades."
+   },
+   "app_name": {
+      "message": "Gestor de descàrregues en línia"
+   },
+   "context_download": {
+      "message": "Descarrega amb accelerador"
+   },
+   "notification_complete": {
+      "message": "La descàrrega s'ha completat"
+   },
+   "notification_invalid": {
+      "message": "URL no vàlid. Afegiu un URL correcte i torneu-ho a provar."
+   },
+   "popup_confirm1_head": {
+      "message": "Suprimeix"
+   },
+   "popup_confirm1_msg": {
+      "message": "Esteu segur que voleu eliminar aquest element del disc?"
+   },
+   "popup_label1": {
+      "message": "Arrasat:"
+   },
+   "popup_label2": {
+      "message": "A l'esquerra:"
+   },
+   "popup_label3": {
+      "message": "Velocitat:"
+   },
+   "popup_label4": {
+      "message": "Rebut:"
+   },
+   "popup_label_rate": {
+      "message": "Valoreu-nos!"
+   },
+   "popup_text1": {
+      "message": "Simplement introduïu el recompte de fil desitjat a la caixa de text, a l’URL d’entrada i, a continuació, afegiu una nova tasca de descàrrega. Podeu afegir una nova descàrrega mitjançant aquesta interfície d’interès o simplement feu clic amb el botó dret sobre l’enllaç de descàrrega desitjat i després feu clic a l’element - Baixeu amb accelerador - del menú contextual."
+   },
+   "popup_text2": {
+      "message": "Nombre màxim d’elements a mostrar"
+   },
+   "popup_text3": {
+      "message": "Ordeneu els articles llistats per"
+   },
+   "popup_text4": {
+      "message": "Admetem un fitxer de descàrrega directa directament al vostre Google Drive o al vostre PC al nostre lloc web."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Afegiu l’URL per baixar la cua"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Cancel · lar"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Netegeu la interfície d'usuari"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Esborra de la llista"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Suprimeix del disc"
+   },
+   "popup_ui_btn_open": {
+      "message": "Obre la carpeta de descàrrega"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Referat obert"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Pausa"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Actualitza l’UI"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Resumeix"
+   },
+   "popup_ui_btn_show": {
+      "message": "Veure a la carpeta"
+   },
+   "popup_ui_btn_support": {
+      "message": "Obriu la pàgina de suport"
+   },
+   "popup_ui_info_start": {
+      "message": "L'hora d'inici"
+   },
+   "popup_ui_info_total": {
+      "message": "Mida total"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Tipus"
+   },
+   "popup_ui_option3": {
+      "message": "Estat"
+   },
+   "popup_ui_option4": {
+      "message": "Temps esgotat"
+   },
+   "popup_ui_option6": {
+      "message": "Total de bytes"
+   },
+   "popup_ui_option7": {
+      "message": "Bytes rebuts"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Afegiu una URL i configureu el número de fils (màxim 5) i, a continuació, feu clic al botó (+)"
+   }
+}

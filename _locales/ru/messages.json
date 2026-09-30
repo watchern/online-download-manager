@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Простое управление и ускорение загрузки до 5 раз!"
+   },
+   "app_name": {
+      "message": "Онлайн менеджер загрузок"
+   },
+   "context_download": {
+      "message": "Скачать с ускорителем"
+   },
+   "notification_complete": {
+      "message": "Загрузка завершена."
+   },
+   "notification_invalid": {
+      "message": "Неправильный адрес! Пожалуйста, добавьте правильный URL и попробуйте снова."
+   },
+   "popup_confirm1_head": {
+      "message": "удалять"
+   },
+   "popup_confirm1_msg": {
+      "message": "Вы уверены, что хотите удалить этот элемент с диска?"
+   },
+   "popup_label1": {
+      "message": "Прошедшее:"
+   },
+   "popup_label2": {
+      "message": "Оставил:"
+   },
+   "popup_label3": {
+      "message": "Скорость:"
+   },
+   "popup_label4": {
+      "message": "Получил:"
+   },
+   "popup_label_rate": {
+      "message": "Пожалуйста, оцените нас!"
+   },
+   "popup_text1": {
+      "message": "Просто введите желаемое количество потоков в текстовое поле, введите URL, а затем добавьте новую задачу загрузки. Вы можете добавить новую загрузку через этот пользовательский интерфейс или просто щелкнуть правой кнопкой мыши по желаемой ссылке на скачивание и затем щелкнуть по пункту - Загрузить с помощью Accelerator - в контекстном меню."
+   },
+   "popup_text2": {
+      "message": "Максимальное количество предметов для показа"
+   },
+   "popup_text3": {
+      "message": "Упорядочить перечисленные товары по"
+   },
+   "popup_text4": {
+      "message": "Мы поддерживаем прямую загрузку файлов прямо на ваш Google Drive или ПК на нашем веб-сайте."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Добавить URL для загрузки очереди"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Отмена"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Очистить интерфейс"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Очистить из списка"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Удалить с диска"
+   },
+   "popup_ui_btn_open": {
+      "message": "Открыть папку загрузки"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Открыть реферер"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Пауза"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Обновить интерфейс"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Резюме"
+   },
+   "popup_ui_btn_show": {
+      "message": "Показать в папке"
+   },
+   "popup_ui_btn_support": {
+      "message": "Открыть страницу поддержки"
+   },
+   "popup_ui_info_start": {
+      "message": "Время начала"
+   },
+   "popup_ui_info_total": {
+      "message": "Общий размер"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Тип"
+   },
+   "popup_ui_option3": {
+      "message": "государственный"
+   },
+   "popup_ui_option4": {
+      "message": "Время окончания"
+   },
+   "popup_ui_option6": {
+      "message": "Всего байт"
+   },
+   "popup_ui_option7": {
+      "message": "Получено байтов"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Добавьте URL и установите количество потоков (не более 5), затем нажмите кнопку (+)"
+   }
+}

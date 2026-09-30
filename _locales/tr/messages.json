@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "İndirmelerinizi 5 kata kadar kolayca yönetin ve hızlandırın!"
+   },
+   "app_name": {
+      "message": "Çevrimiçi İndirme Yöneticisi"
+   },
+   "context_download": {
+      "message": "Hızlandırıcı ile indir"
+   },
+   "notification_complete": {
+      "message": "İndirme tamamlandı."
+   },
+   "notification_invalid": {
+      "message": "Geçersiz URL! Lütfen doğru bir URL ekleyin ve tekrar deneyin."
+   },
+   "popup_confirm1_head": {
+      "message": "silmek"
+   },
+   "popup_confirm1_msg": {
+      "message": "Bu öğeyi diskten silmek istediğinize emin misiniz?"
+   },
+   "popup_label1": {
+      "message": "geçen:"
+   },
+   "popup_label2": {
+      "message": "Ayrıldı:"
+   },
+   "popup_label3": {
+      "message": "hız:"
+   },
+   "popup_label4": {
+      "message": "Alınan:"
+   },
+   "popup_label_rate": {
+      "message": "Lütfen Bizi Takip Edin!"
+   },
+   "popup_text1": {
+      "message": "İstediğiniz iş parçacığı sayısını metin kutusuna girin, URL'yi girin ve ardından yeni bir indirme görevi ekleyin. Bu Kullanıcı Arabirimi üzerinden yeni bir indirme ekleyebilir veya istediğiniz bir indirme bağlantısını sağ tıklayıp ardından bağlam menüsünde - Hızlandırıcı ile İndir - öğesini tıklayabilirsiniz."
+   },
+   "popup_text2": {
+      "message": "Gösterilecek maksimum öğe sayısı"
+   },
+   "popup_text3": {
+      "message": "Listelenen öğeleri sırala"
+   },
+   "popup_text4": {
+      "message": "Doğrudan indirme dosyasını doğrudan web sitemizdeki Google Drive'a veya PC'nize destekliyoruz."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Kuyruğu indirmek için URL ekleyin"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "İptal etmek"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Kullanıcı Arabirimini Temizle"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Listeden temizle"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Diskten sil"
+   },
+   "popup_ui_btn_open": {
+      "message": "İndirme klasörünü aç"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Yönlendireni aç"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Duraklat"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Kullanıcı Arayüzünü Yeniden Yükle"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Özgeçmişler"
+   },
+   "popup_ui_btn_show": {
+      "message": "Klasörde göster"
+   },
+   "popup_ui_btn_support": {
+      "message": "Destek sayfasını aç"
+   },
+   "popup_ui_info_start": {
+      "message": "Başlangıç saati"
+   },
+   "popup_ui_info_total": {
+      "message": "Toplam boyut"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "tip"
+   },
+   "popup_ui_option3": {
+      "message": "Durum"
+   },
+   "popup_ui_option4": {
+      "message": "Bitiş zamanı"
+   },
+   "popup_ui_option6": {
+      "message": "Toplam bayt"
+   },
+   "popup_ui_option7": {
+      "message": "Alınan bayt"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Bir URL ekleyin ve konu sayısını ayarlayın (en fazla 5), ardından (+) düğmesine tıklayın"
+   }
+}

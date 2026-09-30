@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Beheer en versnel uw downloads eenvoudig tot 5 keer!"
+   },
+   "app_name": {
+      "message": "Online downloadmanager"
+   },
+   "context_download": {
+      "message": "Downloaden met gaspedaal"
+   },
+   "notification_complete": {
+      "message": "Downloaden is voltooid."
+   },
+   "notification_invalid": {
+      "message": "Ongeldige URL! Voeg een correcte URL toe en probeer het opnieuw."
+   },
+   "popup_confirm1_head": {
+      "message": "Verwijder"
+   },
+   "popup_confirm1_msg": {
+      "message": "Weet u zeker dat u dit item van schijf wilt verwijderen?"
+   },
+   "popup_label1": {
+      "message": "verstreken:"
+   },
+   "popup_label2": {
+      "message": "Links:"
+   },
+   "popup_label3": {
+      "message": "Snelheid:"
+   },
+   "popup_label4": {
+      "message": "Ontvangen:"
+   },
+   "popup_label_rate": {
+      "message": "Beoordeel ons alstublieft!"
+   },
+   "popup_text1": {
+      "message": "Voer gewoon het gewenste aantal threads in in het tekstvak, voer de URL in en voeg vervolgens een nieuwe downloadtaak toe. U kunt een nieuwe download toevoegen via deze gebruikersinterface of klik met de rechtermuisknop op een gewenste downloadkoppeling en klik vervolgens op het item - Downloaden met versneller - in het contextmenu."
+   },
+   "popup_text2": {
+      "message": "Maximaal aantal weer te geven items"
+   },
+   "popup_text3": {
+      "message": "Bestelde artikelen bestellen bij"
+   },
+   "popup_text4": {
+      "message": "We ondersteunen het directe downloadbestand rechtstreeks naar uw Google Drive of uw pc op onze website."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "URL toevoegen om de wachtrij te downloaden"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Annuleer"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Wis gebruikersinterface"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Wissen uit lijst"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Verwijderen van schijf"
+   },
+   "popup_ui_btn_open": {
+      "message": "Open de downloadmap"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Open verwijzer"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Pauze"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Herlaad UI"
+   },
+   "popup_ui_btn_resume": {
+      "message": "CV"
+   },
+   "popup_ui_btn_show": {
+      "message": "Weergeven in map"
+   },
+   "popup_ui_btn_support": {
+      "message": "Open ondersteuningspagina"
+   },
+   "popup_ui_info_start": {
+      "message": "Starttijd"
+   },
+   "popup_ui_info_total": {
+      "message": "Totale grootte"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Type"
+   },
+   "popup_ui_option3": {
+      "message": "Staat"
+   },
+   "popup_ui_option4": {
+      "message": "Eindtijd"
+   },
+   "popup_ui_option6": {
+      "message": "Totaal aantal bytes"
+   },
+   "popup_ui_option7": {
+      "message": "Bytes ontvangen"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Voeg een url & set # threads toe (max 5) en klik vervolgens op de knop (+)"
+   }
+}

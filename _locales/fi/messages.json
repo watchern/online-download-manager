@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Hallitse ja nopeuta latauksia helposti jopa viisi kertaa!"
+   },
+   "app_name": {
+      "message": "Online Download Manager"
+   },
+   "context_download": {
+      "message": "Lataa kiihdyttimellä"
+   },
+   "notification_complete": {
+      "message": "Lataus on valmis."
+   },
+   "notification_invalid": {
+      "message": "Virheellinen URL! Lisää oikea URL ja yritä uudelleen."
+   },
+   "popup_confirm1_head": {
+      "message": "Poistaa"
+   },
+   "popup_confirm1_msg": {
+      "message": "Haluatko varmasti poistaa tämän kohteen levyltä?"
+   },
+   "popup_label1": {
+      "message": "kulunut:"
+   },
+   "popup_label2": {
+      "message": "vasen:"
+   },
+   "popup_label3": {
+      "message": "Nopeus:"
+   },
+   "popup_label4": {
+      "message": "Sai:"
+   },
+   "popup_label_rate": {
+      "message": "Ole hyvä ja arvioi meitä!"
+   },
+   "popup_text1": {
+      "message": "Kirjoita vain haluamasi säiemäärä tekstikenttään, syötä URL ja lisää sitten uusi lataustehtävä. Voit lisätä uuden latauksen tämän käyttöliittymän kautta tai napsauttaa hiiren kakkospainikkeella haluamaasi latauslinkkiä ja napsauttaa sitten pikavalikosta kohtaa - Lataa kiihdyttimen avulla."
+   },
+   "popup_text2": {
+      "message": "Näytettävien kohteiden enimmäismäärä"
+   },
+   "popup_text3": {
+      "message": "Tilaa luetellut tuotteet"
+   },
+   "popup_text4": {
+      "message": "Tuemme suoraa lataustiedostoa suoraan Google Driveen tai tietokoneeseesi verkkosivuillamme."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Lisää URL-osoite ladataksesi jonon"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Peruuttaa"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Tyhjennä käyttöliittymä"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Poista luettelosta"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Poista levyltä"
+   },
+   "popup_ui_btn_open": {
+      "message": "Avaa latauskansio"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Avaa viittaaja"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Tauko"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Lataa käyttöliittymä uudelleen"
+   },
+   "popup_ui_btn_resume": {
+      "message": "jatkuu"
+   },
+   "popup_ui_btn_show": {
+      "message": "Näytä kansiossa"
+   },
+   "popup_ui_btn_support": {
+      "message": "Avaa tukisivu"
+   },
+   "popup_ui_info_start": {
+      "message": "Aloitusaika"
+   },
+   "popup_ui_info_total": {
+      "message": "Kokonaiskoko"
+   },
+   "popup_ui_option1": {
+      "message": "URL-"
+   },
+   "popup_ui_option2": {
+      "message": "Tyyppi"
+   },
+   "popup_ui_option3": {
+      "message": "Osavaltio"
+   },
+   "popup_ui_option4": {
+      "message": "Loppu aika"
+   },
+   "popup_ui_option6": {
+      "message": "Tavua yhteensä"
+   },
+   "popup_ui_option7": {
+      "message": "Tavut vastaanotettu"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Lisää URL-osoite ja joukko säikeitä (enintään 5) ja napsauta sitten (+) -painiketta"
+   }
+}

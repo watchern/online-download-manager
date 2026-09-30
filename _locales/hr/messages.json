@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Jednostavno upravljajte i ubrzajte preuzimanja do 5 puta!"
+   },
+   "app_name": {
+      "message": "Online Manager za preuzimanje"
+   },
+   "context_download": {
+      "message": "Preuzmite s akceleratorom"
+   },
+   "notification_complete": {
+      "message": "Preuzimanje je dovršeno."
+   },
+   "notification_invalid": {
+      "message": "Neispravan URL! Dodajte ispravan URL i pokušajte ponovo."
+   },
+   "popup_confirm1_head": {
+      "message": "Izbrisati"
+   },
+   "popup_confirm1_msg": {
+      "message": "Jeste li sigurni da želite izbrisati ovu stavku s diska?"
+   },
+   "popup_label1": {
+      "message": "proteklo:"
+   },
+   "popup_label2": {
+      "message": "Lijevo:"
+   },
+   "popup_label3": {
+      "message": "Ubrzati:"
+   },
+   "popup_label4": {
+      "message": "Primljeno:"
+   },
+   "popup_label_rate": {
+      "message": "Molimo ocijenite nas!"
+   },
+   "popup_text1": {
+      "message": "Samo unesite željeni broj niti u tekstni okvir, unesite URL i dodajte novi zadatak za preuzimanje. Možete dodati novo preuzimanje putem ovog korisničkog sučelja ili jednostavno desnom tipkom miša kliknite željenu vezu za preuzimanje, a zatim kliknite kontekstni izbornik na - Download with Accelerator - stavku."
+   },
+   "popup_text2": {
+      "message": "Maksimalni broj predmeta za prikazivanje"
+   },
+   "popup_text3": {
+      "message": "Naručite navedene stavke po"
+   },
+   "popup_text4": {
+      "message": "Na našoj web stranici podržavamo izravan prijenos datoteka izravno na Google Drive ili računalo."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Dodajte URL za preuzimanje reda"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Otkazati"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Jasno korisničko sučelje"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Očisti s popisa"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Izbriši s diska"
+   },
+   "popup_ui_btn_open": {
+      "message": "Otvori mapu za preuzimanje"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Otvoreni referent"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Pauza"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Učitajte korisničko sučelje"
+   },
+   "popup_ui_btn_resume": {
+      "message": "biografije"
+   },
+   "popup_ui_btn_show": {
+      "message": "Pokaži u mapi"
+   },
+   "popup_ui_btn_support": {
+      "message": "Otvorite stranicu podrške"
+   },
+   "popup_ui_info_start": {
+      "message": "Vrijeme početka"
+   },
+   "popup_ui_info_total": {
+      "message": "Ukupna veličina"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Tip"
+   },
+   "popup_ui_option3": {
+      "message": "država"
+   },
+   "popup_ui_option4": {
+      "message": "Vrijeme završetka"
+   },
+   "popup_ui_option6": {
+      "message": "Ukupno bajtova"
+   },
+   "popup_ui_option7": {
+      "message": "Primljeni bajtovi"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Dodajte URL i postavite # niti (maks. 5), a zatim pritisnite gumb (+)"
+   }
+}

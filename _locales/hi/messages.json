@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "आसानी से प्रबंधित करें और 5 बार तक अपने डाउनलोड को तेज करें!"
+   },
+   "app_name": {
+      "message": "ऑनलाइन डाउनलोड प्रबंधक"
+   },
+   "context_download": {
+      "message": "त्वरक के साथ डाउनलोड करें"
+   },
+   "notification_complete": {
+      "message": "डाउनलोड पूरा हो गया है।"
+   },
+   "notification_invalid": {
+      "message": "अवैध यूआरएल! कृपया एक सही URL जोड़ें और पुनः प्रयास करें।"
+   },
+   "popup_confirm1_head": {
+      "message": "हटाना"
+   },
+   "popup_confirm1_msg": {
+      "message": "क्या आप वाकई इस आइटम को डिस्क से हटाना चाहते हैं?"
+   },
+   "popup_label1": {
+      "message": "गुजर चुके:"
+   },
+   "popup_label2": {
+      "message": "बाएं:"
+   },
+   "popup_label3": {
+      "message": "गति:"
+   },
+   "popup_label4": {
+      "message": "प्राप्त किया:"
+   },
+   "popup_label_rate": {
+      "message": "कृपया हमें दर!"
+   },
+   "popup_text1": {
+      "message": "बस टेक्स्टबॉक्स, इनपुट url में एक वांछित थ्रेड काउंट दर्ज करें और फिर एक नया डाउनलोड कार्य जोड़ें। आप इस यूआई के माध्यम से एक नया डाउनलोड जोड़ सकते हैं या बस वांछित डाउनलोड लिंक पर राइट क्लिक कर सकते हैं और फिर संदर्भ मेनू में - एक्सेलरेटर के साथ डाउनलोड करें - आइटम पर क्लिक करें।"
+   },
+   "popup_text2": {
+      "message": "अधिकतम आइटम दिखाने के लिए"
+   },
+   "popup_text3": {
+      "message": "द्वारा सूचीबद्ध आइटम ऑर्डर करें"
+   },
+   "popup_text4": {
+      "message": "हम आपकी वेबसाइट पर आपके Google ड्राइव या आपके पीसी पर सीधे डाउनलोड फ़ाइल का समर्थन करते हैं।"
+   },
+   "popup_ui_btn_add_url": {
+      "message": "डाउनलोड कतार में url जोड़ें"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "रद्द करना"
+   },
+   "popup_ui_btn_clear": {
+      "message": "UI साफ़ करें"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "सूची से स्पष्ट"
+   },
+   "popup_ui_btn_delete": {
+      "message": "डिस्क से हटाएं"
+   },
+   "popup_ui_btn_open": {
+      "message": "डाउनलोड फ़ोल्डर खोलें"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "खुला रेफरर"
+   },
+   "popup_ui_btn_pause": {
+      "message": "ठहराव"
+   },
+   "popup_ui_btn_reload": {
+      "message": "यूआई पुनः लोड करें"
+   },
+   "popup_ui_btn_resume": {
+      "message": "शुरू"
+   },
+   "popup_ui_btn_show": {
+      "message": "फोल्डर में दिखाए"
+   },
+   "popup_ui_btn_support": {
+      "message": "समर्थन पृष्ठ खोलें"
+   },
+   "popup_ui_info_start": {
+      "message": "समय शुरू"
+   },
+   "popup_ui_info_total": {
+      "message": "कुल आकार"
+   },
+   "popup_ui_option1": {
+      "message": "यूआरएल"
+   },
+   "popup_ui_option2": {
+      "message": "प्रकार"
+   },
+   "popup_ui_option3": {
+      "message": "राज्य"
+   },
+   "popup_ui_option4": {
+      "message": "अंतिम समय"
+   },
+   "popup_ui_option6": {
+      "message": "कुल बाइट्स"
+   },
+   "popup_ui_option7": {
+      "message": "बाइट्स प्राप्त हुई"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "एक url जोड़ें और # थ्रेड्स का सेट करें (अधिकतम 5), फिर (+) बटन पर क्लिक करें"
+   }
+}

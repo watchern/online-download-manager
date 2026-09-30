@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head><meta charset="utf-8"><title>Online Download Manager — engine</title></head>
+  <body>
+    <!-- Hidden offscreen document. Hosts the multi-threaded download engine,
+         which needs DOM APIs (Blob/object URLs/localStorage/IndexedDB) that an
+         MV3 service worker does not provide. No UI is shown to the user. -->
+    <script src="/scripts/ratelimiter.js"></script>
+    <script src="/scripts/offscreen.js"></script>
+  </body>
+</html>

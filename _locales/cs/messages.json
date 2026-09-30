@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Snadno spravujte a zrychlete stahování až 5krát!"
+   },
+   "app_name": {
+      "message": "Správce stahování online"
+   },
+   "context_download": {
+      "message": "Stáhnout pomocí akcelerátoru"
+   },
+   "notification_complete": {
+      "message": "Stahování je dokončeno."
+   },
+   "notification_invalid": {
+      "message": "Neplatná URL! Přidejte prosím správnou adresu URL a akci opakujte."
+   },
+   "popup_confirm1_head": {
+      "message": "Odstranit"
+   },
+   "popup_confirm1_msg": {
+      "message": "Opravdu chcete tuto položku odstranit z disku?"
+   },
+   "popup_label1": {
+      "message": "Uplynulý:"
+   },
+   "popup_label2": {
+      "message": "Vlevo, odjet:"
+   },
+   "popup_label3": {
+      "message": "Rychlost:"
+   },
+   "popup_label4": {
+      "message": "Přijato:"
+   },
+   "popup_label_rate": {
+      "message": "Ohodnoťte nás!"
+   },
+   "popup_text1": {
+      "message": "Do textového pole zadejte požadovaný počet vláken, zadejte adresu URL a přidejte novou úlohu stahování. Pomocí tohoto uživatelského rozhraní můžete přidat nové stahování nebo jednoduše kliknout pravým tlačítkem myši na požadovaný odkaz ke stažení a poté v kontextové nabídce kliknout na položku - Stáhnout pomocí akcelerátoru."
+   },
+   "popup_text2": {
+      "message": "Maximální počet položek k zobrazení"
+   },
+   "popup_text3": {
+      "message": "Řadit uvedené položky podle"
+   },
+   "popup_text4": {
+      "message": "Na našem webu podporujeme přímý soubor ke stažení přímo na váš Disk Google nebo do počítače."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Přidejte adresu URL ke stažení fronty"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "zrušení"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Jasné uživatelské rozhraní"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Vymazat ze seznamu"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Odstranit z disku"
+   },
+   "popup_ui_btn_open": {
+      "message": "Otevřete složku ke stažení"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Otevřete referrer"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Pauza"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Obnovit uživatelské rozhraní"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Pokračuje"
+   },
+   "popup_ui_btn_show": {
+      "message": "Ukázat ve složce"
+   },
+   "popup_ui_btn_support": {
+      "message": "Otevřete stránku podpory"
+   },
+   "popup_ui_info_start": {
+      "message": "Doba spuštění"
+   },
+   "popup_ui_info_total": {
+      "message": "Celková velikost"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Typ"
+   },
+   "popup_ui_option3": {
+      "message": "Stát"
+   },
+   "popup_ui_option4": {
+      "message": "Čas ukončení"
+   },
+   "popup_ui_option6": {
+      "message": "Celkový počet bajtů"
+   },
+   "popup_ui_option7": {
+      "message": "Byty byly přijaty"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Přidejte adresu URL a sadu # vláken (max. 5) a poté klikněte na tlačítko (+)"
+   }
+}

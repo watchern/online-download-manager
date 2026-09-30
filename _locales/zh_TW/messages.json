@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "輕鬆管理和加速下載最多5次！"
+   },
+   "app_name": {
+      "message": "在線下載管理器"
+   },
+   "context_download": {
+      "message": "用加速器下載"
+   },
+   "notification_complete": {
+      "message": "下載完成。"
+   },
+   "notification_invalid": {
+      "message": "無效的網址！請添加正確的網址，然後重試。"
+   },
+   "popup_confirm1_head": {
+      "message": "刪除"
+   },
+   "popup_confirm1_msg": {
+      "message": "您確定要從磁盤中刪除此項嗎？"
+   },
+   "popup_label1": {
+      "message": "過去："
+   },
+   "popup_label2": {
+      "message": "剩下："
+   },
+   "popup_label3": {
+      "message": "速度："
+   },
+   "popup_label4": {
+      "message": "收稿日期："
+   },
+   "popup_label_rate": {
+      "message": "請給我們評分！"
+   },
+   "popup_text1": {
+      "message": "只需在文本框中輸入所需的線程數，輸入URL，然後添加新的下載任務。您可以通過此UI添加新下載，或者只需右鍵單擊所需的下載鏈接，然後單擊上下文菜單中的 - 使用加速器下載 - 項目。"
+   },
+   "popup_text2": {
+      "message": "要顯示的最大項目數"
+   },
+   "popup_text3": {
+      "message": "訂購列出的項目"
+   },
+   "popup_text4": {
+      "message": "我們支持將直接下載文件直接發送到您的Google雲端硬盤或我們網站上的PC。"
+   },
+   "popup_ui_btn_add_url": {
+      "message": "添加url到下載隊列"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "取消"
+   },
+   "popup_ui_btn_clear": {
+      "message": "清晰的UI"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "從列表中清除"
+   },
+   "popup_ui_btn_delete": {
+      "message": "從磁盤刪除"
+   },
+   "popup_ui_btn_open": {
+      "message": "打開下載文件夾"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "打開推薦人"
+   },
+   "popup_ui_btn_pause": {
+      "message": "暫停"
+   },
+   "popup_ui_btn_reload": {
+      "message": "重新加載UI"
+   },
+   "popup_ui_btn_resume": {
+      "message": "簡歷"
+   },
+   "popup_ui_btn_show": {
+      "message": "展現在文件夾中"
+   },
+   "popup_ui_btn_support": {
+      "message": "打開支持頁面"
+   },
+   "popup_ui_info_start": {
+      "message": "開始時間"
+   },
+   "popup_ui_info_total": {
+      "message": "總大小"
+   },
+   "popup_ui_option1": {
+      "message": "網址"
+   },
+   "popup_ui_option2": {
+      "message": "類型"
+   },
+   "popup_ui_option3": {
+      "message": "州"
+   },
+   "popup_ui_option4": {
+      "message": "時間結束"
+   },
+   "popup_ui_option6": {
+      "message": "總字節數"
+   },
+   "popup_ui_option7": {
+      "message": "收到的字節數"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "添加網址和設置線程數（最多5個），然後單擊（+）按鈕"
+   }
+}

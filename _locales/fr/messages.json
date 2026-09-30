@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Gérez et accélérez facilement vos téléchargements jusqu'à 5 fois!"
+   },
+   "app_name": {
+      "message": "Gestionnaire de téléchargement en ligne"
+   },
+   "context_download": {
+      "message": "Télécharger avec accélérateur"
+   },
+   "notification_complete": {
+      "message": "Le téléchargement est terminé."
+   },
+   "notification_invalid": {
+      "message": "URL invalide! Veuillez ajouter une URL correcte et réessayer."
+   },
+   "popup_confirm1_head": {
+      "message": "Effacer"
+   },
+   "popup_confirm1_msg": {
+      "message": "Êtes-vous sûr de vouloir supprimer cet élément du disque?"
+   },
+   "popup_label1": {
+      "message": "Écoulé:"
+   },
+   "popup_label2": {
+      "message": "La gauche:"
+   },
+   "popup_label3": {
+      "message": "La vitesse:"
+   },
+   "popup_label4": {
+      "message": "Reçu:"
+   },
+   "popup_label_rate": {
+      "message": "Veuillez nous évaluer!"
+   },
+   "popup_text1": {
+      "message": "Entrez simplement le nombre de threads souhaité dans la zone de texte, entrez l'URL, puis ajoutez une nouvelle tâche de téléchargement. Vous pouvez ajouter un nouveau téléchargement via cette interface utilisateur ou simplement cliquer avec le bouton droit de la souris sur le lien de téléchargement souhaité, puis sur l’option - Télécharger avec accélérateur - dans le menu contextuel."
+   },
+   "popup_text2": {
+      "message": "Nombre maximum d'éléments à afficher"
+   },
+   "popup_text3": {
+      "message": "Commander les articles listés par"
+   },
+   "popup_text4": {
+      "message": "Nous prenons en charge le fichier de téléchargement direct directement sur votre Google Drive ou votre PC sur notre site Web."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Ajouter l'URL à la file d'attente de téléchargement"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Annuler"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Effacer l'interface utilisateur"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Effacer de la liste"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Supprimer du disque"
+   },
+   "popup_ui_btn_open": {
+      "message": "Ouvrir le dossier de téléchargement"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Ouvrir référent"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Pause"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Recharger l'interface utilisateur"
+   },
+   "popup_ui_btn_resume": {
+      "message": "CV"
+   },
+   "popup_ui_btn_show": {
+      "message": "Afficher dans le dossier"
+   },
+   "popup_ui_btn_support": {
+      "message": "Ouvrir la page de support"
+   },
+   "popup_ui_info_start": {
+      "message": "Heure de début"
+   },
+   "popup_ui_info_total": {
+      "message": "Taille totale"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Type"
+   },
+   "popup_ui_option3": {
+      "message": "Etat"
+   },
+   "popup_ui_option4": {
+      "message": "Heure de fin"
+   },
+   "popup_ui_option6": {
+      "message": "Nombre total d'octets"
+   },
+   "popup_ui_option7": {
+      "message": "Octets reçus"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Ajoutez une URL et définissez le nombre de threads (max 5), puis cliquez sur le bouton (+)."
+   }
+}

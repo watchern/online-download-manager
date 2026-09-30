@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "다운로드를 5 배까지 쉽게 관리하고 가속화하십시오!"
+   },
+   "app_name": {
+      "message": "온라인 다운로드 관리자"
+   },
+   "context_download": {
+      "message": "가속기로 다운로드"
+   },
+   "notification_complete": {
+      "message": "다운로드가 완료되었습니다."
+   },
+   "notification_invalid": {
+      "message": "잘못된 URL! 올바른 URL을 추가하고 다시 시도하십시오."
+   },
+   "popup_confirm1_head": {
+      "message": "지우다"
+   },
+   "popup_confirm1_msg": {
+      "message": "디스크에서이 항목을 삭제 하시겠습니까?"
+   },
+   "popup_label1": {
+      "message": "경과 :"
+   },
+   "popup_label2": {
+      "message": "왼쪽:"
+   },
+   "popup_label3": {
+      "message": "속도:"
+   },
+   "popup_label4": {
+      "message": "받았습니다 :"
+   },
+   "popup_label_rate": {
+      "message": "우리를 평가하십시오!"
+   },
+   "popup_text1": {
+      "message": "텍스트 상자에 원하는 스레드 수를 입력하고 url을 입력 한 다음 새 다운로드 작업을 추가하십시오. 이 UI를 통해 새 다운로드를 추가하거나 원하는 다운로드 링크를 마우스 오른쪽 버튼으로 클릭 한 다음 상황에 맞는 메뉴에서-가속기로 다운로드-항목을 클릭하면됩니다."
+   },
+   "popup_text2": {
+      "message": "표시 할 최대 항목 수"
+   },
+   "popup_text3": {
+      "message": "에 의해 나열된 항목을 주문"
+   },
+   "popup_text4": {
+      "message": "우리는 웹 사이트에서 귀하의 Google 드라이브 또는 PC로 직접 다운로드 파일을 지원합니다."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "다운로드 대기열에 URL 추가"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "취소"
+   },
+   "popup_ui_btn_clear": {
+      "message": "UI 지우기"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "목록에서 삭제"
+   },
+   "popup_ui_btn_delete": {
+      "message": "디스크에서 삭제"
+   },
+   "popup_ui_btn_open": {
+      "message": "다운로드 폴더 열기"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "리퍼러 열기"
+   },
+   "popup_ui_btn_pause": {
+      "message": "중지"
+   },
+   "popup_ui_btn_reload": {
+      "message": "UI 재로드"
+   },
+   "popup_ui_btn_resume": {
+      "message": "이력서"
+   },
+   "popup_ui_btn_show": {
+      "message": "폴더에 표시"
+   },
+   "popup_ui_btn_support": {
+      "message": "지원 페이지 열기"
+   },
+   "popup_ui_info_start": {
+      "message": "시작 시간"
+   },
+   "popup_ui_info_total": {
+      "message": "총합 크기"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "유형"
+   },
+   "popup_ui_option3": {
+      "message": "상태"
+   },
+   "popup_ui_option4": {
+      "message": "종료 시간"
+   },
+   "popup_ui_option6": {
+      "message": "총 바이트"
+   },
+   "popup_ui_option7": {
+      "message": "받은 바이트"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "URL을 추가하고 스레드 수 (최대 5 개)를 설정 한 다음 [+) 버튼을 클릭하십시오."
+   }
+}

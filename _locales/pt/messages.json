@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Gerencie e acelere seus downloads com facilidade até 5 vezes!"
+   },
+   "app_name": {
+      "message": "Gerenciador de Download Online"
+   },
+   "context_download": {
+      "message": "Download com acelerador"
+   },
+   "notification_complete": {
+      "message": "O download está completo."
+   },
+   "notification_invalid": {
+      "message": "URL inválida! Adicione um URL correto e tente novamente."
+   },
+   "popup_confirm1_head": {
+      "message": "Excluir"
+   },
+   "popup_confirm1_msg": {
+      "message": "Tem certeza de que deseja excluir este item do disco?"
+   },
+   "popup_label1": {
+      "message": "Decorrido:"
+   },
+   "popup_label2": {
+      "message": "Esquerda:"
+   },
+   "popup_label3": {
+      "message": "Rapidez:"
+   },
+   "popup_label4": {
+      "message": "Recebido:"
+   },
+   "popup_label_rate": {
+      "message": "Avalie-nos!"
+   },
+   "popup_text1": {
+      "message": "Basta digitar a contagem de threads desejada na caixa de texto, inserir URL e adicionar uma nova tarefa de download. Você pode adicionar um novo download através desta interface do usuário ou simplesmente clicar com o botão direito do mouse no link de download desejado e clicar no item - Download with Accelerator - no menu de contexto."
+   },
+   "popup_text2": {
+      "message": "Número máximo de itens a serem exibidos"
+   },
+   "popup_text3": {
+      "message": "Ordenar itens listados por"
+   },
+   "popup_text4": {
+      "message": "Damos suporte ao arquivo de download direto diretamente no seu Google Drive ou PC no nosso site."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Adicionar URL à fila de download"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Cancelar"
+   },
+   "popup_ui_btn_clear": {
+      "message": "UI clara"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Limpar da lista"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Excluir do disco"
+   },
+   "popup_ui_btn_open": {
+      "message": "Abrir pasta de download"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Referenciador aberto"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Pausa"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Recarregar interface do usuário"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Currículos"
+   },
+   "popup_ui_btn_show": {
+      "message": "Mostrar na pasta"
+   },
+   "popup_ui_btn_support": {
+      "message": "Abrir página de suporte"
+   },
+   "popup_ui_info_start": {
+      "message": "Hora de início"
+   },
+   "popup_ui_info_total": {
+      "message": "Tamanho total"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Tipo"
+   },
+   "popup_ui_option3": {
+      "message": "Estado"
+   },
+   "popup_ui_option4": {
+      "message": "Fim do tempo"
+   },
+   "popup_ui_option6": {
+      "message": "Total de bytes"
+   },
+   "popup_ui_option7": {
+      "message": "Bytes recebidos"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Adicione um URL e defina o número de threads (no máximo 5) e clique no botão (+)"
+   }
+}

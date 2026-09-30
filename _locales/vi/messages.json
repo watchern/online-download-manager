@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Dễ dàng quản lý và tăng tốc tải xuống của bạn lên đến 5 lần!"
+   },
+   "app_name": {
+      "message": "Quản lý tải xuống trực tuyến"
+   },
+   "context_download": {
+      "message": "Tải xuống với máy gia tốc"
+   },
+   "notification_complete": {
+      "message": "Tải về hoàn tất."
+   },
+   "notification_invalid": {
+      "message": "URL không hợp lệ! Vui lòng thêm một URL chính xác và thử lại."
+   },
+   "popup_confirm1_head": {
+      "message": "Xóa bỏ"
+   },
+   "popup_confirm1_msg": {
+      "message": "Bạn có chắc chắn muốn xóa mục này khỏi đĩa?"
+   },
+   "popup_label1": {
+      "message": "Đã qua"
+   },
+   "popup_label2": {
+      "message": "Trái:"
+   },
+   "popup_label3": {
+      "message": "Tốc độ:"
+   },
+   "popup_label4": {
+      "message": "Nhận:"
+   },
+   "popup_label_rate": {
+      "message": "Hãy đánh giá chúng tôi!"
+   },
+   "popup_text1": {
+      "message": "Chỉ cần nhập số lượng chủ đề mong muốn trong hộp văn bản, url nhập và sau đó thêm tác vụ tải xuống mới. Bạn có thể thêm tải xuống mới thông qua giao diện người dùng này hoặc chỉ cần nhấp chuột phải vào liên kết tải xuống mong muốn và sau đó nhấp vào - Tải xuống bằng Trình tăng tốc - mục trong menu ngữ cảnh."
+   },
+   "popup_text2": {
+      "message": "Số lượng mục tối đa để hiển thị"
+   },
+   "popup_text3": {
+      "message": "Đặt hàng các mặt hàng được liệt kê bởi"
+   },
+   "popup_text4": {
+      "message": "Chúng tôi hỗ trợ tệp tải xuống trực tiếp ngay trên Google Drive hoặc PC của bạn trên trang web của chúng tôi."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Thêm url để tải xuống hàng đợi"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Hủy"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Xóa giao diện người dùng"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Xóa khỏi danh sách"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Xóa khỏi đĩa"
+   },
+   "popup_ui_btn_open": {
+      "message": "Mở thư mục tải xuống"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Mở người giới thiệu"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Tạm ngừng"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Tải lại giao diện người dùng"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Sơ yếu lý lịch"
+   },
+   "popup_ui_btn_show": {
+      "message": "Hiển thị trong thư mục"
+   },
+   "popup_ui_btn_support": {
+      "message": "Mở trang hỗ trợ"
+   },
+   "popup_ui_info_start": {
+      "message": "Thời gian bắt đầu"
+   },
+   "popup_ui_info_total": {
+      "message": "Tổng kích thước"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Thể loại"
+   },
+   "popup_ui_option3": {
+      "message": "Tiểu bang"
+   },
+   "popup_ui_option4": {
+      "message": "Thời gian kết thúc"
+   },
+   "popup_ui_option6": {
+      "message": "Tổng số byte"
+   },
+   "popup_ui_option7": {
+      "message": "Byte nhận được"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Thêm một url và đặt # chủ đề (tối đa 5), sau đó nhấp vào nút (+)"
+   }
+}

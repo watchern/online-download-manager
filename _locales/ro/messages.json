@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Gestionează și accelerează cu ușurință descărcările de până la 5 ori!"
+   },
+   "app_name": {
+      "message": "Manager de descărcare online"
+   },
+   "context_download": {
+      "message": "Descărcați cu accelerator"
+   },
+   "notification_complete": {
+      "message": "Descărcarea este completă."
+   },
+   "notification_invalid": {
+      "message": "URL invalid! Adăugați o adresă URL corectă și încercați din nou."
+   },
+   "popup_confirm1_head": {
+      "message": "Șterge"
+   },
+   "popup_confirm1_msg": {
+      "message": "Sigur doriți să ștergeți acest articol de pe disc?"
+   },
+   "popup_label1": {
+      "message": "Elapsed:"
+   },
+   "popup_label2": {
+      "message": "Stânga:"
+   },
+   "popup_label3": {
+      "message": "Viteză:"
+   },
+   "popup_label4": {
+      "message": "Primit:"
+   },
+   "popup_label_rate": {
+      "message": "Vă rugăm să ne evaluați!"
+   },
+   "popup_text1": {
+      "message": "Trebuie doar să introduceți numărul de fire dorit în caseta de text, URL-ul de intrare, apoi adăugați o nouă sarcină de descărcare. Puteți adăuga o nouă descărcare prin această interfață de utilizator sau pur și simplu faceți clic dreapta pe linkul de descărcare dorit, apoi faceți clic pe elementul - Descărcare cu accelerator - din meniul contextual."
+   },
+   "popup_text2": {
+      "message": "Numărul maxim de articole de afișat"
+   },
+   "popup_text3": {
+      "message": "Comandați articolele listate după"
+   },
+   "popup_text4": {
+      "message": "Acceptăm fișierul de descărcare directă direct pe unitatea Google sau pe computerul dvs. pe site-ul nostru web."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Adăugați url pentru a descărca coada"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Anulare"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Ștergeți UI"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Ștergeți din listă"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Ștergeți de pe disc"
+   },
+   "popup_ui_btn_open": {
+      "message": "Deschideți folderul de descărcare"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Deschidere referitor"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Pauză"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Reîncărcare UI"
+   },
+   "popup_ui_btn_resume": {
+      "message": "CV-uri"
+   },
+   "popup_ui_btn_show": {
+      "message": "Arată în dosar"
+   },
+   "popup_ui_btn_support": {
+      "message": "Deschideți pagina de asistență"
+   },
+   "popup_ui_info_start": {
+      "message": "Timpul de începere"
+   },
+   "popup_ui_info_total": {
+      "message": "Marimea totala"
+   },
+   "popup_ui_option1": {
+      "message": "URL-"
+   },
+   "popup_ui_option2": {
+      "message": "Tip"
+   },
+   "popup_ui_option3": {
+      "message": "Stat"
+   },
+   "popup_ui_option4": {
+      "message": "Ora de terminare"
+   },
+   "popup_ui_option6": {
+      "message": "Total octeți"
+   },
+   "popup_ui_option7": {
+      "message": "Byte primite"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Adăugați un URL și setați numărul de fire (maxim 5), apoi faceți clic pe butonul (+)"
+   }
+}

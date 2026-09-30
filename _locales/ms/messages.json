@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Mudah menguruskan dan mempercepat muat turun anda sehingga 5 kali!"
+   },
+   "app_name": {
+      "message": "Pengurus Muat turun Dalam Talian"
+   },
+   "context_download": {
+      "message": "Muat turun dengan pemecut"
+   },
+   "notification_complete": {
+      "message": "Muat turun selesai."
+   },
+   "notification_invalid": {
+      "message": "URL tidak sah! Sila tambahkan URL yang betul dan cuba lagi."
+   },
+   "popup_confirm1_head": {
+      "message": "Padam"
+   },
+   "popup_confirm1_msg": {
+      "message": "Adakah anda pasti mahu memadamkan item ini dari cakera?"
+   },
+   "popup_label1": {
+      "message": "Berlalu:"
+   },
+   "popup_label2": {
+      "message": "Meninggalkan:"
+   },
+   "popup_label3": {
+      "message": "Kelajuan:"
+   },
+   "popup_label4": {
+      "message": "Menerima:"
+   },
+   "popup_label_rate": {
+      "message": "Sila Berikan Kami!"
+   },
+   "popup_text1": {
+      "message": "Cukup masukkan kiraan thread yang dikehendaki dalam kotak teks, url input, dan kemudian tambahkan tugas muat turun baru. Anda boleh menambah muat turun baru melalui UI ini atau hanya klik kanan pada pautan muat turun yang dikehendaki dan kemudian klik pada - Muat turun dengan Pemecut - item dalam menu konteks."
+   },
+   "popup_text2": {
+      "message": "Jumlah item maksimum untuk dipaparkan"
+   },
+   "popup_text3": {
+      "message": "Perintah item yang disenaraikan oleh"
+   },
+   "popup_text4": {
+      "message": "Kami menyokong fail muat turun langsung ke Google Drive atau PC anda di laman web kami."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Tambah url untuk memuat turun baris gilir"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Batal"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Jelas UI"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Jelas dari senarai"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Padam dari cakera"
+   },
+   "popup_ui_btn_open": {
+      "message": "Buka folder muat turun"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Buka perujuk"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Jeda"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Muat semula UI"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Resume"
+   },
+   "popup_ui_btn_show": {
+      "message": "Tunjukkan dalam folder"
+   },
+   "popup_ui_btn_support": {
+      "message": "Buka halaman sokongan"
+   },
+   "popup_ui_info_start": {
+      "message": "Masa mula"
+   },
+   "popup_ui_info_total": {
+      "message": "Jumlah saiz"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Taipkan"
+   },
+   "popup_ui_option3": {
+      "message": "Negeri"
+   },
+   "popup_ui_option4": {
+      "message": "Masa tamat"
+   },
+   "popup_ui_option6": {
+      "message": "Jumlah bait"
+   },
+   "popup_ui_option7": {
+      "message": "Bytes diterima"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Tambah url & set # daripada benang (maks 5), kemudian klik pada butang (+)"
+   }
+}

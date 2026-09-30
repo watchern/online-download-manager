@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Mudah mengelola dan mempercepat unduhan Anda hingga 5 kali!"
+   },
+   "app_name": {
+      "message": "Pengelola Unduhan Online"
+   },
+   "context_download": {
+      "message": "Unduh dengan akselerator"
+   },
+   "notification_complete": {
+      "message": "Pengunduhan selesai."
+   },
+   "notification_invalid": {
+      "message": "URL tidak valid! Harap tambahkan URL yang benar dan coba lagi."
+   },
+   "popup_confirm1_head": {
+      "message": "Menghapus"
+   },
+   "popup_confirm1_msg": {
+      "message": "Anda yakin ingin menghapus item ini dari disk?"
+   },
+   "popup_label1": {
+      "message": "Berlalu:"
+   },
+   "popup_label2": {
+      "message": "Kiri:"
+   },
+   "popup_label3": {
+      "message": "Kecepatan:"
+   },
+   "popup_label4": {
+      "message": "Diterima:"
+   },
+   "popup_label_rate": {
+      "message": "Silakan Beri Nilai Kami!"
+   },
+   "popup_text1": {
+      "message": "Cukup masukkan jumlah utas yang diinginkan di kotak teks, masukkan url, lalu tambahkan tugas unduhan baru. Anda dapat menambahkan unduhan baru melalui UI ini atau cukup klik kanan pada tautan unduhan yang diinginkan dan kemudian klik - Unduh dengan Akselerator - item dalam menu konteks."
+   },
+   "popup_text2": {
+      "message": "Jumlah item maksimum untuk ditampilkan"
+   },
+   "popup_text3": {
+      "message": "Memesan barang-barang yang terdaftar oleh"
+   },
+   "popup_text4": {
+      "message": "Kami mendukung file unduhan langsung langsung ke Google Drive atau PC Anda di situs web kami."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Tambahkan url untuk mengunduh antrian"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Membatalkan"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Hapus UI"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Hapus dari daftar"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Hapus dari disk"
+   },
+   "popup_ui_btn_open": {
+      "message": "Buka folder unduhan"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Perujuk terbuka"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Jeda"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Muat ulang UI"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Resume"
+   },
+   "popup_ui_btn_show": {
+      "message": "Tampilkan di dalam folder"
+   },
+   "popup_ui_btn_support": {
+      "message": "Buka halaman dukungan"
+   },
+   "popup_ui_info_start": {
+      "message": "Waktu mulai"
+   },
+   "popup_ui_info_total": {
+      "message": "Ukuran total"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Tipe"
+   },
+   "popup_ui_option3": {
+      "message": "Negara"
+   },
+   "popup_ui_option4": {
+      "message": "Akhir waktu"
+   },
+   "popup_ui_option6": {
+      "message": "Total byte"
+   },
+   "popup_ui_option7": {
+      "message": "Bytes diterima"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Tambahkan url & set # utas (maks. 5), lalu klik tombol (+)"
+   }
+}

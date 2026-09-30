@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Administrer og akselerer nedlastningene dine enkelt opptil 5 ganger!"
+   },
+   "app_name": {
+      "message": "Online Download Manager"
+   },
+   "context_download": {
+      "message": "Last ned med gasspedal"
+   },
+   "notification_complete": {
+      "message": "Nedlastingen er fullført."
+   },
+   "notification_invalid": {
+      "message": "Ugyldig URL! Legg til riktig URL og prøv igjen."
+   },
+   "popup_confirm1_head": {
+      "message": "Slett"
+   },
+   "popup_confirm1_msg": {
+      "message": "Er du sikker på at du vil slette dette elementet fra disken?"
+   },
+   "popup_label1": {
+      "message": "utløpt:"
+   },
+   "popup_label2": {
+      "message": "Venstre:"
+   },
+   "popup_label3": {
+      "message": "Hastighet:"
+   },
+   "popup_label4": {
+      "message": "Mottatt:"
+   },
+   "popup_label_rate": {
+      "message": "Vennligst ranger oss!"
+   },
+   "popup_text1": {
+      "message": "Bare skriv inn ønsket trådtelling i tekstboksen, skriv inn url, og legg deretter til en ny nedlastingsoppgave. Du kan legge til en ny nedlasting gjennom dette brukergrensesnittet eller bare høyreklikke på ønsket nedlastingslenke og deretter klikke på - Last ned med akselerator - elementet i hurtigmenyen."
+   },
+   "popup_text2": {
+      "message": "Maksimalt antall elementer som skal vises"
+   },
+   "popup_text3": {
+      "message": "Bestill oppførte varer etter"
+   },
+   "popup_text4": {
+      "message": "Vi støtter direkte nedlastningsfil direkte til Google Drive eller PC-en din på nettstedet vårt."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Legg til url for å laste ned kø"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Avbryt"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Fjern brukergrensesnitt"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Fjern fra listen"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Slett fra disken"
+   },
+   "popup_ui_btn_open": {
+      "message": "Åpne nedlastingsmappe"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Åpne henviseren"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Pause"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Last inn brukergrensesnittet på nytt"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Gjenopptar opptar~~POS=HEADCOMP"
+   },
+   "popup_ui_btn_show": {
+      "message": "Vis i mappe"
+   },
+   "popup_ui_btn_support": {
+      "message": "Åpne støttesiden"
+   },
+   "popup_ui_info_start": {
+      "message": "Starttid"
+   },
+   "popup_ui_info_total": {
+      "message": "Total størrelse"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Type"
+   },
+   "popup_ui_option3": {
+      "message": "Stat"
+   },
+   "popup_ui_option4": {
+      "message": "Sluttid"
+   },
+   "popup_ui_option6": {
+      "message": "Totalt byte"
+   },
+   "popup_ui_option7": {
+      "message": "Bytes mottatt"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Legg til en url og sett antall tråder (maks 5), og klikk deretter på (+) -knappen"
+   }
+}

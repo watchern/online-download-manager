@@ -1,0 +1,113 @@
+{
+   "app_description": {
+      "message": "Διαχειριστείτε εύκολα και επιταχύνετε τις λήψεις σας έως και 5 φορές!"
+   },
+   "app_name": {
+      "message": "Διαδικτυακός διαχειριστής λήψεων"
+   },
+   "context_download": {
+      "message": "Λήψη με επιταχυντή"
+   },
+   "notification_complete": {
+      "message": "Η λήψη ολοκληρώθηκε."
+   },
+   "notification_invalid": {
+      "message": "Μη έγκυρη διεύθυνση URL! Προσθέστε μια σωστή διεύθυνση URL και δοκιμάστε ξανά."
+   },
+   "popup_confirm1_head": {
+      "message": "Διαγράφω"
+   },
+   "popup_confirm1_msg": {
+      "message": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το στοιχείο από το δίσκο;"
+   },
+   "popup_label1": {
+      "message": "Παρήλθε:"
+   },
+   "popup_label2": {
+      "message": "Αριστερά:"
+   },
+   "popup_label3": {
+      "message": "Ταχύτητα:"
+   },
+   "popup_label4": {
+      "message": "Λήψη:"
+   },
+   "popup_label_rate": {
+      "message": "Παρακαλούμε αξιολογήστε μας!"
+   },
+   "popup_text1": {
+      "message": "Απλώς πληκτρολογήστε μια αρίθμηση νημάτων που θέλετε στο πλαίσιο κειμένου, τη διεύθυνση URL εισόδου και, στη συνέχεια, προσθέστε μια νέα εργασία λήψης. Μπορείτε να προσθέσετε μια νέα λήψη μέσω αυτού του UI ή απλά κάντε δεξί κλικ σε έναν επιθυμητό σύνδεσμο λήψης και, στη συνέχεια, κάντε κλικ στο στοιχείο - Download with Accelerator - item in context-menu."
+   },
+   "popup_text2": {
+      "message": "Μέγιστος αριθμός αντικειμένων που θα εμφανίζονται"
+   },
+   "popup_text3": {
+      "message": "Παραγγείλετε τα καταχωρισμένα στοιχεία από"
+   },
+   "popup_text4": {
+      "message": "Υποστηρίζουμε απευθείας λήψη του αρχείου απευθείας στο Google Drive ή στον υπολογιστή σας στον ιστότοπό μας."
+   },
+   "popup_ui_btn_add_url": {
+      "message": "Προσθέστε τη διεύθυνση URL για να κατεβάσετε την ουρά"
+   },
+   "popup_ui_btn_cancel": {
+      "message": "Ματαίωση"
+   },
+   "popup_ui_btn_clear": {
+      "message": "Διαγράψτε το περιβάλλον εργασίας χρήστη"
+   },
+   "popup_ui_btn_cler_list": {
+      "message": "Διαγραφή από τη λίστα"
+   },
+   "popup_ui_btn_delete": {
+      "message": "Διαγραφή από δίσκο"
+   },
+   "popup_ui_btn_open": {
+      "message": "Ανοίξτε το φάκελο λήψης"
+   },
+   "popup_ui_btn_open_ref": {
+      "message": "Άνοιγμα παραπομπής"
+   },
+   "popup_ui_btn_pause": {
+      "message": "Παύση"
+   },
+   "popup_ui_btn_reload": {
+      "message": "Επαναφόρτωση UI"
+   },
+   "popup_ui_btn_resume": {
+      "message": "Επαναλαμβάνει"
+   },
+   "popup_ui_btn_show": {
+      "message": "Εμφάνιση σε φάκελο"
+   },
+   "popup_ui_btn_support": {
+      "message": "Ανοίξτε τη σελίδα υποστήριξης"
+   },
+   "popup_ui_info_start": {
+      "message": "Ωρα έναρξης"
+   },
+   "popup_ui_info_total": {
+      "message": "Συνολικό μέγεθος"
+   },
+   "popup_ui_option1": {
+      "message": "URL"
+   },
+   "popup_ui_option2": {
+      "message": "Τύπος"
+   },
+   "popup_ui_option3": {
+      "message": "κατάσταση"
+   },
+   "popup_ui_option4": {
+      "message": "Τέλος χρόνου"
+   },
+   "popup_ui_option6": {
+      "message": "Συνολικά bytes"
+   },
+   "popup_ui_option7": {
+      "message": "Έλαβαν bytes"
+   },
+   "popup_ui_txt_add_url": {
+      "message": "Προσθέστε μια διεύθυνση url & σύνολο # threads (max 5), στη συνέχεια κάντε κλικ στο κουμπί (+)"
+   }
+}

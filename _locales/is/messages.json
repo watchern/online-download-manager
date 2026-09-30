@@ -1,0 +1,113 @@
+{
+  "app_description": {
+    "message": "Þú getur auðveldlega stjórnað og flýtt niðurhalunum þínum allt að 5 sinnum!"
+  },
+  "popup_text1": {
+    "message": "Sláðu bara inn viðkomandi þráðafjölda í textakassa, sláðu inn url og bættu svo við nýju niðurhalverkefni. Þú getur bætt við nýjum niðurhal í gegnum þetta notendaviðmót eða einfaldlega hægrismellt á viðeigandi niðurhlekkjatengil og síðan smellt á - Hala niður með eldsneytisgjöf - hlutinn í samhengisvalmyndinni."
+  },
+  "popup_ui_txt_add_url": {
+    "message": "Bættu við url & settu # þræði (max 5) og smelltu síðan á (+) hnappinn"
+  },
+  "popup_ui_btn_add_url": {
+    "message": "Bættu við url til að hlaða niður biðröð"
+  },
+  "popup_ui_btn_clear": {
+    "message": "Hreinsa HÍ"
+  },
+  "popup_ui_btn_open": {
+    "message": "Opnaðu niðurhalsmöppuna"
+  },
+  "popup_ui_btn_reload": {
+    "message": "Endurnýjaðu HÍ"
+  },
+  "popup_ui_btn_support": {
+    "message": "Opnaðu stuðningssíðu"
+  },
+  "popup_ui_btn_resume": {
+    "message": "Fer fram á ný"
+  },
+  "popup_ui_btn_pause": {
+    "message": "Hlé"
+  },
+  "popup_ui_btn_cancel": {
+    "message": "Hætta við"
+  },
+  "popup_ui_btn_show": {
+    "message": "Sýna í möppu"
+  },
+  "popup_ui_btn_cler_list": {
+    "message": "Hreinsa af lista"
+  },
+  "popup_ui_btn_open_ref": {
+    "message": "Opinn tilvísandi"
+  },
+  "popup_ui_btn_delete": {
+    "message": "Eyða af diski"
+  },
+  "popup_ui_info_start": {
+    "message": "Byrjunartími"
+  },
+  "popup_ui_info_total": {
+    "message": "Heildarstærð"
+  },
+  "popup_text2": {
+    "message": "Hámarksfjöldi atriða til að sýna"
+  },
+  "popup_text3": {
+    "message": "Pantaðu skráða hluti eftir"
+  },
+  "popup_ui_option1": {
+    "message": "Vefslóð"
+  },
+  "popup_ui_option2": {
+    "message": "Tegund"
+  },
+  "popup_ui_option3": {
+    "message": "Ríki"
+  },
+  "popup_ui_option4": {
+    "message": "Lokatími"
+  },
+  "popup_ui_option6": {
+    "message": "Heildarbæti"
+  },
+  "popup_ui_option7": {
+    "message": "Bytur mótteknar"
+  },
+  "popup_text4": {
+    "message": "Við styðjum beina niðurhöluskrá beint á Google Drive eða tölvuna þína á vefsíðu okkar."
+  },
+  "popup_label1": {
+    "message": "Brottfall:"
+  },
+  "popup_label2": {
+    "message": "Vinstri:"
+  },
+  "popup_label3": {
+    "message": "Hraði:"
+  },
+  "popup_label4": {
+    "message": "Móttekin:"
+  },
+  "popup_confirm1_head": {
+    "message": "Eyða"
+  },
+  "popup_confirm1_msg": {
+    "message": "Ertu viss um að þú viljir eyða þessum hlut af diski?"
+  },
+  "context_download": {
+    "message": "Hlaðið niður með eldsneytisgjöf"
+  },
+  "notification_complete": {
+    "message": "Niðurhalinu er lokið."
+  },
+  "notification_invalid": {
+    "message": "Ógild slóð! Vinsamlegast bættu við réttri slóð og reyndu aftur."
+  },
+  "popup_label_rate": {
+    "message": "Vinsamlegast metið okkur!"
+  },
+  "app_name": {
+    "message": "Online niðurhalsstjóri"
+  }
+}
