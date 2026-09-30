@@ -1,113 +1,494 @@
 {
-   "app_description": {
-      "message": "轻松管理和加速下载最多5次！"
-   },
-   "app_name": {
-      "message": "在线下载管理器"
-   },
-   "context_download": {
-      "message": "用加速器下载"
-   },
-   "notification_complete": {
-      "message": "下载完成。"
-   },
-   "notification_invalid": {
-      "message": "无效的网址！请添加正确的网址，然后重试。"
-   },
-   "popup_confirm1_head": {
-      "message": "删除"
-   },
-   "popup_confirm1_msg": {
-      "message": "您确定要从磁盘中删除此项吗？"
-   },
-   "popup_label1": {
-      "message": "过去："
-   },
-   "popup_label2": {
-      "message": "剩下："
-   },
-   "popup_label3": {
-      "message": "速度："
-   },
-   "popup_label4": {
-      "message": "收稿日期："
-   },
-   "popup_label_rate": {
-      "message": "请给我们评分！"
-   },
-   "popup_text1": {
-      "message": "只需在文本框中输入所需的线程数，输入URL，然后添加新的下载任务。您可以通过此UI添加新下载，或者只需右键单击所需的下载链接，然后单击上下文菜单中的 - 使用加速器下载 - 项目。"
-   },
-   "popup_text2": {
-      "message": "要显示的最大项目数"
-   },
-   "popup_text3": {
-      "message": "订购列出的项目"
-   },
-   "popup_text4": {
-      "message": "我们支持将直接下载文件直接发送到您的Google云端硬盘或我们网站上的PC。"
-   },
-   "popup_ui_btn_add_url": {
-      "message": "添加url到下载队列"
-   },
-   "popup_ui_btn_cancel": {
-      "message": "取消"
-   },
-   "popup_ui_btn_clear": {
-      "message": "清晰的UI"
-   },
-   "popup_ui_btn_cler_list": {
-      "message": "从列表中清除"
-   },
-   "popup_ui_btn_delete": {
-      "message": "从磁盘删除"
-   },
-   "popup_ui_btn_open": {
-      "message": "打开下载文件夹"
-   },
-   "popup_ui_btn_open_ref": {
-      "message": "打开推荐人"
-   },
-   "popup_ui_btn_pause": {
-      "message": "暂停"
-   },
-   "popup_ui_btn_reload": {
-      "message": "重新加载UI"
-   },
-   "popup_ui_btn_resume": {
-      "message": "简历"
-   },
-   "popup_ui_btn_show": {
-      "message": "展现在文件夹中"
-   },
-   "popup_ui_btn_support": {
-      "message": "打开支持页面"
-   },
-   "popup_ui_info_start": {
-      "message": "开始时间"
-   },
-   "popup_ui_info_total": {
-      "message": "总大小"
-   },
-   "popup_ui_option1": {
-      "message": "网址"
-   },
-   "popup_ui_option2": {
-      "message": "类型"
-   },
-   "popup_ui_option3": {
-      "message": "州"
-   },
-   "popup_ui_option4": {
-      "message": "时间结束"
-   },
-   "popup_ui_option6": {
-      "message": "总字节数"
-   },
-   "popup_ui_option7": {
-      "message": "收到的字节数"
-   },
-   "popup_ui_txt_add_url": {
-      "message": "添加网址和设置线程数（最多5个），然后单击（+）按钮"
-   }
+  "app_description": {
+    "message": "轻松管理和加速下载最多5次！"
+  },
+  "app_name": {
+    "message": "在线下载管理器"
+  },
+  "context_download": {
+    "message": "用加速器下载"
+  },
+  "notification_complete": {
+    "message": "下载完成。"
+  },
+  "notification_failed": {
+    "message": "下载失败。"
+  },
+  "notification_invalid": {
+    "message": "无效的网址！请添加正确的网址，然后重试。"
+  },
+  "notification_unverified": {
+    "message": "正常下载；完整性无法验证。"
+  },
+  "notification_verified": {
+    "message": "校验和已验证。"
+  },
+  "options_autocapture": {
+    "message": "加速每个下载"
+  },
+  "options_autocapture_desc": {
+    "message": "Intercept downloads started in the browser and route them through the accelerator. Servers that can't be accelerated fall back to a normal download automatically."
+  },
+  "options_bandwidth": {
+    "message": "带宽限制（KB/s）"
+  },
+  "options_bandwidth_desc": {
+    "message": "Maximum combined download speed in kilobytes per second, shared across all active downloads. 0 means unlimited."
+  },
+  "options_concurrent": {
+    "message": "最大并发下载数"
+  },
+  "options_concurrent_desc": {
+    "message": "How many downloads run at once. Extra downloads wait in a queue and start automatically as slots free up."
+  },
+  "options_credentials": {
+    "message": "下载时发送 cookies"
+  },
+  "options_credentials_desc": {
+    "message": "Include your session cookies so files behind a login can be fetched. Turn off for stricter privacy."
+  },
+  "options_maxitems": {
+    "message": "显示最大项目数"
+  },
+  "options_maxitems_desc": {
+    "message": "Maximum number of downloads listed at once."
+  },
+  "options_notifications": {
+    "message": "下载完成时通知"
+  },
+  "options_notifications_desc": {
+    "message": "Show a desktop notification when a download finishes."
+  },
+  "options_orderby": {
+    "message": "Order downloads by"
+  },
+  "options_saved": {
+    "message": "Saved"
+  },
+  "options_subtitle": {
+    "message": "Defaults for the accelerator and the download manager."
+  },
+  "options_threads": {
+    "message": "默认线程数"
+  },
+  "options_threads_desc": {
+    "message": "How many parallel segments to split each download into (1-5). 1 disables acceleration."
+  },
+  "options_title": {
+    "message": "设置"
+  },
+  "popup_confirm1_head": {
+    "message": "删除"
+  },
+  "popup_confirm1_msg": {
+    "message": "您确定要从磁盘中删除此项吗？"
+  },
+  "popup_label1": {
+    "message": "过去："
+  },
+  "popup_label2": {
+    "message": "剩下："
+  },
+  "popup_label3": {
+    "message": "速度："
+  },
+  "popup_label4": {
+    "message": "收稿日期："
+  },
+  "popup_label_rate": {
+    "message": "请给我们评分！"
+  },
+  "popup_text1": {
+    "message": "只需在文本框中输入所需的线程数，输入URL，然后添加新的下载任务。您可以通过此UI添加新下载，或者只需右键单击所需的下载链接，然后单击上下文菜单中的 - 使用加速器下载 - 项目。"
+  },
+  "popup_text2": {
+    "message": "要显示的最大项目数"
+  },
+  "popup_text3": {
+    "message": "订购列出的项目"
+  },
+  "popup_text4": {
+    "message": "我们支持将直接下载文件直接发送到您的Google云端硬盘或我们网站上的PC。"
+  },
+  "popup_ui_btn_add_url": {
+    "message": "添加url到下载队列"
+  },
+  "popup_ui_btn_cancel": {
+    "message": "取消"
+  },
+  "popup_ui_btn_clear": {
+    "message": "清晰的UI"
+  },
+  "popup_ui_btn_cler_list": {
+    "message": "从列表中清除"
+  },
+  "popup_ui_btn_delete": {
+    "message": "从磁盘删除"
+  },
+  "popup_ui_btn_open": {
+    "message": "打开下载文件夹"
+  },
+  "popup_ui_btn_open_ref": {
+    "message": "打开推荐人"
+  },
+  "popup_ui_btn_options": {
+    "message": "Settings"
+  },
+  "popup_ui_btn_pause": {
+    "message": "暂停"
+  },
+  "popup_ui_btn_reload": {
+    "message": "重新加载UI"
+  },
+  "popup_ui_btn_resume": {
+    "message": "简历"
+  },
+  "popup_ui_btn_show": {
+    "message": "展现在文件夹中"
+  },
+  "popup_ui_btn_support": {
+    "message": "打开支持页面"
+  },
+  "popup_ui_info_start": {
+    "message": "开始时间"
+  },
+  "popup_ui_info_total": {
+    "message": "总大小"
+  },
+  "popup_ui_option1": {
+    "message": "网址"
+  },
+  "popup_ui_option2": {
+    "message": "类型"
+  },
+  "popup_ui_option3": {
+    "message": "州"
+  },
+  "popup_ui_option4": {
+    "message": "时间结束"
+  },
+  "popup_ui_option5": {
+    "message": "Start time"
+  },
+  "popup_ui_option6": {
+    "message": "总字节数"
+  },
+  "popup_ui_option7": {
+    "message": "收到的字节数"
+  },
+  "popup_ui_search": {
+    "message": "Search downloads"
+  },
+  "popup_ui_sha256": {
+    "message": "Optional SHA-256 to verify the next download (leave blank to skip)"
+  },
+  "popup_ui_txt_add_url": {
+    "message": "添加网址和设置线程数（最多5个），然后单击（+）按钮"
+  },
+  "status_queued": {
+    "message": "排队中"
+  },
+  "brand_subtitle": {
+    "message": "加速下载 · 最快5倍"
+  },
+  "btn_clear_title": {
+    "message": "清除已完成的下载"
+  },
+  "theme_light": {
+    "message": "浅色"
+  },
+  "theme_dark": {
+    "message": "深色"
+  },
+  "theme_system": {
+    "message": "系统"
+  },
+  "popup_add_url_placeholder": {
+    "message": "Paste a download link to accelerate…"
+  },
+  "label_threads": {
+    "message": "线程数"
+  },
+  "btn_add": {
+    "message": "添加下载"
+  },
+  "label_sha256": {
+    "message": "SHA-256"
+  },
+  "popup_ui_sha256_desc": {
+    "message": "可选的校验和用于验证下一个下载（留空则跳过）"
+  },
+  "side_library": {
+    "message": "库"
+  },
+  "side_activity": {
+    "message": "活动"
+  },
+  "filter_all": {
+    "message": "所有文件"
+  },
+  "filter_downloading": {
+    "message": "下载中"
+  },
+  "filter_paused": {
+    "message": "已暂停"
+  },
+  "filter_completed": {
+    "message": "已完成"
+  },
+  "filter_failed": {
+    "message": "失败"
+  },
+  "sort_label": {
+    "message": "排序"
+  },
+  "sort_recent": {
+    "message": "最新"
+  },
+  "sort_name": {
+    "message": "名称（A-Z）"
+  },
+  "sort_size": {
+    "message": "大小"
+  },
+  "activity_idle": {
+    "message": "没有正在进行的下载"
+  },
+  "stars": {
+    "message": "★★★★★"
+  },
+  "version_prefix": {
+    "message": "Version"
+  },
+  "options_brand_sub": {
+    "message": "Download Manager · Accelerated"
+  },
+  "back_to_downloads": {
+    "message": "返回下载列表"
+  },
+  "saved_auto": {
+    "message": "更改会自动保存"
+  },
+  "section_downloads": {
+    "message": "下载"
+  },
+  "opt_save_behavior": {
+    "message": "下载开始时"
+  },
+  "opt_save_behavior_desc": {
+    "message": "选择文件默认保存位置。"
+  },
+  "save_downloads": {
+    "message": "保存到下载文件夹"
+  },
+  "save_ask": {
+    "message": "总是询问保存位置"
+  },
+  "opt_orderby": {
+    "message": "默认排序顺序"
+  },
+  "opt_orderby_desc": {
+    "message": "管理器中的项目排序方式。"
+  },
+  "opt_maxitems_desc": {
+    "message": "限制列表渲染的最大下载数量。"
+  },
+  "opt_clear_on_close": {
+    "message": "关闭时清除已完成项"
+  },
+  "opt_clear_on_close_desc": {
+    "message": "关闭管理器时从列表中移除已完成的项目。"
+  },
+  "section_accel": {
+    "message": "加速"
+  },
+  "opt_threads_desc": {
+    "message": "Splits each file into parallel connections — up to 5× faster."
+  },
+  "opt_bandwidth_desc": {
+    "message": "所有下载共享的最大合并速度。0 表示无限制。"
+  },
+  "opt_concurrent_desc": {
+    "message": "同时运行的下载数量。额外的下载会在队列中等待。"
+  },
+  "opt_autocapture_desc": {
+    "message": "自动对所有浏览器下载应用多线程。"
+  },
+  "opt_timeout": {
+    "message": "连接超时"
+  },
+  "opt_timeout_desc": {
+    "message": " stalled 连接重试前等待的秒数。"
+  },
+  "opt_retries": {
+    "message": "失败重试次数"
+  },
+  "opt_retries_desc": {
+    "message": "失败分段重新尝试的次数。"
+  },
+  "section_browser": {
+    "message": "浏览器集成"
+  },
+  "opt_context_menu": {
+    "message": "右键下载菜单"
+  },
+  "opt_context_menu_desc": {
+    "message": "在右键菜单中添加\"用加速器下载\"。"
+  },
+  "opt_credentials_desc": {
+    "message": "包含会话 cookies，以便获取需要登录的文件。"
+  },
+  "opt_drive": {
+    "message": "直接下载到 Google Drive"
+  },
+  "opt_drive_desc": {
+    "message": "Send files straight to your Drive instead of your PC — available on our website."
+  },
+  "open_website": {
+    "message": "打开网站"
+  },
+  "opt_open_in": {
+    "message": "在以下位置打开管理器"
+  },
+  "opt_open_in_desc": {
+    "message": "点击工具栏图标时管理器启动的位置。"
+  },
+  "open_tab": {
+    "message": "新标签页"
+  },
+  "open_popup": {
+    "message": "工具栏弹窗"
+  },
+  "open_window": {
+    "message": "独立窗口"
+  },
+  "section_notifications": {
+    "message": "通知"
+  },
+  "opt_notifications_desc": {
+    "message": "成功时显示桌面通知。"
+  },
+  "opt_notify_error": {
+    "message": "出错时通知"
+  },
+  "opt_notify_error_desc": {
+    "message": "下载失败或中断时发出警报。"
+  },
+  "opt_sound": {
+    "message": "完成时播放声音"
+  },
+  "opt_sound_desc": {
+    "message": "下载完成时在管理器中播放短提示音。"
+  },
+  "section_appearance": {
+    "message": "外观"
+  },
+  "opt_theme": {
+    "message": "主题"
+  },
+  "opt_theme_desc": {
+    "message": "匹配浏览器或选择固定外观。"
+  },
+  "opt_density": {
+    "message": "列表密度"
+  },
+  "opt_density_desc": {
+    "message": "下载行之间的间距。"
+  },
+  "density_comfortable": {
+    "message": "舒适"
+  },
+  "density_compact": {
+    "message": "紧凑"
+  },
+  "opt_accent": {
+    "message": "强调色"
+  },
+  "opt_accent_desc": {
+    "message": "用于进度条、高亮和按钮。"
+  },
+  "accent_cyan": {
+    "message": "青色"
+  },
+  "accent_teal": {
+    "message": "蓝绿色"
+  },
+  "accent_indigo": {
+    "message": "靛蓝色"
+  },
+  "accent_rose": {
+    "message": "玫瑰色"
+  },
+  "section_about": {
+    "message": "关于"
+  },
+  "rate_extension": {
+    "message": "评价此扩展"
+  },
+  "support": {
+    "message": "支持"
+  },
+  "homepage": {
+    "message": "主页"
+  },
+  "btn_open_folder": {
+    "message": "打开下载文件夹"
+  },
+  "btn_sha_title": {
+    "message": "添加 SHA-256 校验和"
+  },
+  "thread": {
+    "message": "线程"
+  },
+  "toast_added_single": {
+    "message": "Added · accelerating with"
+  },
+  "toast_deleted": {
+    "message": "已从磁盘删除"
+  },
+  "empty_add_link": {
+    "message": "在上方添加链接以开始加速下载。"
+  },
+  "more_actions": {
+    "message": "更多操作"
+  },
+  "toast_link_copied": {
+    "message": "链接已复制到剪贴板"
+  },
+  "error_generic": {
+    "message": "错误"
+  },
+  "empty_try_different": {
+    "message": "尝试其他搜索词或筛选条件。"
+  },
+  "saved_to_downloads": {
+    "message": "已保存到下载"
+  },
+  "empty_no_matches": {
+    "message": "未找到匹配项"
+  },
+  "toast_enter_url": {
+    "message": "请输入下载链接"
+  },
+  "empty_nothing_yet": {
+    "message": "暂无内容"
+  },
+  "btn_retry": {
+    "message": "重试"
+  },
+  "rate_text": {
+    "message": "喜欢吗？请为我们评分 <span class=\"stars\">★★★★★</span>"
+  },
+  "copy_link": {
+    "message": "复制链接"
+  },
+  "toast_added": {
+    "message": "已添加 {{count}} 个下载"
+  },
+  "btn_start_now": {
+    "message": "立即开始"
+  },
+  "search_placeholder": {
+    "message": "Search downloads, file types, sources…"
+  }
 }

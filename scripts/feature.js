@@ -94,13 +94,17 @@ var lastSig = '';
 var sortInitialized = false;
 var toastTimer = null;
 
+var I18N = (typeof chrome !== 'undefined' && chrome.i18n && chrome.i18n.getMessage)
+  ? function (k, s) { return chrome.i18n.getMessage(k, s) || k; }
+  : function (k) { return k; };
+
 var FILTER_DEFS = [
-  { key: 'all', label: 'All files', dot: 'var(--ink-3)', match: function () { return true; } },
-  { key: 'downloading', label: 'Downloading', dot: 'var(--accent)', match: function (i) { return i.st === 'downloading'; } },
-  { key: 'paused', label: 'Paused', dot: 'var(--amber)', match: function (i) { return i.st === 'paused'; } },
-  { key: 'queued', label: 'Queued', dot: 'var(--ink-3)', match: function (i) { return i.st === 'queued'; } },
-  { key: 'completed', label: 'Completed', dot: 'var(--green)', match: function (i) { return i.st === 'completed'; } },
-  { key: 'failed', label: 'Failed', dot: 'var(--red)', match: function (i) { return i.st === 'failed'; } }
+  { key: 'all', label: I18N('filter_all'), dot: 'var(--ink-3)', match: function () { return true; } },
+  { key: 'downloading', label: I18N('filter_downloading'), dot: 'var(--accent)', match: function (i) { return i.st === 'downloading'; } },
+  { key: 'paused', label: I18N('filter_paused'), dot: 'var(--amber)', match: function (i) { return i.st === 'paused'; } },
+  { key: 'queued', label: I18N('status_queued'), dot: 'var(--ink-3)', match: function (i) { return i.st === 'queued'; } },
+  { key: 'completed', label: I18N('filter_completed'), dot: 'var(--green)', match: function (i) { return i.st === 'completed'; } },
+  { key: 'failed', label: I18N('filter_failed'), dot: 'var(--red)', match: function (i) { return i.st === 'failed'; } }
 ];
 
 /* ----------------------- normalise a backend item ----------------------- */
@@ -145,11 +149,11 @@ function normalize(it) {
 
 /* ------------------------------ row meta -------------------------------- */
 var PILL = {
-  downloading: { l: 'Downloading', fg: 'var(--accent-ink)', bg: 'var(--accent-soft)' },
-  paused: { l: 'Paused', fg: 'var(--amber)', bg: 'var(--amber-soft)' },
-  queued: { l: 'Queued', fg: 'var(--ink-2)', bg: 'var(--surface-2)' },
-  completed: { l: 'Done', fg: 'var(--green)', bg: 'var(--green-soft)' },
-  failed: { l: 'Failed', fg: 'var(--red)', bg: 'var(--red-soft)' }
+  downloading: { l: I18N('filter_downloading'), fg: 'var(--accent-ink)', bg: 'var(--accent-soft)' },
+  paused: { l: I18N('filter_paused'), fg: 'var(--amber)', bg: 'var(--amber-soft)' },
+  queued: { l: I18N('status_queued'), fg: 'var(--ink-2)', bg: 'var(--surface-2)' },
+  completed: { l: I18N('filter_completed'), fg: 'var(--green)', bg: 'var(--green-soft)' },
+  failed: { l: I18N('filter_failed'), fg: 'var(--red)', bg: 'var(--red-soft)' }
 };
 function segColor(st) {
   return st === 'paused' ? 'var(--amber)' : st === 'failed' ? 'var(--red)'
@@ -163,12 +167,12 @@ function rowMeta(i) {
     var m = pctTxt + ' · ' + fmtSpeed(i.speed) + ' · ' + fmtSize(i.received) + ' of ' + fmtSize(i.total) + ' · ' + fmtEta(rem, i.speed) + ' left';
     return i.threads > 1 ? (i.threads + ' threads · ' + m) : m;
   }
-  if (i.st === 'paused') return pctTxt + ' · Paused · ' + fmtSize(i.received) + ' of ' + fmtSize(i.total);
+  if (i.st === 'paused') return pctTxt + ' · ' + I18N('filter_paused') + ' · ' + fmtSize(i.received) + ' of ' + fmtSize(i.total);
   if (i.st === 'queued') return i.total > 0
-    ? ('Queued · ' + fmtSize(i.total) + ' · ' + i.threads + ' threads ready')
-    : ('Queued · waiting for a free slot · ' + i.threads + ' threads ready');
-  if (i.st === 'completed') return fmtSize(i.total) + ' · Saved to Downloads';
-  return 'Failed · ' + (i.error || 'Error') + ' · ' + fmtSize(i.received) + ' of ' + fmtSize(i.total);
+    ? (I18N('status_queued') + ' · ' + fmtSize(i.total) + ' · ' + i.threads + ' threads ready')
+    : (I18N('status_queued') + ' · waiting for a free slot · ' + i.threads + ' threads ready');
+  if (i.st === 'completed') return fmtSize(i.total) + ' · ' + I18N('saved_to_downloads');
+  return I18N('filter_failed') + ' · ' + (i.error || I18N('error_generic')) + ' · ' + fmtSize(i.received) + ' of ' + fmtSize(i.total);
 }
 function segFills(i) {
   var pct = i.st === 'completed' ? 1 : (i.total ? Math.min(1, i.received / i.total) : 0);
@@ -219,13 +223,13 @@ function rowActions(i) {
       if (i.st === 'downloading' || i.st === 'paused' || i.st === 'queued') background.send('cancel', { multi: i.multi, id: i.id });
       else background.send('erase', { id: i.id });
     },
-    copy: function () { try { navigator.clipboard.writeText(i.url); } catch (e) {} showToast('Link copied to clipboard'); state.menu = null; renderAll(); },
+    copy: function () { try { navigator.clipboard.writeText(i.url); } catch (e) {} showToast(I18N('toast_link_copied')); state.menu = null; renderAll(); },
     referrer: function () { if (i.referrer) background.send('referrer', i.referrer); state.menu = null; renderAll(); },
     reveal: function () { dlShow(i.id); state.menu = null; renderAll(); },
     del: function () {
       state.menu = null;
-      var go = function () { background.send('remove', { id: i.id }); showToast('Deleted from disk'); };
-      if (window.mscConfirm) mscConfirm('Delete', 'Delete this file from disk?', go); else go();
+      var go = function () { background.send('remove', { id: i.id }); showToast(I18N('toast_deleted')); };
+      if (window.mscConfirm) mscConfirm(I18N('popup_confirm1_head'), I18N('popup_confirm1_msg'), go); else go();
       renderAll();
     }
   };
@@ -274,7 +278,7 @@ function renderActivity() {
   if (dl.length) {
     var th = dl.reduce(function (s, i) { return s + (i.threads || 1); }, 0);
     ui.activeSummary.textContent = dl.length + ' active · ' + th + ' threads';
-  } else ui.activeSummary.textContent = 'No active downloads';
+  } else ui.activeSummary.textContent = I18N('activity_idle');
 }
 
 function renderRow(i) {
@@ -307,26 +311,26 @@ function renderRow(i) {
   var primary, withLabel = (i.st === 'failed' || i.st === 'completed');
   var pIcon = i.st === 'downloading' ? ICON.pause : i.st === 'completed' ? ICON.open
     : i.st === 'failed' ? ICON.retry : ICON.play;
-  var pLabel = i.st === 'failed' ? 'Retry' : i.st === 'completed' ? 'Open' : '';
-  var pTitle = i.st === 'downloading' ? 'Pause' : i.st === 'paused' ? 'Resume'
-    : i.st === 'queued' ? 'Start now' : i.st === 'failed' ? 'Retry' : 'Open file';
+  var pLabel = i.st === 'failed' ? I18N('btn_retry') : i.st === 'completed' ? I18N('popup_ui_btn_open') : '';
+  var pTitle = i.st === 'downloading' ? I18N('popup_ui_btn_pause') : i.st === 'paused' ? I18N('popup_ui_btn_resume')
+    : i.st === 'queued' ? I18N('btn_start_now') : i.st === 'failed' ? I18N('btn_retry') : I18N('popup_ui_btn_open');
   primary = el('button', 'act-primary' + (withLabel ? '' : ' tight'), { title: pTitle, html: pIcon + (pLabel ? '<span>' + pLabel + '</span>' : ''), on: { click: acts.primary } });
   actions.appendChild(primary);
 
-  var secTitle = (i.st === 'downloading' || i.st === 'paused') ? 'Cancel'
-    : i.st === 'queued' ? 'Remove from queue' : i.st === 'completed' ? 'Clear from list' : 'Remove';
+  var secTitle = (i.st === 'downloading' || i.st === 'paused') ? I18N('popup_ui_btn_cancel')
+    : i.st === 'queued' ? I18N('popup_ui_btn_cler_list') : i.st === 'completed' ? I18N('popup_ui_btn_clear') : I18N('popup_ui_btn_cler_list');
   actions.appendChild(el('button', 'act-icon', { title: secTitle, html: ICON.close, on: { click: acts.secondary } }));
 
-  var menuBtn = el('button', 'act-icon', { title: 'More actions', html: ICON.dots, on: { click: function (e) { e.stopPropagation(); state.menu = (state.menu === i.id ? null : i.id); renderAll(); } } });
+  var menuBtn = el('button', 'act-icon', { title: I18N('more_actions'), html: ICON.dots, on: { click: function (e) { e.stopPropagation(); state.menu = (state.menu === i.id ? null : i.id); renderAll(); } } });
   actions.appendChild(menuBtn);
 
   if (state.menu === i.id) {
     var menu = el('div', 'menu');
-    menu.appendChild(el('button', 'menu-item', { text: 'Copy link', on: { click: acts.copy } }));
-    menu.appendChild(el('button', 'menu-item', i.referrer ? { text: 'Open referrer', on: { click: acts.referrer } } : { text: 'Open referrer', disabled: 'true' }));
-    menu.appendChild(el('button', 'menu-item', { text: 'Show in folder', on: { click: acts.reveal } }));
+    menu.appendChild(el('button', 'menu-item', { text: I18N('copy_link'), on: { click: acts.copy } }));
+    menu.appendChild(el('button', 'menu-item', i.referrer ? { text: I18N('popup_ui_btn_open_ref'), on: { click: acts.referrer } } : { text: I18N('popup_ui_btn_open_ref'), disabled: 'true' }));
+    menu.appendChild(el('button', 'menu-item', { text: I18N('popup_ui_btn_show'), on: { click: acts.reveal } }));
     menu.appendChild(el('div', 'menu-sep'));
-    menu.appendChild(el('button', 'menu-item danger', { text: 'Delete from disk', on: { click: acts.del } }));
+    menu.appendChild(el('button', 'menu-item danger', { text: I18N('popup_ui_btn_delete'), on: { click: acts.del } }));
     actions.appendChild(menu);
   }
   row.appendChild(actions);
@@ -342,8 +346,8 @@ function renderList() {
     var empty = el('div', 'empty');
     empty.appendChild(el('div', 'empty-icon', { html: ICON.inbox }));
     var q = state.query.trim();
-    empty.appendChild(el('div', 'empty-title', { text: q ? ('No matches for “' + q + '”') : 'Nothing here yet' }));
-    empty.appendChild(el('div', 'empty-sub', { text: q ? 'Try a different search term or filter.' : 'Add a link above to start an accelerated download.' }));
+    empty.appendChild(el('div', 'empty-title', { text: q ? (I18N('empty_no_matches').replace('{{query}}', q)) : I18N('empty_nothing_yet') }));
+    empty.appendChild(el('div', 'empty-sub', { text: q ? I18N('empty_try_different') : I18N('empty_add_link') }));
     ui.rows.appendChild(empty);
     return;
   }
@@ -427,13 +431,13 @@ function submit() {
   var urls = raw.split(/[\s,]+/).map(function (s) { return s.trim(); }).filter(function (s) { return /^https?:\/\//i.test(s); });
   if (urls.length === 0) {
     if (raw.trim()) background.send('download', raw.trim());
-    else showToast('Enter a download URL');
+    else showToast(I18N('toast_enter_url'));
     return;
   }
   for (var i = 0; i < urls.length; i++) background.send('download', { url: urls[i], sha256: (urls.length === 1 ? sha : '') });
   ui.addurl.value = '';
   if (ui.sha256 && urls.length === 1) ui.sha256.value = '';
-  showToast(urls.length > 1 ? ('Added ' + urls.length + ' downloads') : ('Added · accelerating with ' + state.threads + ' thread' + (state.threads > 1 ? 's' : '')));
+  showToast(urls.length > 1 ? (I18N('toast_added').replace('{{count}}', urls.length)) : (I18N('toast_added_single') + ' ' + state.threads + ' ' + I18N('thread') + (state.threads > 1 ? 's' : '')));
 }
 
 function setThreads(v) {

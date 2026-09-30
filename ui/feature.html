@@ -3,22 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Download Manager</title>
+  <title>__MSG_app_name__</title>
   <link rel="stylesheet" href="/css/odm.css" />
+  <script src="/scripts/appearance-bootstrap.js"></script>
+  <script src="/scripts/i18n-bootstrap.js"></script>
   <link rel="stylesheet" href="/css/medium-style-confirm/msc.css" />
-  <script>
-    // Apply saved appearance before paint to avoid a flash of the wrong theme.
-    try {
-      var t = localStorage.getItem('odm-theme') || 'light';
-      var d = localStorage.getItem('odm-density') || 'comfortable';
-      var a = localStorage.getItem('odm-accent');
-      var de = document.documentElement;
-      de.setAttribute('data-theme', t === 'system'
-        ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : t);
-      de.setAttribute('data-density', d);
-      if (a) de.style.setProperty('--accent', a);
-    } catch (e) {}
-  </script>
 </head>
 <body>
   <div class="app" id="app">
@@ -31,34 +20,34 @@
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11"></path><path d="M7 11l5 5 5-5"></path><path d="M5 20h14"></path></svg>
           </div>
           <div>
-            <div class="brand-title">Download Manager</div>
-            <div class="brand-sub">ACCELERATED · UP TO 5×</div>
+            <div class="brand-title" data-i18n="app_name">Download Manager</div>
+            <div class="brand-sub" data-i18n="brand_subtitle">ACCELERATED · UP TO 5×</div>
           </div>
         </div>
 
         <div class="hdr-mid">
           <div class="search">
             <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--ink-3)" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.2-3.2"></path></svg>
-            <input id="search" type="search" placeholder="Search downloads, file types, sources…" />
+            <input id="search" type="search" placeholder="Search downloads, file types, sources…" data-i18n-placeholder="search_placeholder" />
           </div>
         </div>
 
         <div class="hdr-controls">
-          <button class="iconbtn" id="btn-folder" title="Open downloads folder">
+          <button class="iconbtn" id="btn-folder" data-i18n-title="btn_open_folder">
             <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8a2 2 0 0 1 2-2h3l2 2h7a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"></path></svg>
           </button>
-          <button class="iconbtn" id="btn-clear" title="Clear completed downloads">
+          <button class="iconbtn" id="btn-clear" data-i18n-title="btn_clear_title" title="Clear completed downloads">
             <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16"></path><path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"></path><path d="M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12"></path></svg>
           </button>
-          <button class="iconbtn" id="btn-settings" title="Settings">
+          <button class="iconbtn" id="btn-settings" data-i18n-title="popup_ui_btn_options">
             <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
           </button>
           <div class="ctl-group">
-            <button class="seg-btn" id="btn-light" data-theme-val="light">
+            <button class="seg-btn" id="btn-light" data-theme-val="light" data-i18n="theme_light">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"></path></svg>
               Light
             </button>
-            <button class="seg-btn" id="btn-dark" data-theme-val="dark">
+            <button class="seg-btn" id="btn-dark" data-theme-val="dark" data-i18n="theme_dark">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4 7 7 0 1 0 20 14.5z"></path></svg>
               Dark
             </button>
@@ -70,20 +59,20 @@
       <div class="addbar">
         <div class="addfield">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--ink-3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l2-2a5 5 0 0 0-7-7l-1 1"></path><path d="M14 11a5 5 0 0 0-7 0l-2 2a5 5 0 0 0 7 7l1-1"></path></svg>
-          <input id="addurl" type="text" placeholder="Paste a download link to accelerate…" />
+          <input id="addurl" type="text" placeholder="Paste a download link to accelerate…" data-i18n-placeholder="popup_add_url_placeholder" />
         </div>
         <div class="threadbox">
-          <span class="lbl">Threads</span>
+          <span class="lbl" data-i18n="label_threads">Threads</span>
           <div class="stepper">
             <button class="step-btn" id="thread-dec">−</button>
             <div class="step-val" id="thread-val">3</div>
             <button class="step-btn" id="thread-inc">+</button>
           </div>
         </div>
-        <button class="icon-ghost" id="btn-sha" title="Add a SHA-256 checksum to verify the next download">
+        <button class="icon-ghost" id="btn-sha" data-i18n-title="btn_sha_title">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"></path><path d="M12 3l7 3v6c0 4.4-3 7.5-7 9-4-1.5-7-4.6-7-9V6z"></path></svg>
         </button>
-        <button class="btn-primary" id="btn-add">
+        <button class="btn-primary" id="btn-add" data-i18n="btn_add">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"></path></svg>
           Add download
         </button>
@@ -91,43 +80,42 @@
 
       <!-- optional SHA-256 row (toggled) -->
       <div class="sha-wrap" id="sha-row" style="display:none;">
-        <span class="tag">SHA-256</span>
-        <input id="sha256" type="text" placeholder="Optional checksum to verify the next download (leave blank to skip)" />
+        <span class="tag" data-i18n="label_sha256">SHA-256</span>
+        <input id="sha256" type="text" placeholder="Optional checksum to verify the next download (leave blank to skip)" data-i18n-placeholder="popup_ui_sha256_desc" />
       </div>
       <div class="addbar-gap"></div>
 
       <!-- BODY -->
       <div class="body">
         <div class="sidebar">
-          <div class="side-label">Library</div>
+          <div class="side-label" data-i18n="side_library">Library</div>
           <div class="filter-list" id="filters"></div>
           <div class="side-sep"></div>
           <div class="activity">
-            <div class="hd">Activity</div>
+            <div class="hd" data-i18n="side_activity">Activity</div>
             <div class="activity-num" id="total-speed">0 KB/s</div>
-            <div class="activity-sub" id="active-summary">No active downloads</div>
-          </div>
-        </div>
-
-        <div class="list">
-          <div class="list-hdr">
-            <div class="list-title" id="list-title">All files</div>
-            <div class="list-count" id="list-count">0</div>
-            <div class="list-spacer"></div>
-            <span class="sortlbl">Sort</span>
-            <select class="sortsel" id="sort">
-              <option value="recent">Most recent</option>
-              <option value="name">Name (A–Z)</option>
-              <option value="size">Largest size</option>
-            </select>
-          </div>
-          <div id="rows"></div>
+            <div class="activity-sub" id="active-summary" data-i18n="activity_idle">No active downloads</div>
         </div>
       </div>
 
-      <div class="teaser">
-        <a class="teaser" href="#" target="_blank">Enjoying it? Please rate us <span class="stars">★★★★★</span></a>
+      <div class="list">
+        <div class="list-hdr">
+          <div class="list-title" id="list-title" data-i18n="filter_all">All files</div>
+          <div class="list-count" id="list-count">0</div>
+          <div class="list-spacer"></div>
+          <span class="sortlbl" data-i18n="sort_label">Sort</span>
+          <select class="sortsel" id="sort">
+            <option value="recent" data-i18n="sort_recent">Most recent</option>
+            <option value="name" data-i18n="sort_name">Name (A–Z)</option>
+            <option value="size" data-i18n="sort_size">Largest size</option>
+          </select>
+        </div>
+        <div id="rows"></div>
       </div>
+    </div>
+
+    <div class="teaser">
+      <a class="teaser" href="#" target="_blank" data-i18n="rate_text">Enjoying it? Please rate us <span class="stars">★★★★★</span></a>
     </div>
   </div>
 

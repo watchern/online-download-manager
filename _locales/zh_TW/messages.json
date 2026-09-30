@@ -1,113 +1,494 @@
 {
-   "app_description": {
-      "message": "輕鬆管理和加速下載最多5次！"
-   },
-   "app_name": {
-      "message": "在線下載管理器"
-   },
-   "context_download": {
-      "message": "用加速器下載"
-   },
-   "notification_complete": {
-      "message": "下載完成。"
-   },
-   "notification_invalid": {
-      "message": "無效的網址！請添加正確的網址，然後重試。"
-   },
-   "popup_confirm1_head": {
-      "message": "刪除"
-   },
-   "popup_confirm1_msg": {
-      "message": "您確定要從磁盤中刪除此項嗎？"
-   },
-   "popup_label1": {
-      "message": "過去："
-   },
-   "popup_label2": {
-      "message": "剩下："
-   },
-   "popup_label3": {
-      "message": "速度："
-   },
-   "popup_label4": {
-      "message": "收稿日期："
-   },
-   "popup_label_rate": {
-      "message": "請給我們評分！"
-   },
-   "popup_text1": {
-      "message": "只需在文本框中輸入所需的線程數，輸入URL，然後添加新的下載任務。您可以通過此UI添加新下載，或者只需右鍵單擊所需的下載鏈接，然後單擊上下文菜單中的 - 使用加速器下載 - 項目。"
-   },
-   "popup_text2": {
-      "message": "要顯示的最大項目數"
-   },
-   "popup_text3": {
-      "message": "訂購列出的項目"
-   },
-   "popup_text4": {
-      "message": "我們支持將直接下載文件直接發送到您的Google雲端硬盤或我們網站上的PC。"
-   },
-   "popup_ui_btn_add_url": {
-      "message": "添加url到下載隊列"
-   },
-   "popup_ui_btn_cancel": {
-      "message": "取消"
-   },
-   "popup_ui_btn_clear": {
-      "message": "清晰的UI"
-   },
-   "popup_ui_btn_cler_list": {
-      "message": "從列表中清除"
-   },
-   "popup_ui_btn_delete": {
-      "message": "從磁盤刪除"
-   },
-   "popup_ui_btn_open": {
-      "message": "打開下載文件夾"
-   },
-   "popup_ui_btn_open_ref": {
-      "message": "打開推薦人"
-   },
-   "popup_ui_btn_pause": {
-      "message": "暫停"
-   },
-   "popup_ui_btn_reload": {
-      "message": "重新加載UI"
-   },
-   "popup_ui_btn_resume": {
-      "message": "簡歷"
-   },
-   "popup_ui_btn_show": {
-      "message": "展現在文件夾中"
-   },
-   "popup_ui_btn_support": {
-      "message": "打開支持頁面"
-   },
-   "popup_ui_info_start": {
-      "message": "開始時間"
-   },
-   "popup_ui_info_total": {
-      "message": "總大小"
-   },
-   "popup_ui_option1": {
-      "message": "網址"
-   },
-   "popup_ui_option2": {
-      "message": "類型"
-   },
-   "popup_ui_option3": {
-      "message": "州"
-   },
-   "popup_ui_option4": {
-      "message": "時間結束"
-   },
-   "popup_ui_option6": {
-      "message": "總字節數"
-   },
-   "popup_ui_option7": {
-      "message": "收到的字節數"
-   },
-   "popup_ui_txt_add_url": {
-      "message": "添加網址和設置線程數（最多5個），然後單擊（+）按鈕"
-   }
+  "app_description": {
+    "message": "輕鬆管理和加速下載最多5次！"
+  },
+  "app_name": {
+    "message": "在線下載管理器"
+  },
+  "context_download": {
+    "message": "用加速器下載"
+  },
+  "notification_complete": {
+    "message": "下載完成。"
+  },
+  "notification_failed": {
+    "message": "A download failed."
+  },
+  "notification_invalid": {
+    "message": "無效的網址！請添加正確的網址，然後重試。"
+  },
+  "notification_unverified": {
+    "message": "Downloaded normally; integrity could not be verified."
+  },
+  "notification_verified": {
+    "message": "Checksum verified."
+  },
+  "options_autocapture": {
+    "message": "加速每個下載"
+  },
+  "options_autocapture_desc": {
+    "message": "Intercept downloads started in the browser and route them through the accelerator. Servers that can't be accelerated fall back to a normal download automatically."
+  },
+  "options_bandwidth": {
+    "message": "頻寬限制（KB/s）"
+  },
+  "options_bandwidth_desc": {
+    "message": "Maximum combined download speed in kilobytes per second, shared across all active downloads. 0 means unlimited."
+  },
+  "options_concurrent": {
+    "message": "最大並行下載數"
+  },
+  "options_concurrent_desc": {
+    "message": "How many downloads run at once. Extra downloads wait in a queue and start automatically as slots free up."
+  },
+  "options_credentials": {
+    "message": "下載時傳送 cookies"
+  },
+  "options_credentials_desc": {
+    "message": "Include your session cookies so files behind a login can be fetched. Turn off for stricter privacy."
+  },
+  "options_maxitems": {
+    "message": "顯示最大項目數"
+  },
+  "options_maxitems_desc": {
+    "message": "Maximum number of downloads listed at once."
+  },
+  "options_notifications": {
+    "message": "下載完成時通知"
+  },
+  "options_notifications_desc": {
+    "message": "Show a desktop notification when a download finishes."
+  },
+  "options_orderby": {
+    "message": "Order downloads by"
+  },
+  "options_saved": {
+    "message": "Saved"
+  },
+  "options_subtitle": {
+    "message": "Defaults for the accelerator and the download manager."
+  },
+  "options_threads": {
+    "message": "預設執行緒數"
+  },
+  "options_threads_desc": {
+    "message": "How many parallel segments to split each download into (1-5). 1 disables acceleration."
+  },
+  "options_title": {
+    "message": "設定"
+  },
+  "popup_confirm1_head": {
+    "message": "刪除"
+  },
+  "popup_confirm1_msg": {
+    "message": "您確定要從磁盤中刪除此項嗎？"
+  },
+  "popup_label1": {
+    "message": "過去："
+  },
+  "popup_label2": {
+    "message": "剩下："
+  },
+  "popup_label3": {
+    "message": "速度："
+  },
+  "popup_label4": {
+    "message": "收稿日期："
+  },
+  "popup_label_rate": {
+    "message": "請給我們評分！"
+  },
+  "popup_text1": {
+    "message": "只需在文本框中輸入所需的線程數，輸入URL，然後添加新的下載任務。您可以通過此UI添加新下載，或者只需右鍵單擊所需的下載鏈接，然後單擊上下文菜單中的 - 使用加速器下載 - 項目。"
+  },
+  "popup_text2": {
+    "message": "要顯示的最大項目數"
+  },
+  "popup_text3": {
+    "message": "訂購列出的項目"
+  },
+  "popup_text4": {
+    "message": "我們支持將直接下載文件直接發送到您的Google雲端硬盤或我們網站上的PC。"
+  },
+  "popup_ui_btn_add_url": {
+    "message": "添加url到下載隊列"
+  },
+  "popup_ui_btn_cancel": {
+    "message": "取消"
+  },
+  "popup_ui_btn_clear": {
+    "message": "清晰的UI"
+  },
+  "popup_ui_btn_cler_list": {
+    "message": "從列表中清除"
+  },
+  "popup_ui_btn_delete": {
+    "message": "從磁盤刪除"
+  },
+  "popup_ui_btn_open": {
+    "message": "打開下載文件夾"
+  },
+  "popup_ui_btn_open_ref": {
+    "message": "打開推薦人"
+  },
+  "popup_ui_btn_options": {
+    "message": "Settings"
+  },
+  "popup_ui_btn_pause": {
+    "message": "暫停"
+  },
+  "popup_ui_btn_reload": {
+    "message": "重新加載UI"
+  },
+  "popup_ui_btn_resume": {
+    "message": "簡歷"
+  },
+  "popup_ui_btn_show": {
+    "message": "展現在文件夾中"
+  },
+  "popup_ui_btn_support": {
+    "message": "打開支持頁面"
+  },
+  "popup_ui_info_start": {
+    "message": "開始時間"
+  },
+  "popup_ui_info_total": {
+    "message": "總大小"
+  },
+  "popup_ui_option1": {
+    "message": "網址"
+  },
+  "popup_ui_option2": {
+    "message": "類型"
+  },
+  "popup_ui_option3": {
+    "message": "州"
+  },
+  "popup_ui_option4": {
+    "message": "時間結束"
+  },
+  "popup_ui_option5": {
+    "message": "Start time"
+  },
+  "popup_ui_option6": {
+    "message": "總字節數"
+  },
+  "popup_ui_option7": {
+    "message": "收到的字節數"
+  },
+  "popup_ui_search": {
+    "message": "Search downloads"
+  },
+  "popup_ui_sha256": {
+    "message": "Optional SHA-256 to verify the next download (leave blank to skip)"
+  },
+  "popup_ui_txt_add_url": {
+    "message": "添加網址和設置線程數（最多5個），然後單擊（+）按鈕"
+  },
+  "status_queued": {
+    "message": "Queued"
+  },
+  "brand_subtitle": {
+    "message": "加速下載 · 最快5倍"
+  },
+  "btn_clear_title": {
+    "message": "清除已完成的下載"
+  },
+  "theme_light": {
+    "message": "淺色"
+  },
+  "theme_dark": {
+    "message": "深色"
+  },
+  "theme_system": {
+    "message": "系統"
+  },
+  "popup_add_url_placeholder": {
+    "message": "貼上要加速的下載連結…"
+  },
+  "label_threads": {
+    "message": "執行緒數"
+  },
+  "btn_add": {
+    "message": "添加下載"
+  },
+  "label_sha256": {
+    "message": "SHA-256"
+  },
+  "popup_ui_sha256_desc": {
+    "message": "可選的校驗和用於驗證下一個下載（留空則跳過）"
+  },
+  "side_library": {
+    "message": "庫"
+  },
+  "side_activity": {
+    "message": "活動"
+  },
+  "filter_all": {
+    "message": "所有檔案"
+  },
+  "filter_downloading": {
+    "message": "下載中"
+  },
+  "filter_paused": {
+    "message": "已暫停"
+  },
+  "filter_completed": {
+    "message": "已完成"
+  },
+  "filter_failed": {
+    "message": "失敗"
+  },
+  "sort_label": {
+    "message": "Sort"
+  },
+  "sort_recent": {
+    "message": "最新"
+  },
+  "sort_name": {
+    "message": "名稱（A-Z）"
+  },
+  "sort_size": {
+    "message": "大小"
+  },
+  "activity_idle": {
+    "message": "沒有正在進行的下載"
+  },
+  "stars": {
+    "message": "★★★★★"
+  },
+  "version_prefix": {
+    "message": "Version"
+  },
+  "options_brand_sub": {
+    "message": "下載管理器 · 加速器"
+  },
+  "back_to_downloads": {
+    "message": "返回下載列表"
+  },
+  "saved_auto": {
+    "message": "變更會自動儲存"
+  },
+  "section_downloads": {
+    "message": "下載"
+  },
+  "opt_save_behavior": {
+    "message": "下載開始時"
+  },
+  "opt_save_behavior_desc": {
+    "message": "選擇檔案預設儲存位置。"
+  },
+  "save_downloads": {
+    "message": "儲存到下載資料夾"
+  },
+  "save_ask": {
+    "message": "總是詢問儲存位置"
+  },
+  "opt_orderby": {
+    "message": "預設排序順序"
+  },
+  "opt_orderby_desc": {
+    "message": "管理器中的項目排序方式。"
+  },
+  "opt_maxitems_desc": {
+    "message": "限制列表渲染的最大下載數量。"
+  },
+  "opt_clear_on_close": {
+    "message": "關閉時清除已完成項"
+  },
+  "opt_clear_on_close_desc": {
+    "message": "關閉管理器時從列表中移除已完成的項目。"
+  },
+  "section_accel": {
+    "message": "加速"
+  },
+  "opt_threads_desc": {
+    "message": "將每個檔案分割成並行連接 — 最快5倍速。"
+  },
+  "opt_bandwidth_desc": {
+    "message": "所有下載共享的最大合併速度。0 表示無限制。"
+  },
+  "opt_concurrent_desc": {
+    "message": "同時運行的下載數量。額外的下載會在佇列中等待。"
+  },
+  "opt_autocapture_desc": {
+    "message": "自動對所有瀏覽器下載應用多執行緒。"
+  },
+  "opt_timeout": {
+    "message": "連線超時"
+  },
+  "opt_timeout_desc": {
+    "message": " stalled 連線重試前等待的秒數。"
+  },
+  "opt_retries": {
+    "message": "失敗重試次數"
+  },
+  "opt_retries_desc": {
+    "message": "失敗分段重新嘗試的次數。"
+  },
+  "section_browser": {
+    "message": "瀏覽器整合"
+  },
+  "opt_context_menu": {
+    "message": "右鍵下載選單"
+  },
+  "opt_context_menu_desc": {
+    "message": "在右鍵選單中添加\"用加速器下載\"。"
+  },
+  "opt_credentials_desc": {
+    "message": "包含工作階段 cookies，以便獲取需要登入的檔案。"
+  },
+  "opt_drive": {
+    "message": "直接下載到 Google Drive"
+  },
+  "opt_drive_desc": {
+    "message": "將檔案直接傳送到你的 Drive 而不是本機電腦 — 在我們的網站上可用。"
+  },
+  "open_website": {
+    "message": "打開網站"
+  },
+  "opt_open_in": {
+    "message": "在以下位置打開管理器"
+  },
+  "opt_open_in_desc": {
+    "message": "點擊工具欄圖示時管理器啟動的位置。"
+  },
+  "open_tab": {
+    "message": "新分頁"
+  },
+  "open_popup": {
+    "message": "工具欄彈窗"
+  },
+  "open_window": {
+    "message": "獨立視窗"
+  },
+  "section_notifications": {
+    "message": "通知"
+  },
+  "opt_notifications_desc": {
+    "message": "成功時顯示桌面通知。"
+  },
+  "opt_notify_error": {
+    "message": "出錯時通知"
+  },
+  "opt_notify_error_desc": {
+    "message": "下載失敗或中斷時發出警報。"
+  },
+  "opt_sound": {
+    "message": "完成時播放聲音"
+  },
+  "opt_sound_desc": {
+    "message": "下載完成時在管理器中播放短提示音。"
+  },
+  "section_appearance": {
+    "message": "外觀"
+  },
+  "opt_theme": {
+    "message": "主題"
+  },
+  "opt_theme_desc": {
+    "message": "匹配瀏覽器或選擇固定外觀。"
+  },
+  "opt_density": {
+    "message": "列表密度"
+  },
+  "opt_density_desc": {
+    "message": "下載行之間的間距。"
+  },
+  "density_comfortable": {
+    "message": "舒適"
+  },
+  "density_compact": {
+    "message": "緊湊"
+  },
+  "opt_accent": {
+    "message": "強調色"
+  },
+  "opt_accent_desc": {
+    "message": "用於進度條、高亮和按鈕。"
+  },
+  "accent_cyan": {
+    "message": "青色"
+  },
+  "accent_teal": {
+    "message": "藍綠色"
+  },
+  "accent_indigo": {
+    "message": "靛藍色"
+  },
+  "accent_rose": {
+    "message": "玫瑰色"
+  },
+  "section_about": {
+    "message": "關於"
+  },
+  "rate_extension": {
+    "message": "評價此擴充功能"
+  },
+  "support": {
+    "message": "支援"
+  },
+  "homepage": {
+    "message": "首頁"
+  },
+  "btn_open_folder": {
+    "message": "打開下載資料夾"
+  },
+  "btn_sha_title": {
+    "message": "添加 SHA-256 校驗和以驗證下一個下載"
+  },
+  "thread": {
+    "message": "執行緒"
+  },
+  "toast_added_single": {
+    "message": "已添加 · 使用"
+  },
+  "toast_deleted": {
+    "message": "已從磁碟刪除"
+  },
+  "empty_add_link": {
+    "message": "在上方添加連結以開始加速下載。"
+  },
+  "more_actions": {
+    "message": "更多操作"
+  },
+  "toast_link_copied": {
+    "message": "連結已複製到剪貼簿"
+  },
+  "error_generic": {
+    "message": "錯誤"
+  },
+  "empty_try_different": {
+    "message": "嘗試其他搜尋詞或篩選條件。"
+  },
+  "saved_to_downloads": {
+    "message": "已儲存到下載"
+  },
+  "empty_no_matches": {
+    "message": "未找到 \" {{query}} \" 的匹配項"
+  },
+  "toast_enter_url": {
+    "message": "請輸入下載連結"
+  },
+  "empty_nothing_yet": {
+    "message": "暫無內容"
+  },
+  "btn_retry": {
+    "message": "重試"
+  },
+  "rate_text": {
+    "message": "喜歡嗎？請為我們評分 <span class=\"stars\">★★★★★</span>"
+  },
+  "copy_link": {
+    "message": "複製連結"
+  },
+  "toast_added": {
+    "message": "已添加 {{count}} 個下載"
+  },
+  "btn_start_now": {
+    "message": "立即開始"
+  },
+  "search_placeholder": {
+    "message": "搜尋下載、檔案類型、來源…"
+  }
 }

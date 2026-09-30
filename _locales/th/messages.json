@@ -1,113 +1,494 @@
 {
-   "app_description": {
-      "message": "จัดการและเร่งความเร็วการดาวน์โหลดของคุณสูงสุด 5 ครั้ง!"
-   },
-   "app_name": {
-      "message": "ตัวจัดการดาวน์โหลดออนไลน์"
-   },
-   "context_download": {
-      "message": "ดาวน์โหลดด้วยตัวเร่งความเร็ว"
-   },
-   "notification_complete": {
-      "message": "การดาวน์โหลดเสร็จสมบูรณ์"
-   },
-   "notification_invalid": {
-      "message": "URL ไม่ถูกต้อง! โปรดเพิ่ม URL ที่ถูกต้องและลองอีกครั้ง"
-   },
-   "popup_confirm1_head": {
-      "message": "ลบ"
-   },
-   "popup_confirm1_msg": {
-      "message": "คุณแน่ใจหรือว่าต้องการลบรายการนี้จากดิสก์?"
-   },
-   "popup_label1": {
-      "message": "ที่ผ่านไป:"
-   },
-   "popup_label2": {
-      "message": "ซ้าย:"
-   },
-   "popup_label3": {
-      "message": "ความเร็ว:"
-   },
-   "popup_label4": {
-      "message": "ที่ได้รับ:"
-   },
-   "popup_label_rate": {
-      "message": "กรุณาให้คะแนนเรา!"
-   },
-   "popup_text1": {
-      "message": "เพียงป้อนจำนวนเธรดที่ต้องการในกล่องข้อความใส่ URL แล้วเพิ่มงานดาวน์โหลดใหม่ คุณสามารถเพิ่มการดาวน์โหลดใหม่ผ่าน UI นี้หรือเพียงคลิกขวาที่ลิงค์ดาวน์โหลดที่ต้องการจากนั้นคลิกที่ - ดาวน์โหลดด้วยตัวเร่งความเร็ว - รายการในเมนูบริบท"
-   },
-   "popup_text2": {
-      "message": "จำนวนรายการสูงสุดที่จะแสดง"
-   },
-   "popup_text3": {
-      "message": "สั่งซื้อรายการที่ระบุไว้โดย"
-   },
-   "popup_text4": {
-      "message": "เราสนับสนุนไฟล์ดาวน์โหลดโดยตรงไปยัง Google Drive หรือพีซีของคุณบนเว็บไซต์ของเรา"
-   },
-   "popup_ui_btn_add_url": {
-      "message": "เพิ่ม url เพื่อดาวน์โหลดคิว"
-   },
-   "popup_ui_btn_cancel": {
-      "message": "ยกเลิก"
-   },
-   "popup_ui_btn_clear": {
-      "message": "ล้าง UI"
-   },
-   "popup_ui_btn_cler_list": {
-      "message": "เคลียร์จากรายการ"
-   },
-   "popup_ui_btn_delete": {
-      "message": "ลบออกจากดิสก์"
-   },
-   "popup_ui_btn_open": {
-      "message": "เปิดโฟลเดอร์ดาวน์โหลด"
-   },
-   "popup_ui_btn_open_ref": {
-      "message": "เปิดผู้อ้างอิง"
-   },
-   "popup_ui_btn_pause": {
-      "message": "หยุด"
-   },
-   "popup_ui_btn_reload": {
-      "message": "โหลด UI ซ้ำ"
-   },
-   "popup_ui_btn_resume": {
-      "message": "เรซูเม่"
-   },
-   "popup_ui_btn_show": {
-      "message": "แสดงในโฟลเดอร์"
-   },
-   "popup_ui_btn_support": {
-      "message": "เปิดหน้าสนับสนุน"
-   },
-   "popup_ui_info_start": {
-      "message": "เวลาเริ่มต้น"
-   },
-   "popup_ui_info_total": {
-      "message": "ขนาดทั้งหมด"
-   },
-   "popup_ui_option1": {
-      "message": "URL"
-   },
-   "popup_ui_option2": {
-      "message": "ชนิด"
-   },
-   "popup_ui_option3": {
-      "message": "สถานะ"
-   },
-   "popup_ui_option4": {
-      "message": "เวลาสิ้นสุด"
-   },
-   "popup_ui_option6": {
-      "message": "จำนวนไบต์ทั้งหมด"
-   },
-   "popup_ui_option7": {
-      "message": "ได้รับไบต์"
-   },
-   "popup_ui_txt_add_url": {
-      "message": "เพิ่ม URL & set # ของกระทู้ (สูงสุด 5) จากนั้นคลิกที่ปุ่ม (+)"
-   }
+  "app_description": {
+    "message": "จัดการและเร่งความเร็วการดาวน์โหลดของคุณสูงสุด 5 ครั้ง!"
+  },
+  "app_name": {
+    "message": "ตัวจัดการดาวน์โหลดออนไลน์"
+  },
+  "context_download": {
+    "message": "ดาวน์โหลดด้วยตัวเร่งความเร็ว"
+  },
+  "notification_complete": {
+    "message": "การดาวน์โหลดเสร็จสมบูรณ์"
+  },
+  "notification_failed": {
+    "message": "A download failed."
+  },
+  "notification_invalid": {
+    "message": "URL ไม่ถูกต้อง! โปรดเพิ่ม URL ที่ถูกต้องและลองอีกครั้ง"
+  },
+  "notification_unverified": {
+    "message": "Downloaded normally; integrity could not be verified."
+  },
+  "notification_verified": {
+    "message": "Checksum verified."
+  },
+  "options_autocapture": {
+    "message": "Auto-accelerate browser downloads"
+  },
+  "options_autocapture_desc": {
+    "message": "Intercept downloads started in the browser and route them through the accelerator. Servers that can't be accelerated fall back to a normal download automatically."
+  },
+  "options_bandwidth": {
+    "message": "Bandwidth limit (KB/s)"
+  },
+  "options_bandwidth_desc": {
+    "message": "Maximum combined download speed in kilobytes per second, shared across all active downloads. 0 means unlimited."
+  },
+  "options_concurrent": {
+    "message": "Maximum concurrent downloads"
+  },
+  "options_concurrent_desc": {
+    "message": "How many downloads run at once. Extra downloads wait in a queue and start automatically as slots free up."
+  },
+  "options_credentials": {
+    "message": "Send cookies with downloads"
+  },
+  "options_credentials_desc": {
+    "message": "Include your session cookies so files behind a login can be fetched. Turn off for stricter privacy."
+  },
+  "options_maxitems": {
+    "message": "Items shown in the manager"
+  },
+  "options_maxitems_desc": {
+    "message": "Maximum number of downloads listed at once."
+  },
+  "options_notifications": {
+    "message": "Completion notifications"
+  },
+  "options_notifications_desc": {
+    "message": "Show a desktop notification when a download finishes."
+  },
+  "options_orderby": {
+    "message": "Order downloads by"
+  },
+  "options_saved": {
+    "message": "Saved"
+  },
+  "options_subtitle": {
+    "message": "Defaults for the accelerator and the download manager."
+  },
+  "options_threads": {
+    "message": "Default thread count"
+  },
+  "options_threads_desc": {
+    "message": "How many parallel segments to split each download into (1-5). 1 disables acceleration."
+  },
+  "options_title": {
+    "message": "Settings"
+  },
+  "popup_confirm1_head": {
+    "message": "ลบ"
+  },
+  "popup_confirm1_msg": {
+    "message": "คุณแน่ใจหรือว่าต้องการลบรายการนี้จากดิสก์?"
+  },
+  "popup_label1": {
+    "message": "ที่ผ่านไป:"
+  },
+  "popup_label2": {
+    "message": "ซ้าย:"
+  },
+  "popup_label3": {
+    "message": "ความเร็ว:"
+  },
+  "popup_label4": {
+    "message": "ที่ได้รับ:"
+  },
+  "popup_label_rate": {
+    "message": "กรุณาให้คะแนนเรา!"
+  },
+  "popup_text1": {
+    "message": "เพียงป้อนจำนวนเธรดที่ต้องการในกล่องข้อความใส่ URL แล้วเพิ่มงานดาวน์โหลดใหม่ คุณสามารถเพิ่มการดาวน์โหลดใหม่ผ่าน UI นี้หรือเพียงคลิกขวาที่ลิงค์ดาวน์โหลดที่ต้องการจากนั้นคลิกที่ - ดาวน์โหลดด้วยตัวเร่งความเร็ว - รายการในเมนูบริบท"
+  },
+  "popup_text2": {
+    "message": "จำนวนรายการสูงสุดที่จะแสดง"
+  },
+  "popup_text3": {
+    "message": "สั่งซื้อรายการที่ระบุไว้โดย"
+  },
+  "popup_text4": {
+    "message": "เราสนับสนุนไฟล์ดาวน์โหลดโดยตรงไปยัง Google Drive หรือพีซีของคุณบนเว็บไซต์ของเรา"
+  },
+  "popup_ui_btn_add_url": {
+    "message": "เพิ่ม url เพื่อดาวน์โหลดคิว"
+  },
+  "popup_ui_btn_cancel": {
+    "message": "ยกเลิก"
+  },
+  "popup_ui_btn_clear": {
+    "message": "ล้าง UI"
+  },
+  "popup_ui_btn_cler_list": {
+    "message": "เคลียร์จากรายการ"
+  },
+  "popup_ui_btn_delete": {
+    "message": "ลบออกจากดิสก์"
+  },
+  "popup_ui_btn_open": {
+    "message": "เปิดโฟลเดอร์ดาวน์โหลด"
+  },
+  "popup_ui_btn_open_ref": {
+    "message": "เปิดผู้อ้างอิง"
+  },
+  "popup_ui_btn_options": {
+    "message": "Settings"
+  },
+  "popup_ui_btn_pause": {
+    "message": "หยุด"
+  },
+  "popup_ui_btn_reload": {
+    "message": "โหลด UI ซ้ำ"
+  },
+  "popup_ui_btn_resume": {
+    "message": "เรซูเม่"
+  },
+  "popup_ui_btn_show": {
+    "message": "แสดงในโฟลเดอร์"
+  },
+  "popup_ui_btn_support": {
+    "message": "เปิดหน้าสนับสนุน"
+  },
+  "popup_ui_info_start": {
+    "message": "เวลาเริ่มต้น"
+  },
+  "popup_ui_info_total": {
+    "message": "ขนาดทั้งหมด"
+  },
+  "popup_ui_option1": {
+    "message": "URL"
+  },
+  "popup_ui_option2": {
+    "message": "ชนิด"
+  },
+  "popup_ui_option3": {
+    "message": "สถานะ"
+  },
+  "popup_ui_option4": {
+    "message": "เวลาสิ้นสุด"
+  },
+  "popup_ui_option5": {
+    "message": "Start time"
+  },
+  "popup_ui_option6": {
+    "message": "จำนวนไบต์ทั้งหมด"
+  },
+  "popup_ui_option7": {
+    "message": "ได้รับไบต์"
+  },
+  "popup_ui_search": {
+    "message": "Search downloads"
+  },
+  "popup_ui_sha256": {
+    "message": "Optional SHA-256 to verify the next download (leave blank to skip)"
+  },
+  "popup_ui_txt_add_url": {
+    "message": "เพิ่ม URL & set # ของกระทู้ (สูงสุด 5) จากนั้นคลิกที่ปุ่ม (+)"
+  },
+  "status_queued": {
+    "message": "Queued"
+  },
+  "brand_subtitle": {
+    "message": "ACCELERATED · UP TO 5×"
+  },
+  "btn_clear_title": {
+    "message": "Clear completed downloads"
+  },
+  "theme_light": {
+    "message": "Light"
+  },
+  "theme_dark": {
+    "message": "Dark"
+  },
+  "theme_system": {
+    "message": "System"
+  },
+  "popup_add_url_placeholder": {
+    "message": "Paste a download link to accelerate…"
+  },
+  "label_threads": {
+    "message": "Threads"
+  },
+  "btn_add": {
+    "message": "Add download"
+  },
+  "label_sha256": {
+    "message": "SHA-256"
+  },
+  "popup_ui_sha256_desc": {
+    "message": "Optional checksum to verify the next download (leave blank to skip)"
+  },
+  "side_library": {
+    "message": "Library"
+  },
+  "side_activity": {
+    "message": "Activity"
+  },
+  "filter_all": {
+    "message": "All files"
+  },
+  "filter_downloading": {
+    "message": "Downloading"
+  },
+  "filter_paused": {
+    "message": "Paused"
+  },
+  "filter_completed": {
+    "message": "Completed"
+  },
+  "filter_failed": {
+    "message": "Failed"
+  },
+  "sort_label": {
+    "message": "Sort"
+  },
+  "sort_recent": {
+    "message": "Most recent"
+  },
+  "sort_name": {
+    "message": "Name (A–Z)"
+  },
+  "sort_size": {
+    "message": "Largest size"
+  },
+  "activity_idle": {
+    "message": "No active downloads"
+  },
+  "stars": {
+    "message": "★★★★★"
+  },
+  "version_prefix": {
+    "message": "Version"
+  },
+  "options_brand_sub": {
+    "message": "Download Manager · Accelerated"
+  },
+  "back_to_downloads": {
+    "message": "Back to downloads"
+  },
+  "saved_auto": {
+    "message": "Changes are saved automatically"
+  },
+  "section_downloads": {
+    "message": "Downloads"
+  },
+  "opt_save_behavior": {
+    "message": "When a download starts"
+  },
+  "opt_save_behavior_desc": {
+    "message": "Choose where files are saved by default."
+  },
+  "save_downloads": {
+    "message": "Save to Downloads folder"
+  },
+  "save_ask": {
+    "message": "Always ask where to save"
+  },
+  "opt_orderby": {
+    "message": "Default sort order"
+  },
+  "opt_orderby_desc": {
+    "message": "How items are ordered in the manager."
+  },
+  "opt_maxitems_desc": {
+    "message": "Limits how many downloads the list renders."
+  },
+  "opt_clear_on_close": {
+    "message": "Clear completed on close"
+  },
+  "opt_clear_on_close_desc": {
+    "message": "Remove finished items from the list when you close the manager."
+  },
+  "section_accel": {
+    "message": "Acceleration"
+  },
+  "opt_threads_desc": {
+    "message": "Splits each file into parallel connections — up to 5× faster."
+  },
+  "opt_bandwidth_desc": {
+    "message": "Maximum combined download speed, shared across all downloads. Off means unlimited."
+  },
+  "opt_concurrent_desc": {
+    "message": "How many downloads run at once. Extra downloads wait in a queue."
+  },
+  "opt_autocapture_desc": {
+    "message": "Automatically apply multi-threading to all browser downloads."
+  },
+  "opt_timeout": {
+    "message": "Connection timeout"
+  },
+  "opt_timeout_desc": {
+    "message": "Seconds to wait before a stalled connection is retried."
+  },
+  "opt_retries": {
+    "message": "Retry attempts on failure"
+  },
+  "opt_retries_desc": {
+    "message": "How many times to re-attempt a failed segment."
+  },
+  "section_browser": {
+    "message": "Browser integration"
+  },
+  "opt_context_menu": {
+    "message": "Right-click download menu"
+  },
+  "opt_context_menu_desc": {
+    "message": "Adds \"Download with accelerator\" to the context menu."
+  },
+  "opt_credentials_desc": {
+    "message": "Include your session cookies so files behind a login can be fetched."
+  },
+  "opt_drive": {
+    "message": "Direct download to Google Drive"
+  },
+  "opt_drive_desc": {
+    "message": "Send files straight to your Drive instead of your PC — available on our website."
+  },
+  "open_website": {
+    "message": "Open website"
+  },
+  "opt_open_in": {
+    "message": "Open manager in"
+  },
+  "opt_open_in_desc": {
+    "message": "Where the manager launches when you click the toolbar icon."
+  },
+  "open_tab": {
+    "message": "New tab"
+  },
+  "open_popup": {
+    "message": "Toolbar popup window"
+  },
+  "open_window": {
+    "message": "Separate window"
+  },
+  "section_notifications": {
+    "message": "Notifications"
+  },
+  "opt_notifications_desc": {
+    "message": "Show a desktop notification on success."
+  },
+  "opt_notify_error": {
+    "message": "Notify on errors"
+  },
+  "opt_notify_error_desc": {
+    "message": "Alert me when a download fails or is interrupted."
+  },
+  "opt_sound": {
+    "message": "Play a sound on completion"
+  },
+  "opt_sound_desc": {
+    "message": "A short chime in the manager when downloads finish."
+  },
+  "section_appearance": {
+    "message": "Appearance"
+  },
+  "opt_theme": {
+    "message": "Theme"
+  },
+  "opt_theme_desc": {
+    "message": "Match your browser or pick a fixed appearance."
+  },
+  "opt_density": {
+    "message": "List density"
+  },
+  "opt_density_desc": {
+    "message": "Spacing between download rows."
+  },
+  "density_comfortable": {
+    "message": "Comfortable"
+  },
+  "density_compact": {
+    "message": "Compact"
+  },
+  "opt_accent": {
+    "message": "Accent color"
+  },
+  "opt_accent_desc": {
+    "message": "Used for progress bars, highlights and buttons."
+  },
+  "accent_cyan": {
+    "message": "Cyan"
+  },
+  "accent_teal": {
+    "message": "Teal"
+  },
+  "accent_indigo": {
+    "message": "Indigo"
+  },
+  "accent_rose": {
+    "message": "Rose"
+  },
+  "section_about": {
+    "message": "About"
+  },
+  "rate_extension": {
+    "message": "Rate this extension"
+  },
+  "support": {
+    "message": "Support"
+  },
+  "homepage": {
+    "message": "Homepage"
+  },
+  "btn_open_folder": {
+    "message": "btn_open_folder"
+  },
+  "btn_sha_title": {
+    "message": "btn_sha_title"
+  },
+  "thread": {
+    "message": "thread"
+  },
+  "toast_added_single": {
+    "message": "Added · accelerating with"
+  },
+  "toast_deleted": {
+    "message": "Deleted from disk"
+  },
+  "empty_add_link": {
+    "message": "Add a link above to start an accelerated download."
+  },
+  "more_actions": {
+    "message": "More actions"
+  },
+  "toast_link_copied": {
+    "message": "Link copied to clipboard"
+  },
+  "error_generic": {
+    "message": "Error"
+  },
+  "empty_try_different": {
+    "message": "Try a different search term or filter."
+  },
+  "saved_to_downloads": {
+    "message": "Saved to Downloads"
+  },
+  "empty_no_matches": {
+    "message": "No matches for \"{{query}}\""
+  },
+  "toast_enter_url": {
+    "message": "Enter a download URL"
+  },
+  "empty_nothing_yet": {
+    "message": "Nothing here yet"
+  },
+  "btn_retry": {
+    "message": "Retry"
+  },
+  "rate_text": {
+    "message": "Enjoying it? Please rate us <span class=\"stars\">★★★★★</span>"
+  },
+  "copy_link": {
+    "message": "Copy link"
+  },
+  "toast_added": {
+    "message": "Added {{count}} downloads"
+  },
+  "btn_start_now": {
+    "message": "Start now"
+  },
+  "search_placeholder": {
+    "message": "Search downloads, file types, sources…"
+  }
 }
