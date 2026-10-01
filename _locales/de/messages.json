@@ -477,7 +477,7 @@
     "message": "Retry"
   },
   "rate_text": {
-    "message": "Enjoying it? Please rate us <span class=\"stars\">★★★★★</span>"
+    "message": "Enjoying it? Please rate us"
   },
   "copy_link": {
     "message": "Copy link"

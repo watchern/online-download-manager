@@ -15,7 +15,7 @@ const DEFAULTS = {
 
 function store(obj) { chrome.storage.local.set(obj, () => void chrome.runtime.lastError); }
 function clampNum(v, lo, hi) { v = parseInt(v, 10); if (isNaN(v)) v = lo; return Math.max(lo, Math.min(hi, v)); }
-function stepLabel(fmt, v) { return fmt === 'sec' ? v + 's' : fmt === 'kbps' ? (v === 0 ? 'Off' : String(v)) : String(v); }
+function stepLabel(fmt, v) { return fmt === 'sec' ? v + 's' : fmt === 'kbps' ? (v === 0 ? (chrome.i18n && chrome.i18n.getMessage ? chrome.i18n.getMessage('off') : 'Off') : String(v)) : String(v); }
 
 function applyAppearance(d) {
   const root = document.documentElement;
@@ -36,7 +36,7 @@ function drawDots(n) {
 chrome.storage.local.get(null, stored => {
   const cfg = Object.assign({}, DEFAULTS, stored || {});
 
-  try { document.getElementById('about-ver').textContent = 'Version ' + chrome.runtime.getManifest().version; } catch (e) {}
+  try { document.getElementById('about-ver').textContent = (chrome.i18n.getMessage('version_prefix') || 'Version') + ' ' + chrome.runtime.getManifest().version; } catch (e) {}
   applyAppearance(cfg);
 
   // ---- steppers ----

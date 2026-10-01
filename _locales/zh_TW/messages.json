@@ -477,7 +477,7 @@
     "message": "重試"
   },
   "rate_text": {
-    "message": "喜歡嗎？請為我們評分 <span class=\"stars\">★★★★★</span>"
+    "message": "喜歡嗎？請為我們評分"
   },
   "copy_link": {
     "message": "複製連結"

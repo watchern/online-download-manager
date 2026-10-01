@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>__MSG_options_title__</title>
+  <title data-i18n="options_title">Settings</title>
   <link rel="stylesheet" href="/css/odm.css" />
   <script src="/scripts/appearance-bootstrap.js"></script>
   <script src="/scripts/i18n-bootstrap.js"></script>
@@ -26,7 +26,7 @@
           <span data-i18n="back_to_downloads">Back to downloads</span>
         </button>
       </div>
-      <div class="saved-note"><span class="saved-dot"></span> Changes are saved automatically</div>
+      <div class="saved-note"><span class="saved-dot"></span> <span data-i18n="saved_auto">Changes are saved automatically</span></div>
 
       <!-- DOWNLOADS -->
       <div class="section-label" data-i18n="section_downloads">Downloads</div>
@@ -113,7 +113,8 @@
         </div>
         <div class="set-row">
           <div class="grow"><div class="name" data-i18n="opt_drive">Direct download to Google Drive</div><div class="desc" data-i18n="opt_drive_desc">Send files straight to your Drive instead of your PC — available on our website.</div></div>
-          <button class="back-link" id="drive" data-i18n="open_website">Open website
+          <button class="back-link" id="drive">
+            <span data-i18n="open_website">Open website</span>
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"></path></svg>
           </button>
         </div>

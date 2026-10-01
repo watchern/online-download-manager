@@ -35,8 +35,8 @@
   }
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function () { walk(document.body); });
+    document.addEventListener('DOMContentLoaded', function () { walk(document.documentElement); });
   } else {
-    walk(document.body);
+    walk(document.documentElement);
   }
 })();
