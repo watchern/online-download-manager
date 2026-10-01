@@ -45,13 +45,13 @@ function el(tag, cls, attrs) {
 }
 
 function fmtSize(s) {
-  if (!s || s <= 0) return I18N('size_zero');
+  if (!s || s <= 0) return '0 B';
   var u = ['B', 'KB', 'MB', 'GB', 'TB'];
   var i = Math.min(4, Math.floor(Math.log(s) / Math.log(1024)));
   var v = s / Math.pow(1024, i);
   return (v >= 100 ? v.toFixed(0) : v.toFixed(1)) + ' ' + u[i];
 }
-function fmtSpeed(b) { return (!b || b <= 0) ? I18N('speed_zero') : fmtSize(b) + '/s'; }
+function fmtSpeed(b) { return (!b || b <= 0) ? '0 KB/s' : fmtSize(b) + '/s'; }
 function fmtEta(rem, bps) {
   if (!bps || bps <= 0 || rem <= 0) return '—';
   var s = Math.round(rem / bps);
@@ -164,15 +164,15 @@ function rowMeta(i) {
   var pctTxt = Math.round(pct * 100) + '%';
   if (i.st === 'downloading') {
     var rem = i.total - i.received;
-    var m = pctTxt + I18N('sep_dot') + fmtSpeed(i.speed) + I18N('sep_dot') + fmtSize(i.received) + I18N('of_label') + fmtSize(i.total) + I18N('sep_dot') + fmtEta(rem, i.speed) + I18N('left_label');
-    return i.threads > 1 ? (i.threads + I18N('threads_label') + I18N('sep_dot') + m) : m;
+    var m = pctTxt + ' · ' + fmtSpeed(i.speed) + ' · ' + fmtSize(i.received) + ' of ' + fmtSize(i.total) + ' · ' + fmtEta(rem, i.speed) + ' left';
+    return i.threads > 1 ? (i.threads + ' threads · ' + m) : m;
   }
-  if (i.st === 'paused') return pctTxt + I18N('sep_dot') + I18N('filter_paused') + I18N('sep_dot') + fmtSize(i.received) + I18N('of_label') + fmtSize(i.total);
+  if (i.st === 'paused') return pctTxt + ' · ' + I18N('filter_paused') + ' · ' + fmtSize(i.received) + ' of ' + fmtSize(i.total);
   if (i.st === 'queued') return i.total > 0
-    ? (I18N('status_queued') + I18N('sep_dot') + fmtSize(i.total) + I18N('sep_dot') + i.threads + I18N('threads_ready'))
-    : (I18N('status_queued') + I18N('sep_dot') + I18N('waiting_slot') + I18N('sep_dot') + i.threads + I18N('threads_ready'));
-  if (i.st === 'completed') return fmtSize(i.total) + I18N('sep_dot') + I18N('saved_to_downloads');
-  return I18N('filter_failed') + I18N('sep_dot') + (i.error || I18N('error_generic')) + I18N('sep_dot') + fmtSize(i.received) + I18N('of_label') + fmtSize(i.total);
+    ? (I18N('status_queued') + ' · ' + fmtSize(i.total) + ' · ' + i.threads + ' threads ready')
+    : (I18N('status_queued') + ' · waiting for a free slot · ' + i.threads + ' threads ready');
+  if (i.st === 'completed') return fmtSize(i.total) + ' · ' + I18N('saved_to_downloads');
+  return I18N('filter_failed') + ' · ' + (i.error || I18N('error_generic')) + ' · ' + fmtSize(i.received) + ' of ' + fmtSize(i.total);
 }
 function segFills(i) {
   var pct = i.st === 'completed' ? 1 : (i.total ? Math.min(1, i.received / i.total) : 0);
@@ -277,7 +277,7 @@ function renderActivity() {
   ui.totalSpeed.textContent = fmtSpeed(totalSpeed);
   if (dl.length) {
     var th = dl.reduce(function (s, i) { return s + (i.threads || 1); }, 0);
-    ui.activeSummary.textContent = dl.length + I18N('active_label') + I18N('sep_dot') + th + I18N('threads_label');
+    ui.activeSummary.textContent = dl.length + ' active · ' + th + ' threads';
   } else ui.activeSummary.textContent = I18N('activity_idle');
 }
 
