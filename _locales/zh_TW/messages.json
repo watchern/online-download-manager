@@ -490,5 +490,32 @@
   },
   "search_placeholder": {
     "message": "搜尋下載、檔案類型、來源…"
+  },
+  "size_zero": {
+    "message": "0 B"
+  },
+  "speed_zero": {
+    "message": "0 KB/s"
+  },
+  "sep_dot": {
+    "message": " · "
+  },
+  "of_label": {
+    "message": " of "
+  },
+  "left_label": {
+    "message": " left"
+  },
+  "threads_label": {
+    "message": " threads"
+  },
+  "threads_ready": {
+    "message": " threads ready"
+  },
+  "active_label": {
+    "message": " active"
+  },
+  "waiting_slot": {
+    "message": " waiting for a free slot"
   }
 }
