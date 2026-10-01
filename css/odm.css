@@ -172,7 +172,7 @@ a{ color:var(--accent-ink); }
   font-size:13.5px; font-weight:600; padding:11px 20px; border-radius:11px; box-shadow:0 8px 28px rgba(0,0,0,.28); z-index:60; animation:slideup .22s ease; }
 
 /* ---- teaser (rate us) ---- */
-.teaser{ text-align:center; margin-top:26px; color:var(--ink-3); font-size:13px; }
+.teaser{ text-align:center; color:var(--ink-3); font-size:13px; }
 .teaser a{ text-decoration:none; font-weight:700; }
 .teaser .stars{ color:#e3b341; letter-spacing:2px; font-size:16px; }
 
