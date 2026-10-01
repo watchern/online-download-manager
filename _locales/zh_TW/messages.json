@@ -12,67 +12,67 @@
     "message": "下載完成。"
   },
   "notification_failed": {
-    "message": "A download failed."
+    "message": "下載失敗。"
   },
   "notification_invalid": {
     "message": "無效的網址！請添加正確的網址，然後重試。"
   },
   "notification_unverified": {
-    "message": "Downloaded normally; integrity could not be verified."
+    "message": "正常下載，但完整性無法驗證。"
   },
   "notification_verified": {
-    "message": "Checksum verified."
+    "message": "校驗和已驗證。"
   },
   "options_autocapture": {
     "message": "加速每個下載"
   },
   "options_autocapture_desc": {
-    "message": "Intercept downloads started in the browser and route them through the accelerator. Servers that can't be accelerated fall back to a normal download automatically."
+    "message": "攔截瀏覽器啟動的下載任務並將其路由至加速器。無法加速的伺服器自動回退到普通下載。"
   },
   "options_bandwidth": {
     "message": "頻寬限制（KB/s）"
   },
   "options_bandwidth_desc": {
-    "message": "Maximum combined download speed in kilobytes per second, shared across all active downloads. 0 means unlimited."
+    "message": "所有活躍下載共享的最大頻寬速度（KB/s），0表示無限制。"
   },
   "options_concurrent": {
     "message": "最大並行下載數"
   },
   "options_concurrent_desc": {
-    "message": "How many downloads run at once. Extra downloads wait in a queue and start automatically as slots free up."
+    "message": "同時執行的下載數量。額外下載在佇列中等待，有空閒時自動開始。"
   },
   "options_credentials": {
     "message": "下載時傳送 cookies"
   },
   "options_credentials_desc": {
-    "message": "Include your session cookies so files behind a login can be fetched. Turn off for stricter privacy."
+    "message": "攜帶會話cookie以便獲取需要登入的檔案。關閉可提高隱私性。"
   },
   "options_maxitems": {
     "message": "顯示最大項目數"
   },
   "options_maxitems_desc": {
-    "message": "Maximum number of downloads listed at once."
+    "message": "列表同時顯示的最大下載數量。"
   },
   "options_notifications": {
     "message": "下載完成時通知"
   },
   "options_notifications_desc": {
-    "message": "Show a desktop notification when a download finishes."
+    "message": "下載完成時顯示桌面通知。"
   },
   "options_orderby": {
-    "message": "Order downloads by"
+    "message": "下載排序方式"
   },
   "options_saved": {
     "message": "Saved"
   },
   "options_subtitle": {
-    "message": "Defaults for the accelerator and the download manager."
+    "message": "加速器和下載管理器的預設設置。"
   },
   "options_threads": {
     "message": "預設執行緒數"
   },
   "options_threads_desc": {
-    "message": "How many parallel segments to split each download into (1-5). 1 disables acceleration."
+    "message": "將每個檔案分割為並行連接（1-5線程）。1表示禁用加速。"
   },
   "options_title": {
     "message": "設定"
@@ -132,7 +132,7 @@
     "message": "打開推薦人"
   },
   "popup_ui_btn_options": {
-    "message": "Settings"
+    "message": "設置"
   },
   "popup_ui_btn_pause": {
     "message": "暫停"
@@ -168,7 +168,7 @@
     "message": "時間結束"
   },
   "popup_ui_option5": {
-    "message": "Start time"
+    "message": "開始時間"
   },
   "popup_ui_option6": {
     "message": "總字節數"
@@ -177,16 +177,16 @@
     "message": "收到的字節數"
   },
   "popup_ui_search": {
-    "message": "Search downloads"
+    "message": "搜尋下載"
   },
   "popup_ui_sha256": {
-    "message": "Optional SHA-256 to verify the next download (leave blank to skip)"
+    "message": "可選的SHA-256校驗和，用於驗證下一個下載（留空則跳過）"
   },
   "popup_ui_txt_add_url": {
     "message": "添加網址和設置線程數（最多5個），然後單擊（+）按鈕"
   },
   "status_queued": {
-    "message": "Queued"
+    "message": "排隊中"
   },
   "brand_subtitle": {
     "message": "加速下載 · 最快5倍"
@@ -213,7 +213,7 @@
     "message": "添加下載"
   },
   "label_sha256": {
-    "message": "SHA-256"
+    "message": "SHA-256校驗和"
   },
   "popup_ui_sha256_desc": {
     "message": "可選的校驗和用於驗證下一個下載（留空則跳過）"
@@ -240,7 +240,7 @@
     "message": "失敗"
   },
   "sort_label": {
-    "message": "Sort"
+    "message": "排序"
   },
   "sort_recent": {
     "message": "最新"
@@ -258,7 +258,7 @@
     "message": "★★★★★"
   },
   "version_prefix": {
-    "message": "Version"
+    "message": "版本"
   },
   "options_brand_sub": {
     "message": "下載管理器 · 加速器"
@@ -490,5 +490,8 @@
   },
   "search_placeholder": {
     "message": "搜尋下載、檔案類型、來源…"
+  },
+  "off": {
+    "message": "關閉"
   }
 }

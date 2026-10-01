@@ -27,52 +27,52 @@
     "message": "加速每个下载"
   },
   "options_autocapture_desc": {
-    "message": "Intercept downloads started in the browser and route them through the accelerator. Servers that can't be accelerated fall back to a normal download automatically."
+    "message": "拦截浏览器启动的下载任务并将其路由至加速器。无法加速的服务器自动回退到普通下载。"
   },
   "options_bandwidth": {
     "message": "带宽限制（KB/s）"
   },
   "options_bandwidth_desc": {
-    "message": "Maximum combined download speed in kilobytes per second, shared across all active downloads. 0 means unlimited."
+    "message": "所有活跃下载共享的最大带宽速度（KB/s），0表示无限制。"
   },
   "options_concurrent": {
     "message": "最大并发下载数"
   },
   "options_concurrent_desc": {
-    "message": "How many downloads run at once. Extra downloads wait in a queue and start automatically as slots free up."
+    "message": "同时运行的下载数量。额外下载在队列中等待，有空闲时自动开始。"
   },
   "options_credentials": {
     "message": "下载时发送 cookies"
   },
   "options_credentials_desc": {
-    "message": "Include your session cookies so files behind a login can be fetched. Turn off for stricter privacy."
+    "message": "携带会话cookie以便获取需要登录的文件。关闭可提高隐私性。"
   },
   "options_maxitems": {
     "message": "显示最大项目数"
   },
   "options_maxitems_desc": {
-    "message": "Maximum number of downloads listed at once."
+    "message": "列表同时显示的最大下载数量。"
   },
   "options_notifications": {
     "message": "下载完成时通知"
   },
   "options_notifications_desc": {
-    "message": "Show a desktop notification when a download finishes."
+    "message": "下载完成时显示桌面通知。"
   },
   "options_orderby": {
-    "message": "Order downloads by"
+    "message": "下载排序方式"
   },
   "options_saved": {
     "message": "Saved"
   },
   "options_subtitle": {
-    "message": "Defaults for the accelerator and the download manager."
+    "message": "加速器和下载管理器的默认设置。"
   },
   "options_threads": {
     "message": "默认线程数"
   },
   "options_threads_desc": {
-    "message": "How many parallel segments to split each download into (1-5). 1 disables acceleration."
+    "message": "将每个文件分割为并行连接（1-5线程）。1表示禁用加速。"
   },
   "options_title": {
     "message": "设置"
@@ -132,7 +132,7 @@
     "message": "打开推荐人"
   },
   "popup_ui_btn_options": {
-    "message": "Settings"
+    "message": "设置"
   },
   "popup_ui_btn_pause": {
     "message": "暂停"
@@ -168,7 +168,7 @@
     "message": "时间结束"
   },
   "popup_ui_option5": {
-    "message": "Start time"
+    "message": "开始时间"
   },
   "popup_ui_option6": {
     "message": "总字节数"
@@ -177,10 +177,10 @@
     "message": "收到的字节数"
   },
   "popup_ui_search": {
-    "message": "Search downloads"
+    "message": "搜索下载"
   },
   "popup_ui_sha256": {
-    "message": "Optional SHA-256 to verify the next download (leave blank to skip)"
+    "message": "可选的SHA-256校验和，用于验证下一个下载（留空则跳过）"
   },
   "popup_ui_txt_add_url": {
     "message": "添加网址和设置线程数（最多5个），然后单击（+）按钮"
@@ -204,7 +204,7 @@
     "message": "系统"
   },
   "popup_add_url_placeholder": {
-    "message": "Paste a download link to accelerate…"
+    "message": "粘贴要加速的下载链接…"
   },
   "label_threads": {
     "message": "线程数"
@@ -213,7 +213,7 @@
     "message": "添加下载"
   },
   "label_sha256": {
-    "message": "SHA-256"
+    "message": "SHA-256校验和"
   },
   "popup_ui_sha256_desc": {
     "message": "可选的校验和用于验证下一个下载（留空则跳过）"
@@ -258,10 +258,10 @@
     "message": "★★★★★"
   },
   "version_prefix": {
-    "message": "Version"
+    "message": "版本"
   },
   "options_brand_sub": {
-    "message": "Download Manager · Accelerated"
+    "message": "下载管理器 · 加速版"
   },
   "back_to_downloads": {
     "message": "返回下载列表"
@@ -303,7 +303,7 @@
     "message": "加速"
   },
   "opt_threads_desc": {
-    "message": "Splits each file into parallel connections — up to 5× faster."
+    "message": "将每个文件分割为并行连接——最高提速5倍。"
   },
   "opt_bandwidth_desc": {
     "message": "所有下载共享的最大合并速度。0 表示无限制。"
@@ -342,7 +342,7 @@
     "message": "直接下载到 Google Drive"
   },
   "opt_drive_desc": {
-    "message": "Send files straight to your Drive instead of your PC — available on our website."
+    "message": "直接将文件发送到您的Google Drive而非本地电脑——在我们的网站上可用。"
   },
   "open_website": {
     "message": "打开网站"
@@ -441,7 +441,7 @@
     "message": "线程"
   },
   "toast_added_single": {
-    "message": "Added · accelerating with"
+    "message": "已添加 · 正在加速下载（"
   },
   "toast_deleted": {
     "message": "已从磁盘删除"
@@ -489,6 +489,9 @@
     "message": "立即开始"
   },
   "search_placeholder": {
-    "message": "Search downloads, file types, sources…"
+    "message": "搜索下载、文件类型、来源…"
+  },
+  "off": {
+    "message": "关闭"
   }
 }

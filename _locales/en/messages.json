@@ -490,5 +490,8 @@
   },
   "rate_text": {
     "message": "Enjoying it? Please rate us <span class=\"stars\">★★★★★</span>"
+  },
+  "off": {
+    "message": "Off"
   }
 }

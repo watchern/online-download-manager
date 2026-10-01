@@ -490,5 +490,8 @@
   },
   "search_placeholder": {
     "message": "Search downloads, file types, sources…"
+  },
+  "off": {
+    "message": "بند"
   }
 }
